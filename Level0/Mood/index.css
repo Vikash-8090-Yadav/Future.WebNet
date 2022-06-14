@@ -1,0 +1,52 @@
+h1{
+	color: blue;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+
+	background-color: cyan;
+
+
+}
+
+#setup{
+	padding-top: 22px;
+	display: flex;
+	align-items: center;
+
+}
+#setup #lg{
+	margin-left: 1140px;
+	color: red;
+}
+
+h1{
+	padding: 162px;
+}
+
+#get-value{
+	color: red;
+	margin-right: 82px;
+	font-size: 32px;
+
+}
+#btn{
+
+	margin-right: 92px;
+	color: black;
+	font-size: 32px;
+}
+
+#set{
+	margin-left: 92px;
+	color: black;
+	font-size: 32px;
+}
+#in{
+	border: solid black 3px;
+	font-size: 32px;
+	color: red;
+	margin-left: 32px;
+}
