@@ -1,0 +1,26 @@
+#ov{
+	color: green;
+}
+
+#mn{
+	display: flex;
+	flex-direction: column;
+}
+#img-met{
+	padding-right: 592px;
+	/*border: solid 1px red;*/
+	margin-top: 42px;
+	margin-left: 606px;
+}
+
+#btn-login{
+	color: darkred;
+	padding-right: 22px;
+	margin-right: 22px;
+	padding-left: 22px;
+	font-size: 70px;
+	line-height: 1.3;
+	letter-spacing: 0.112em;
+	font-style: normal;
+	font-weight: 500;
+}
