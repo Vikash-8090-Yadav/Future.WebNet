@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img:hover{
+}
+#web3{
+	margin-top: 82px;
+	border: 2px solid white;
+	margin-left: 402px;
+	height: 350px;
+	width : 450px;
+}
+#web5{
+	border: 2px solid white;
+	margin-left: 92px;
+	height: 350px;
+	width : 450px;
+}
+#btn{
+	color: black;
+	font-size: 49px;
+	letter-spacing: 0.295em;
+	margin-top: 62px;
+	margin-left: 462px;
+	padding-right: 68px;
+padding-left: 68px;
+}
+
+#btn1{
+	color: black;
+	margin-left: 232px;
+	font-size: 49px;
+	letter-spacing: 0.295em;
+	padding-right: 68px;
+padding-left: 68px;
+}
+#res{
+	font-size: 45px;
+	margin-top: 150px;
+	margin-left: 780px;
+}
+#do{
+background-color: white;
+}
+#top{
+	/*background-color: white;*/
+	margin-top: 12px;
+	margin-left: 712px;
+	color: red;
+}
