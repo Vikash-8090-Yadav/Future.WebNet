@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 320px;
+}
+
+#btn{
+	margin-top: 62px;
+	border: solid 5px black;
+  font-size: 27px;
+  line-height: 0.9;
+  letter-spacing: 0.095em;
+  font-weight: 500;
+  padding-left: 23px;
+  padding-right: 12px;
+  margin-left: -295px;
+  /*margin-right: -670px;*/
+  height: 52px;
+}
+
+
+#meta-img{
+height: 480px;
+width : 300px;
+/*margin-left: 12px;*/
+margin-left: -590px;
+padding-left: 312px;
+/*padding-left: 120pz;*/
+}
+
+#add{
+	margin-top: 12px;
+	color: green;
+	padding-left: 110px;
+	margin-right: 20px;
+}
+
+#add1{
+	margin-top: 12px;
+	color: green;
+	padding-left: 110px;
+	margin-right: 20px;
+}
