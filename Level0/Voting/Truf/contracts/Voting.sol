@@ -8,7 +8,7 @@ contract vote{
     mapping(address=>uint) user;
     mapping(address=>bool) chek;
 
-    address public owner;
+    address public ownr;
     constructor(){
         owner = msg.sender;
     }
