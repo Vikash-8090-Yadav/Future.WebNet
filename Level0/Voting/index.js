@@ -21,7 +21,8 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -34,7 +35,8 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -47,7 +49,8 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -74,7 +77,8 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -87,7 +91,8 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -100,11 +105,12 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
 
-  "0x7e947E83326cee991B891536DbCB6fF07398454a"
+  "0x2d65BbCbdaDF3d03D1eA5B747aa7FE26E37C4575"
   );
    	async function  account(){
 	   	accounts = await web3.eth.requestAccounts();
@@ -122,7 +128,6 @@ if(typeof window.ethereum =="undefined"){
 					console.log("Voted to the participant1 sucessfully");
 				}
 			});
-      inc1();
 		});
 
 		$("#btn1").click(async function(){
@@ -135,7 +140,6 @@ if(typeof window.ethereum =="undefined"){
 					console.log("Voted to the participant2 sucessfully");
 				}
 			});
-      inc2();
 		});
 
 	   	$("#res").click(async function() {
