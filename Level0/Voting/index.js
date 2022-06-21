@@ -143,13 +143,15 @@ if(typeof window.ethereum =="undefined"){
 		});
 
 	   	$("#res").click(async function() {
-	   		contract.methods.declare_winner().call(function(err,res){
+        console.log(owner_address);
+	   		contract.methods.declare_winner().call({from:owner_address},function(err,res){
   	   			if(err){
   	   				alert("U r not the owner");
   	   			}
   	   			else{
-        // calling the return method of the solidity fucntion
+        // calling the return method of the solidity fucntio
 
+              console.log(res);
               contract.methods.declare_winner().call().then(function (resp){
                 alert(resp);
               });
