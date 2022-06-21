@@ -14,7 +14,7 @@ contract vote{
     }
 
     modifier onlyonwner(){
-        require(owner == msg.sender,"You are not allowed to declare the result");
+        require(msg.sender == owner,"You are not allowed to declare the result");
         _;
     }
 
