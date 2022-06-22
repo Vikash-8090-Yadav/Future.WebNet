@@ -42,19 +42,19 @@ contract vote{
 
     }
 
-    function declare_winner(string memory _winner)  public  onlyonwner {
+    function declare_winner()  public  onlyonwner {
         if(user[participant1]>user[participant2]){
-            _winner = "Candidate 1 is winner";
-            winner = _winner;
+            winner = "Candidate 1 is winner";
+            // winner = _winner;
         }
         else if(user[participant1]==user[participant2]){
-            _winner = "Draw";
-            winner = _winner;
+            winner = "Draw";
+            // winner = _winner;
 
         }
         else{
-            _winner = "Candidate 2 is winner";
-            winner = _winner;
+            winner = "Candidate 2 is winner";
+            // winner = _winner;
 
         }
     }

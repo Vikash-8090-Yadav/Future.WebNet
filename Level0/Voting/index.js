@@ -1,6 +1,8 @@
 if(typeof window.ethereum =="undefined"){
 		console.log("PLease install the metamask");
 	}
+
+
   var accounts;
 	let web3 = new Web3(window.ethereum);
   console.log(web3.version)
@@ -52,6 +54,19 @@ if(typeof window.ethereum =="undefined"){
     },
     {
       "inputs": [],
+      "name": "winner",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
       "name": "participant1_vote",
       "outputs": [],
       "stateMutability": "nonpayable",
@@ -93,18 +108,12 @@ if(typeof window.ethereum =="undefined"){
     {
       "inputs": [],
       "name": "declare_winner",
-      "outputs": [
-        {
-          "internalType": "string",
-          "name": "",
-          "type": "string"
-        }
-      ],
-      "stateMutability": "view",
+      "outputs": [],
+      "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
-  "0x9b75D4F77b0a4C96d03f5B7D85184C4F3B3f3d19"
+  "0xFb3391440fDFf06Ec58e8020f25aa3dE66fA8e7D"
   );
    	async function  account(){
 	   	accounts = await web3.eth.requestAccounts();
@@ -137,20 +146,17 @@ if(typeof window.ethereum =="undefined"){
 		});
 
 	   	$("#res").click(async function() {
-        console.log(owner_address);
-	   		contract.methods.declare_winner().send({from:owner_address},function(err,res){
+        // console.log(owner_address);
+	   		await contract.methods.declare_winner().send({from:owner_address},function(err,res){
   	   			if(err){
   	   				alert("U r not the owner");
   	   			}
   	   			else{
-        // calling the return method of the solidity fucntio
-
-              console.log(res);
-              contract.methods.winner().call().then(function (resp){
-                alert(resp);
-              });
   	   			}
         });
+        contract.methods.winner().call().then(function (resp){
+                alert(resp);
+              });
 	   	});
 
       $("#show-vote1").click(async function(){
@@ -170,5 +176,6 @@ if(typeof window.ethereum =="undefined"){
       });
     });
    }
+
 
   account();
