@@ -32,25 +32,30 @@ contract vote{
         chek[msg.sender] = true;
     }
 
-    function pati1_cnt_VOTE() view public onlyonwner returns(uint){
+    function pati1_cnt_VOTE() view public  returns(uint){
         return user[participant1];
 
     }
 
-    function pati2_cnt_VOTE() view public onlyonwner returns(uint){
+    function pati2_cnt_VOTE() view public  returns(uint){
         return user[participant2];
 
     }
 
-    function declare_winner()  public  onlyonwner {
+    function declare_winner(string memory _winner)  public  onlyonwner {
         if(user[participant1]>user[participant2]){
-            winner = "Candidate 1 is winner";
+            _winner = "Candidate 1 is winner";
+            winner = _winner;
         }
         else if(user[participant1]==user[participant2]){
-            winner = "Draw";
+            _winner = "Draw";
+            winner = _winner;
+
         }
         else{
-            winner = "Candidate 2 is winner";
+            _winner = "Candidate 2 is winner";
+            winner = _winner;
+
         }
     }
 
