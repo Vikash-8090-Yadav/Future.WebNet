@@ -3,7 +3,7 @@ if(typeof window.ethereum =="undefined"){
 	}
   var accounts;
 	let web3 = new Web3(window.ethereum);
-  console.log(web3.version())
+  console.log(web3.version)
    let contract = new web3.eth.Contract(
    		[
     {
@@ -22,8 +22,7 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -36,8 +35,7 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -50,8 +48,7 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -78,8 +75,7 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -92,8 +88,7 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -106,12 +101,10 @@ if(typeof window.ethereum =="undefined"){
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
-
-  "0x2d65BbCbdaDF3d03D1eA5B747aa7FE26E37C4575"
+  "0x9b75D4F77b0a4C96d03f5B7D85184C4F3B3f3d19"
   );
    	async function  account(){
 	   	accounts = await web3.eth.requestAccounts();
@@ -145,7 +138,7 @@ if(typeof window.ethereum =="undefined"){
 
 	   	$("#res").click(async function() {
         console.log(owner_address);
-	   		contract.methods.declare_winner().call({from:owner_address},function(err,res){
+	   		contract.methods.declare_winner().send({from:owner_address},function(err,res){
   	   			if(err){
   	   				alert("U r not the owner");
   	   			}
@@ -153,7 +146,7 @@ if(typeof window.ethereum =="undefined"){
         // calling the return method of the solidity fucntio
 
               console.log(res);
-              contract.methods.declare_winner().call().then(function (resp){
+              contract.methods.winner().call().then(function (resp){
                 alert(resp);
               });
   	   			}

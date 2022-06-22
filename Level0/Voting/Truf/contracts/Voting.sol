@@ -3,12 +3,13 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract vote{
+    string public winner;
     address public  participant1 = 0xF6C486B8A4e67b8eff4d5045C804E9be4ed39FF9;
     address public  participant2 = 0xBBDb2A08711D7b2b9c15318E77B6e026eD8fA278;
     mapping(address=>uint) user;
     mapping(address=>bool) chek;
 
-    address public ownr;
+    address public owner;
     constructor(){
         owner = msg.sender;
     }
@@ -41,15 +42,15 @@ contract vote{
 
     }
 
-    function declare_winner() view public  onlyonwner returns(string memory){
+    function declare_winner()  public  onlyonwner {
         if(user[participant1]>user[participant2]){
-            return ("Partcipant1 is wiiner !!");
+            winner = "Candidate 1 is winner";
         }
         else if(user[participant1]==user[participant2]){
-            return("Both the participant are equal");
+            winner = "Draw";
         }
         else{
-            return ("Participant 2 is winenr");
+            winner = "Candidate 2 is winner";
         }
     }
 
