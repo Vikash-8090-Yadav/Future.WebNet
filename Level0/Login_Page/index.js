@@ -8,14 +8,19 @@ if(typeof window.ethereum =="undefined"){
    	accounts = await web3.eth.requestAccounts();
    }
 
+async function hidebtn(){
+
+	await $("#btn").slideToggle();
+	$("#cnf").html("Sucessfully Log in ")
+}
+
 account();
-$(document).ready(function(){
+$(document).ready(async function(){
 	// document.getElementById('add1').innerHTML=accounts;
-	$("#btn").click(function(){
+	await $("#btn").click(async function(){
 		alert(accounts);
 		document.getElementById('add').innerHTML=accounts;
-		window.location.replace("./new.html");
-
+		await hidebtn();
 	});
 });
 
