@@ -8,7 +8,10 @@ if(typeof window.ethereum =="undefined"){
 
 
 
-async function interact{
+async function interact (){
+   let accounts = await web3.eth.requestAccounts();
+
+  console.log(accounts);
 	const contract = await new web3.eth.Contract(
 		[
     {
@@ -654,5 +657,11 @@ async function interact{
       "constant": true
     }
   ],
-  "0x166C2a963ffcF61FB872df3A4897c58f385Ae492")
+  "0x166C2a963ffcF61FB872df3A4897c58f385Ae492"
+  )
+
+
 }
+
+interact();
+
