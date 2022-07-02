@@ -6,12 +6,8 @@ if(typeof window.ethereum =="undefined"){
  let web3 = new Web3(window.ethereum);
   console.log(web3.version)
 
-
-
+const ganche = new Promise((res,rej)=>{
 async function interact (){
-   let accounts = await web3.eth.requestAccounts();
-
-  console.log(accounts);
 	const contract = await new web3.eth.Contract(
 		[
     {
@@ -657,11 +653,32 @@ async function interact (){
       "constant": true
     }
   ],
-  "0x166C2a963ffcF61FB872df3A4897c58f385Ae492"
+  "0x780A6F657f098e16D93963F4996b47434B40147B"
   )
 
+  let accounts = await web3.eth.requestAccounts();
+
+  console.log(accounts);
+
+  const total_supply = await contract.methods.totalMint().call({from:String(accounts)})
+  console.log("Total supply is :"+total_supply);
+  const max_supply = await contract.methods.maxMinting().call()
+  console.log("max_supply is : "+max_supply);
+  const objects = await contract.methods.getOwnerObjects().call()
+  console.log(objects);
+  web3.eth.requestAccounts().then((accounts)=>{
+    contract.methods.totalMint().call().then((supply)=>{
+      contract.methods.getObjects().call().then((data)=>{
+        res({supply:supply,nft:data});
+      });
+    });
+  });
 
 }
 
 interact();
+});
 
+
+// mintNFT();
+export default ganche;
