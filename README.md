@@ -1,4 +1,4 @@
-# <p align = "center"> Web3.o.World </p>
+# <p align = "center"> Web3.O.World </p>
 
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code .Here web3 basically means the Web2 which uses the conecept of the blockchian i.e (Web2+smart contract) == Web3. 
