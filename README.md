@@ -1,4 +1,5 @@
 # <p align = "center"> Web3.O.World </p>
+![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
 
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code .Here web3 basically means the Web2 which uses the conecept of the blockchian i.e (Web2+smart contract) == Web3. 
