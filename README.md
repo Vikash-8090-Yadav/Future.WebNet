@@ -88,5 +88,5 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
 ### Project Contributors
 
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
- <img src="https://contrib.rocks/image?repo = Vikash-8090-Yadav/Web3.0-World" />
+ <img src="https://contrib.rocks/image?repo=Vikash-8090-Yadav/Web3.0-World" />
 </a>
