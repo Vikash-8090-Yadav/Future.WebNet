@@ -2,10 +2,10 @@
 ![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
 
 ##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code .Here web3 basically means the Web2 which uses the conecept of the blockchian i.e (Web2+smart contract) == Web3. 
-This repo will have web3 project which consist of the smart contract(backend) and  frontend part.For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
+The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
+This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
- I welcomed all the Web3,Web2 developer to contribute in this repo .
+ I welcome all the Web3,Web2 developer to contribute in this repo .
   
 ## How to Contribute?
 
@@ -16,9 +16,9 @@ This repo will have web3 project which consist of the smart contract(backend) an
 
 ## How to make a Pull Request?
 
-**1.** Start by making a fork the [**Web3.O.World**](https://github.com/Vikash-8090-Yadav/Web3.0-World) repository. Click on the <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by forking the [**Web3.O.World**](https://github.com/Vikash-8090-Yadav/Web3.0-World) repository. Click on the <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
-**2.** Clone your new fork of the repository:
+**2.** Clone your forked repository:
 
 ```bash
 git clone https://github.com/<your-github-username>/Web3.O.World
@@ -85,3 +85,7 @@ git push origin YourBranchName
 <p align = "center">
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
+
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Vikash-8090-Yadav/Web3.0-World" />
+</a>
