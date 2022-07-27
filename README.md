@@ -108,9 +108,8 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
  # Part of Open Source Program
 ###   [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
  
- <div align="center">
 ![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
- </div>
+ 
 
 
 ### Project Contributors
