@@ -22,12 +22,13 @@
  </p>
  </div>
  
- <h3 align="center"> 📌 Open Source Program</h3>
+ <h2 align="center"> 📌 Open Source Program</h2>
  <div align="center">
- <h5 >This project is a part of following Open Source Programs</h5>
+ <h4 >This project is a part of following Open Source Programs</h2>
 
 
  ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
+  
  <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
 </div>
  
