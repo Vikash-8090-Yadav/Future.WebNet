@@ -25,8 +25,8 @@
  <h3 align="center"> Part of Open Source Program</h3>
  <div align="center">
  <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
-<img src="![logo](https://user-images.githubusercontent.com/85816852/181293304-57790b0c-4268-4c32-93fa-25ea33cde2c1.jpg)
- ">
+<img src=" /images/logo.jpg">
+ 
 </div>
  
 
