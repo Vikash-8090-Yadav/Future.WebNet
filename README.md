@@ -1,31 +1,41 @@
 # <p align = "center"> Web3.O.World </p>
 ![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
 
-##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
-This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
-
- I welcome all the Web3,Web2 developer to contribute in this repo .
-  
   <div align="center">
  <p>
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/Vikash-8090-Yadav/Web3.0-World)
+![Lines of code](https://img.shields.io/tokei/lines/github/Vikash-8090-Yadav/Web3.0-World)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Vikash-8090-Yadav%2FWeb3.0-World%20&countColor=%23263759&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Vikash-8090-Yadav/Web3.0-World)
   
 ![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
-  
+
+![Github](https://img.shields.io/github/license/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub issues](https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Web3.0-World)
  </p>
  </div>
+ 
+ <h3 align="center"> Part of Open Source Program</h3>
+ <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
+<img src="![logo](https://user-images.githubusercontent.com/85816852/181289646-b692cbf0-451e-4190-8951-8d8fc11b05f9.jpg" align="center")
+
+ 
+![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
+
+##  About Web3.O.World
+The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
+This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
+
+ I welcome all the Web3,Web2 developer to contribute in this repo .
+  
 ## How to Contribute?
 
 - Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues) 
@@ -104,13 +114,6 @@ git push origin YourBranchName
 <p align = "center">
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
-
- # Part of Open Source Program
-###   [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
- 
-![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
- 
-
 
 ### Project Contributors
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
