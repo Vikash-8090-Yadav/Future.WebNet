@@ -24,11 +24,11 @@
  </div>
  
  <h3 align="center"> Part of Open Source Program</h3>
+ <div align="center">
  <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
-<img src="![logo](https://user-images.githubusercontent.com/85816852/181289646-b692cbf0-451e-4190-8951-8d8fc11b05f9.jpg" align="center")
-
+<img src="![logo](https://user-images.githubusercontent.com/85816852/181289646-b692cbf0-451e-4190-8951-8d8fc11b05f9.jpg" )
+</div>
  
-![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
 
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
