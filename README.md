@@ -7,14 +7,17 @@ This repo will have web3 project which consist of the smart contract(backend) an
 
  I welcome all the Web3,Web2 developer to contribute in this repo .
   
+  
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World"><img src="https://visitor-badge.laobi.icu/badge?page_id=Vikash-8090-Yadav/Web3.0-World" alt="visitor count"/></a>
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/stargazers"><img src="https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World" alt="Stars Badge"/></a>
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/network/members"><img src="https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World" alt="Forks Badge"/></a>
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World?style=for-the-badge" /></a> 
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World?style=for-the-badge" /></a> <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/blob/master/README.md#contributors-" target="_blank"></a>
 
 ## How to Contribute?
-
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 - Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues) 
 - Fork the Repo create a branch for any issue that you are working on and commit your work.
@@ -92,6 +95,12 @@ git push origin YourBranchName
 <p align = "center">
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
+
+# Part of Open Source Program
+
+### [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
+![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
+
 
 ### Project Contributors
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
