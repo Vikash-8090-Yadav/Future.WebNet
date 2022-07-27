@@ -13,9 +13,11 @@ please delete options that are not relevant. In order to tick the checkbox just 
 
 # Domain of Contribution 📊
 please delete options that are not relevant. In order to tick the check box just put x inside them for example [x] like this
-- [ ] Project using only HTML & CSS
-- [ ] Project using  HTML,CSS & JS
-- [ ] Project using ReactJS
+- [ ] Project using only HTML ,CSS , JAVASCRIPT , WEB3.js
+- [ ] Project using only HTML , CSS , JAVASCRIPT , ETHER.js
+- [ ] Project using only HTML , CSS , PYTHON , WEB3.py
+- [ ] Project using only GANACHE , TRUFFLE , HARDHAT , REMIX
+- [ ] If Project use another stack and Tool feel free to mention
 
 # Checklist ✔
 please delete the options that are not relevant. In order to tick the check box just put x inside them for example [x] like this 
