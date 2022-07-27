@@ -10,10 +10,19 @@ This repo will have web3 project which consist of the smart contract(backend) an
   <div align="center">
  <p>
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/Vikash-8090-Yadav/Web3.0-World)
+![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World)
+![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/Vikash-8090-Yadav/Web3.0-World)
+  
 ![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
+  
+![GitHub issues](https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Vikash-8090-Yadav/Web3.0-World)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Web3.0-World)
  </p>
  </div>
 ## How to Contribute?
