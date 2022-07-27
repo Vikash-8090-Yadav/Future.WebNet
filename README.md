@@ -105,11 +105,13 @@ git push origin YourBranchName
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
 
-# Part of Open Source Program
-<h3 align="center">[Hack Club RAIT SOC](https://soc.hackclubrait.co/)</h3>
+
 <div align="center">
+ # Part of Open Source Program
+### [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
  
 ![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
+ 
 </div>
 
 ### Project Contributors
