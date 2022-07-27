@@ -105,14 +105,13 @@ git push origin YourBranchName
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
 
-
-<div align="center">
  # Part of Open Source Program
-### [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
+###   [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
  
+ <div align="center">
 ![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
- 
-</div>
+ </div>
+
 
 ### Project Contributors
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
