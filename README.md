@@ -7,16 +7,13 @@ This repo will have web3 project which consist of the smart contract(backend) an
 
  I welcome all the Web3,Web2 developer to contribute in this repo .
   
-  
+  <div align="center">
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World"><img src="https://visitor-badge.laobi.icu/badge?page_id=Vikash-8090-Yadav/Web3.0-World" alt="visitor count"/></a>
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/stargazers"><img src="https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World" alt="Stars Badge"/></a>
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/network/members"><img src="https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World" alt="Forks Badge"/></a>
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World?style=for-the-badge" /></a> 
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World?style=for-the-badge" /></a> <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/blob/master/README.md#contributors-" target="_blank"></a>
+![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
 
+ </div>
 ## How to Contribute?
 
 - Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues) 
