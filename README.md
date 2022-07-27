@@ -8,8 +8,11 @@ This repo will have web3 project which consist of the smart contract(backend) an
  I welcome all the Web3,Web2 developer to contribute in this repo .
   
   <div align="center">
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+ 
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) 
+ 
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
 
@@ -95,9 +98,10 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
 
 # Part of Open Source Program
 
+<div align="center">
 ### [Hack Club RAIT SOC](https://soc.hackclubrait.co/)
 ![logo](https://user-images.githubusercontent.com/85816852/181164830-39be8877-fc8f-4b9b-a730-23b54284ec27.jpg)
-
+</div>
 
 ### Project Contributors
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
