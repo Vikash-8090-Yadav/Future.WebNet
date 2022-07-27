@@ -7,7 +7,14 @@ This repo will have web3 project which consist of the smart contract(backend) an
 
  I welcome all the Web3,Web2 developer to contribute in this repo .
   
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World"><img src="https://visitor-badge.laobi.icu/badge?page_id=Vikash-8090-Yadav/Web3.0-World" alt="visitor count"/></a>
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/stargazers"><img src="https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World" alt="Stars Badge"/></a>
+<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/network/members"><img src="https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World" alt="Forks Badge"/></a>
+
 ## How to Contribute?
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 - Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues) 
 - Fork the Repo create a branch for any issue that you are working on and commit your work.
