@@ -21,5 +21,7 @@ please delete options that are not relevant. In order to tick the check box just
 please delete the options that are not relevant. In order to tick the check box just put x inside them for example [x] like this 
 - [ ] I have performed a self-review of my own code or work.
 - [ ] I have Commented on my code. particularly in hand-to-understand areas.
-- [] My changes generate no new warnings.
-- [] I'm HSOC'22 Contributor 
+- [ ] My changes generate no new warnings.
+- [ ] I'm HSOC'22 Contributor 
+
+# Screenshots | GIF's (Recommended) 📷
