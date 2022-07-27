@@ -9,8 +9,7 @@ This repo will have web3 project which consist of the smart contract(backend) an
   
   <div align="center">
  <p>
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)] 
- 
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]
 ![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
 
