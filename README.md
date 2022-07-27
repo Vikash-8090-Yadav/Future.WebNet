@@ -6,7 +6,6 @@
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
-![Lines of code](https://img.shields.io/tokei/lines/github/Vikash-8090-Yadav/Web3.0-World)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=Vikash-8090-Yadav%2FWeb3.0-World%20&countColor=%23263759&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World)
@@ -23,12 +22,13 @@
  </p>
  </div>
  
- <h3 align="center"> Part of Open Source Program</h3>
+ <h3 align="center"> 📌 Open Source Program</h3>
  <div align="center">
- <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
+ <h5 >This project is a part of following Open Source Programs</h5>
+
 
  ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
-
+ <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
 </div>
  
 
