@@ -7,8 +7,11 @@ assignees: ''
 
 ---
 
-### Description 
-Describe more about the issue.
+### Project title
+(Write project title over here)
+
+### Project Description
+(Describe the project over here)
 
 ### Doc Domain
 <!--
