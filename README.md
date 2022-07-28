@@ -22,15 +22,15 @@
  </p>
  </div>
  
- <h2 align="center"> 📌 Open Source Program</h2>
- <div align="center">
- <h4 >This project is a part of following Open Source Programs</h2>
+ ## 📌 Open Source Program
 
+ ### This project is a part of following Open Source Programs
+
+ <div align="center">
 
  ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
   
- <a href="https://soc.hackclubrait.co/">Hack Club RAIT SOC</a>
-</div>
+ </div>
  
 
 ##  About Web3.O.World
