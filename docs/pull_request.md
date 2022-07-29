@@ -25,3 +25,5 @@ please delete the options that are not relevant. In order to tick the check box 
 - [ ] I have Commented on my code. particularly in hand-to-understand areas.
 - [ ] My changes generate no new warnings.
 - [ ] I'm HSOC'22 Contributor 
+
+# Screenshots | GIF's (Recommended) 📷
