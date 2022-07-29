@@ -27,7 +27,7 @@
  ### This project is a part of following Open Source Programs
 
  <div align="center">
-<img src="./images/logo.jpg" width="25%">
+<img src="./images/logo.jpg" width="20%">
   
  </div>
  
