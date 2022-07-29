@@ -27,8 +27,7 @@
  ### This project is a part of following Open Source Programs
 
  <div align="center">
-
- ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
+<img src="../images/logo.jpg" width="55%">
   
  </div>
  
