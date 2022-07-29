@@ -1,6 +1,37 @@
 # <p align = "center"> Web3.O.World </p>
 ![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
 
+  <div align="center">
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Vikash-8090-Yadav%2FWeb3.0-World%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World)
+![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World)
+![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
+![GitHub last commit](https://img.shields.io/github/last-commit/Vikash-8090-Yadav/Web3.0-World)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
+
+![Github](https://img.shields.io/github/license/Vikash-8090-Yadav/Web3.0-World)
+![GitHub issues](https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Vikash-8090-Yadav/Web3.0-World)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Web3.0-World)
+ </p>
+ </div>
+ 
+ ## 📌 Open Source Program
+
+ ### This project is a part of following Open Source Programs
+
+ <div align="center">
+<img src="./images/logo.jpg" width="20%">
+  
+ </div>
+ 
+
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
 This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
