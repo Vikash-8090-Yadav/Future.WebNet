@@ -1,6 +1,6 @@
 import Movements from "./Movement.js"
 
-import  "./node_modules/dotenv/config.js"
+// import  "./node_modules/dotenv/config.js"
 // require('dotenv').config({ debug: true }) 
 import * as dotenv from"dotenv"
 dotenv.config();
