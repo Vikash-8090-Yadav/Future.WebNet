@@ -4,6 +4,11 @@ if(typeof window.ethereum =="undefined"){
 }
 
  let web3 = new Web3(window.ethereum);
+
+// require('dotenv').config();
+// //  const mnemonic = process.env.NEXT_PRIVATE_KEY;
+//  console.log(process.env.NEXT_PRIVATE_KEY);
+
   console.log(web3.version)
 
 const ganche = new Promise((res,rej)=>{
