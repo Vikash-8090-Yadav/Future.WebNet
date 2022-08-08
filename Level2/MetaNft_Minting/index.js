@@ -1,5 +1,12 @@
 import Movements from "./Movement.js"
 
+// import  "./node_modules/dotenv/config.js"
+// require('dotenv').config({ debug: true }) 
+import * as dotenv from"dotenv"
+dotenv.config();
+ console.log(process.env.NEXT_PUBLIC_URl);
+
+
 import ganche from "./web3.js"
 const scene = new THREE.Scene();
 // scene.background = new THREE.Color("yellowgreen");
