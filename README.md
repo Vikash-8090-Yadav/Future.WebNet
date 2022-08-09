@@ -1,9 +1,5 @@
 # <p align = "center"> Web3.O.World </p>
-
-<div align="center">
-<img src="images\Web 3.O cover Image.png" alt="Cover Image" width="70%">
-<div>
-
+![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
 
   <div align="center">
  <p>
