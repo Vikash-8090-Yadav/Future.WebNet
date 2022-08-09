@@ -1,33 +1,48 @@
-h1{
-	color: blue;
-}
+/* For the title of "Writing my first contract" */
+#h1{
 
-*{
-	margin: 0;
-	padding: 0;
-
-	background-color: cyan;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 45px;
+	font-family: 'Manrope', sans-serif;
+	font-size: 48px;
 
 }
 
-#setup{
-	padding-top: 22px;
-	display: flex;
-	align-items: center;
-
-}
-#setup #lg{
-	margin-left: 1140px;
-	color: red;
-}
 
 h1{
+	color: white;
 	padding: 162px;
 }
 
+/* For the whole webpage */
+*{
+	margin: 15px;
+	padding: 0px;
+	background-color: #FCE2DB;
+}
+
+
+#setup{
+	padding-top: 32px;
+	display: flex;
+	align-items: center;
+	font-family: 'Manrope', sans-serif;
+	font-size: 19px;
+	color: white;
+
+}
+#setup #lg{
+	margin-left: 850px;
+}
+
+#setup #fc{
+	margin-left: 230px;
+}
+
+
 #get-value{
-	color: red;
+	color: white;
 	margin-right: 82px;
 	font-size: 32px;
 
@@ -35,18 +50,38 @@ h1{
 #btn{
 
 	margin-right: 92px;
-	color: black;
+	
+	color: white;
 	font-size: 32px;
+	border-radius: 12px;
+    margin-right: 134px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 1px;
+	border: solid white 3px;
+
 }
 
 #set{
-	margin-left: 92px;
-	color: black;
+	color: white;
 	font-size: 32px;
+	border-radius: 12px;
+    padding-top: 1px;
+	border-radius: 12px;
+    margin-left: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+	border: solid white 3px;
+
 }
 #in{
-	border: solid black 3px;
+	border: solid white 3px;
+	border-radius: 12px;
 	font-size: 32px;
-	color: red;
+	color: #FF8FB1;
 	margin-left: 32px;
+	margin-left: 0px;
+    padding-left: 100px;
 }
+
+
