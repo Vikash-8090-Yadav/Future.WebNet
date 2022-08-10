@@ -1,0 +1,48 @@
+.siderContent {
+  padding-top: 20px;
+  padding-right: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  align-items: end;
+}
+
+.logo {
+  display: flex;
+  padding: 10px;
+  gap: 14px;
+  height: 30px;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none !important;
+  color: black;
+}
+.sidebarLogo {
+  color: black;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+  margin-top: 20px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 1000px;
+  color: rgb(11, 3, 3) !important;
+  text-decoration: none !important;
+}
+
+.menuItems:hover {
+  cursor: pointer;
+}
+
+.logout {
+  color: black;
+  gap: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
