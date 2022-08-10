@@ -1,0 +1,34 @@
+.singleBlog {
+  flex: 9;
+  margin-top: 10px;
+}
+
+.singleBlogWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+}
+
+.singleBlogImg {
+  padding: auto;
+  margin-right: 10px;
+}
+
+.singleBlogTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+}
+
+.singleBlogText {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singleBlogText::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
