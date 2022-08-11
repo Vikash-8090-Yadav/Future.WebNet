@@ -1,5 +1,5 @@
 # <p align = "center"> Web3.O.World </p>
-![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
+![Raise PR  Contribute](https://user-images.githubusercontent.com/70209862/184164195-f43e5065-0e8f-40a1-b07d-3b42f590f9f8.png)
 
   <div align="center">
  <p>
