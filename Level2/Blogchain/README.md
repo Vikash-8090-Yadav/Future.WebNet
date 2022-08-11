@@ -1,6 +1,6 @@
 # Blogchain
 
-### A decentralised blogging platform
+### A decentralized blogging platform
 
 # Technologies
 - Solidity
@@ -10,7 +10,12 @@
 - Moralis
 - React
 
-[Blogchain Deplyoment Link](https://ayush-blogchain.vercel.app)
+## Steps to run in the local environment
+- Fork and clone this repository
+- Install dependencies using ``` npm ``` or ``` yarn ```
+- Run ``` yarn start ```
+
+[Blogchain Deployment Link](https://ayush-blogchain.vercel.app)
 
 # Wallet Connect
 ![Wallet Connect
