@@ -1,51 +1,122 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	padding-left: 320px;
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
-#btn{
-	margin-top: 62px;
-	border: solid 5px black;
-  font-size: 27px;
-  line-height: 0.9;
-  letter-spacing: 0.095em;
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  box-shadow: 0 10px 20px 0 #cbcdd0;
+  background: #ffffff;
+  color: #000;
+  border-radius: 99px;
+  padding: 16px 32px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 24px;
   font-weight: 500;
-  padding-left: 23px;
-  padding-right: 12px;
-  margin-left: -295px;
-  /*margin-right: -670px;*/
-  height: 52px;
+  cursor: pointer;
 }
 
-
-#meta-img{
-height: 480px;
-width : 300px;
-/*margin-left: 12px;*/
-margin-left: -590px;
-padding-left: 312px;
-/*padding-left: 120pz;*/
+#connectButton {
+  margin-bottom: 16px;
+  color: #499cf0;
 }
 
-#add{
-	margin-top: 12px;
-	color: green;
-	padding-left: 110px;
-	margin-right: 20px;
+#walletID span {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 600;
 }
 
-#add1{
-	margin-top: 12px;
-	color: green;
-	padding-left: 110px;
-	margin-right: 20px;
+#mobileDeviceWarning {
+  display: none;
+  margin-top: 24px;
+  color: rgb(12, 76, 141);
 }
 
+#mobileDeviceWarning.show {
+  display: block;
+}
 
-#cnf{
+.alert {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+}
 
-	color: green;
-	margin-left: -682px;
-	font-size: 52px;
+.alert.show {
+  display: flex;
+}
+
+.alert .button {
+  margin-top: 24px;
+}
+
+/* Loading dots styles */
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loadingButton {
+  pointer-events: none;
+}
+
+.loadingButton #loading {
+  display: flex;
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 99px;
+}
+
+#loading span:not(:last-child) {
+  margin-right: 5px;
+}
+
+#loading span {
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+#loading span:nth-child(2) {
+  animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+#loading span:nth-child(3) {
+  animation-delay: 300ms;
+  animation-delay: 300ms;
 }

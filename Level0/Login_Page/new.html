@@ -1,20 +1,36 @@
-
-
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Main page </title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script type="text/javascript" src="./index.js"></script>
-	<!-- <script type="text/javascript" src="./login.js"></script> -->
-<!-- </head> -->
-<body>
-	<h3 id  ="add1">
-		No ACCOUNT SINGIN CURRENTLY
-	</h3>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login_Page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./login.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <img id="meta-img" src="./Images/meta.gif" />
+      <button class="button" id="connectButton">
+        Connect wallet
+
+        <span id="loading">
+          <span>&bull;</span><span>&bull;</span><span>&bull;</span>
+        </span>
+      </button>
+
+      <div id="walletID">Your wallet is not connected yet.</div>
+
+      <div id="mobileDeviceWarning">
+        If you are on a mobile phone, please use MetaMask application's browser
+        to connect.
+      </div>
+    </div>
+
+    <div class="alert" id="installAlert">
+      Please refresh your browser after installing the Metamask plugin
+
+      <button class="button" id="reloadButton">Reload page</button>
+    </div>
+  </body>
 </html>
