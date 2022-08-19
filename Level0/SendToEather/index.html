@@ -4,32 +4,50 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Trying to make the frontend to send the data</title>
+	<link rel="stylesheet" type='text/css' href="./index.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
+	<main id="main">
+
+	
 	<center>
 
-		<h1 id ="h">HEY </h1>
+		<h1 id ="header">Send to Eather </h1>
 
-	<div id="send-Ads">
-		<label>Send-to</label>
-		<input id = "in" type="text" name="" placeholder="Enter the address">
-	</div>
-	<div >
-		<label>Amount</label>
-		<input id = "am" type="text" name="">
-	</div>
-	<button id ="send">SEND</button>
-	<br>
-	<div id ="Acc-bal">
-			<button id ="acc-btn">Account Balance</button>
+		<form action="" method="post" id="form">
+			<div id="send-Ads" class="input-container">
+				<label for="address">Send-to</label>
+				<input id = "address" 
+					type="text" 
+					name="address" 
+					class="input" 
+					placeholder="Enter the receiver's address"
+					required>
+			</div>
+			<div class="input-container">
+				<label for="amount">Amount</label>
+				<input id="amount" 
+					type="text" 
+					name="amount" 
+					class="input"
+					placeholder="Enter the amount"
+					required>
+			</div>
+			<div class="button-group">
+				<button id ="send" class="button">Send</button>
+				<button id ="acc-btn" class="button">Account Balance</button>
+			</div>
+			
 		</div>
-	<h1 id = "sh">
+		</form>
+		<h1 id = "sh">
 
-	</h1>
+		</h1>
 <!-- </form> -->
 </script>
+</main>
 </body>
 </html>
