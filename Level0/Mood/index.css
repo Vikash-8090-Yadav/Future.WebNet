@@ -1,52 +1,50 @@
-h1{
-	color: blue;
-}
-
+/* For the whole body */
 *{
 	margin: 0;
 	padding: 0;
-
 	background-color: cyan;
+}
 
-
+/* For the h1 */
+h1{
+	color: blue;
+	padding: 163px;
 }
 
 #setup{
-	padding-top: 22px;
+	padding-top: 21px;
 	display: flex;
 	align-items: center;
 
 }
-#setup #lg{
-	margin-left: 1140px;
-	color: red;
-}
-
-h1{
-	padding: 162px;
-}
 
 #get-value{
 	color: red;
-	margin-right: 82px;
-	font-size: 32px;
+	margin-right: 83px;
+	font-size: 31px;
 
 }
 #btn{
 
-	margin-right: 92px;
+	margin-right: 91px;
 	color: black;
-	font-size: 32px;
+	font-size: 31px;
+}
+
+#in{
+	border: solid black 3px;
+	font-size: 31px;
+	color: red;
+	margin-left: 31px;
 }
 
 #set{
-	margin-left: 92px;
+	margin-left: 91px;
 	color: black;
-	font-size: 32px;
+	font-size: 31px;
 }
-#in{
-	border: solid black 3px;
-	font-size: 32px;
+
+#setup #lg{
+	margin-left: 1141px;
 	color: red;
-	margin-left: 32px;
 }
