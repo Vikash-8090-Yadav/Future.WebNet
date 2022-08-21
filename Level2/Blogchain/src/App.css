@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+
+.unAuth {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20vh;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+  position: sticky;
+  top: 0px;
+  width: calc((100vw - 800px) * 0.15);
+  border-right: 1px solid rgb(63, 63, 63);
+  color: white;
+  height: 100vh;
+}
+
+.rightBar {
+  position: sticky;
+  top: 0px;
+  width: calc((100vw - 800px) * 0.55);
+  border-left: 1px solid rgb(63, 63, 63);
+  color: white;
+  height: 100vh;
+}
+
+.mainWindow {
+  width: 800px;
+}
+.logout {
+  display: flex;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  gap: 14px;
+  cursor: pointer;
+}

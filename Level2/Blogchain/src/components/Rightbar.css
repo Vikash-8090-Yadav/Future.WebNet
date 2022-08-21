@@ -1,0 +1,48 @@
+.rightbarContent {
+  padding: 25px;
+  width: 80%;
+}
+
+.trends {
+  background-color: white;
+  border-radius: 25px;
+  min-height: calc(100vh - 200px);
+  max-width: 290px;
+  margin-top: 40px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  overflow: hidden;
+  color: black;
+}
+
+.trend {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.trend:hover {
+  cursor: pointer;
+  background-color: #e1e5ea;
+}
+
+.trendImg {
+  width: 100px;
+  border-radius: 3px;
+}
+
+.trendText {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.more {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 15px;
+  color: #f0f4f7;
+}

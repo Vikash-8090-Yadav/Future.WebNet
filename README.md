@@ -1,5 +1,7 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Vikash-8090-Yadav/Web3.0-World)
+
 # <p align = "center"> Web3.O.World </p>
-![web 3.0 Cover Image](/images/Web%203.O%20cover%20Image.png)
+![Raise PR  Contribute](https://user-images.githubusercontent.com/70209862/184164195-f43e5065-0e8f-40a1-b07d-3b42f590f9f8.png)
 
   <div align="center">
  <p>
@@ -94,8 +96,12 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands ```git add .``` or ```git add *```. Instead, stage your changes for each file/folder
+
 ```bash
-git add .
+git add file/folder
 ```
 
 ```bash
