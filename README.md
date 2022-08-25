@@ -30,14 +30,12 @@
 
  ---
 
- <table align="center">
-   <tr align="center">
-     <td>
-       <img src="./images/logo.jpg" width="20%" >
-       <img src="./images/SSOC.jpg" width="22%" >
-     </td>
-   </tr>
- </table>
+<div align="center">
+  <img src="./images/logo.jpg" width="20%" >
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./images/SSOC.jpg" width="22%" >
+</div>
+
 
  ---
  
