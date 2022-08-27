@@ -28,10 +28,16 @@
 
  ### This project is a part of following Open Source Programs
 
- <div align="center">
-<img src="./images/logo.jpg" width="20%">
-  
- </div>
+ ---
+
+<div align="center">
+  <img src="./images/logo.jpg" width="20%" >
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./images/SSOC.jpg" width="22%" >
+</div>
+
+
+ ---
  
 
 ##  About Web3.O.World
