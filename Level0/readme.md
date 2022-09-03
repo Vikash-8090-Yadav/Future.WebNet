@@ -18,7 +18,7 @@ Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ### Mood
 ![folder2](https://user-images.githubusercontent.com/85816852/181048844-0d1d51d7-bf2a-42b0-83a9-3b6cd74a7f6b.png)
 
-### SendtoEather
+### SendtoEther
 ![send to each other](https://user-images.githubusercontent.com/85816852/181049056-c91b083e-43fe-4d0c-99eb-1f9efdf9031b.png)
 
 ### Voting
