@@ -2,19 +2,19 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract sendeather{
+contract sendether{
 
     address public owner;
     constructor(){
         owner = msg.sender;
     }
     modifier onlyowner(){
-        require(msg.sender == owner,"U r not the owner ");
+        require(msg.sender == owner,"You r not the owner ");
         _;
     }
 
     function send(address payable to_sent) payable public {
-        require(msg.sender.balance >=msg.value,"U have not the suffcinet amount");
+        require(msg.sender.balance >=msg.value,"You  don't have the sufficient amount");
 
         to_sent.transfer(msg.value);
     }
