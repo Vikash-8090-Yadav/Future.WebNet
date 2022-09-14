@@ -7,10 +7,16 @@ Here are the steps you should follow to contribute to this repo.
 ## Step 1 : Find an issue
 
 - Take a look at the Existing Issues 
+#### Create new Issue
+![NEW ISSUE](https://user-images.githubusercontent.com/95535448/190171896-103749a0-f622-4c45-a042-62651620dd87.png)
+
 - You can create your own Issues too
 - Wait for the Issue to be assigned to you after which you can start working on it.
 
 ## Step 2 : Fork the Project
+
+
+![Screenshot 2022-09-14 191244](https://user-images.githubusercontent.com/95535448/190172005-e975a53a-0dbd-439a-8fe7-bc283840e4c4.png)
 
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in `upstream` remote.
 
