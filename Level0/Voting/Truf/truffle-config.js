@@ -1,3 +1,6 @@
+require('dotenv').config({path : '../.env'})
+
+console.log(process.env.mnemonic);
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -5,7 +8,7 @@
  * them to suit your project as necessary.
  *
  * More information about configuration can be found at:
- * 
+ *
  * https://trufflesuite.com/docs/truffle/reference/configuration
  *
  * To deploy via Infura you'll need a wallet provider (like @truffle/hdwallet-provider)
@@ -17,8 +20,9 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
+// const mnemonic =  'mansion strategy carry code lawsuit absurd sustain kitchen guitar lock grass nurse';
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -41,11 +45,21 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-    development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-     port: 7545,            // Standard Ethereum port (default: none)
-     network_id: "*",       // Any network (default: none)
-    },
+    // mansion strategy carry code lawsuit absurd sustain kitchen guitar lock grass nurse
+    // development: {
+    //  host: "127.0.0.1",     // Localhost (default: none)
+    //  port: 7545,            // Standard Ethereum port (default: none)
+    //  network_id: "*",       // Any network (default: none)
+    // },
+    matic:{
+      provider :()=> new HDWalletProvider(process.env.mnemonic, 'https://rpc-mumbai.maticvigil.com'),
+      network_id :80001,
+      confirmations : 2,
+      timeoutBlocks :2000,
+      skipDryRun : true
+
+     },
+
     //
     // An additional network, but with some advanced options…
     // advanced: {
@@ -60,7 +74,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     // ropsten: {
-    //   provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/YOUR-PROJECT-ID`),
+    //   provider: () => new HDWalletProvider(mnemonic, 'https://ropsten.infura.io/v3/95688893704a4d5bac083296c3547383'),
     //   network_id: 3,       // Ropsten's id
     //   gas: 5500000,        // Ropsten has a lower block limit than mainnet
     //   confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
@@ -75,12 +89,11 @@ module.exports = {
     //   production: true    // Treats this network as if it was a public net. (default: false)
     // }
   },
-
+// },
   // Set default mocha options here, use special reporters, etc.
   mocha: {
     // timeout: 100000
   },
-
   // Configure your compilers
   compilers: {
     solc: {
