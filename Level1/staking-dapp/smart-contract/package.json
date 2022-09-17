@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2",
+    "hardhat-waffle": "^0.0.1-security"
+  }
+}
