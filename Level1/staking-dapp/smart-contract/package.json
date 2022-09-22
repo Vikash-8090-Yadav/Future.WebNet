@@ -6,5 +6,8 @@
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2",
     "hardhat-waffle": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0"
   }
 }

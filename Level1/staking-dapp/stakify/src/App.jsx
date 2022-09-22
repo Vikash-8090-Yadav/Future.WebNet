@@ -7,7 +7,7 @@ import StakeModal from "./components/StakeModal";
 import maticLogo from "./images/polygon-matic-logo.svg";
 import { Coin } from "react-bootstrap-icons";
 
-const ContractAddress = '0x12163B070B97f06F5061D93164D960bbFCfdf965';
+const ContractAddress = '0xa649BF1Cbf0D36eb11e0970C41B40F8F291ed02B';
 
 function App() {
 

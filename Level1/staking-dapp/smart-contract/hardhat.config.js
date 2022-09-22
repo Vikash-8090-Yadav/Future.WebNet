@@ -1,4 +1,5 @@
-require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-etherscan");
+require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -7,10 +8,10 @@ const { API_URL, PRIVATE_KEY_1, PRIVATE_KEY_2, API_KEY } = process.env;
 
 module.exports = {
   solidity: {
-    version: "0.8.0"
+    version: "0.8.9"
   },
   paths: {
-    artifacts: "../frontend/src/artifacts",
+    artifacts: "../stakify/src/artifacts",
   },
   networks: {
     hardhat: {

@@ -3,19 +3,17 @@ require("dotenv").config();
 
 async function main() {
 
-  [signer1, signer2] = await ethers.getSigners();
-
-  const Staking = await ethers.getContractFactory('Staking', signer1);
+  const Staking = await hre.ethers.getContractFactory('Staking');
 
   const staking = await Staking.deploy({
-    value: ethers.utils.parseEther('0.4')
+    value: ethers.utils.parseEther('0.2')
   })
 
   await staking.deployed();
 
   console.log(`Staking contract deployed to ${staking.address}`);
 
-  const provider = waffle.provider;
+  /*const provider = waffle.provider;
   let data;
   let transaction;
   let receipt;
@@ -25,13 +23,13 @@ async function main() {
   data = { value: ethers.utils.parseEther('0.01') }
   transaction = await staking.connect(signer2).stakeMatic(30, data);
 
-  data = { value: ethers.utils.parseEther('0.15') }
+  data = { value: ethers.utils.parseEther('0.015') }
   transaction = await staking.connect(signer2).stakeMatic(180, data);
 
   data = { value: ethers.utils.parseEther('0.1') }
   transaction = await staking.connect(signer2).stakeMatic(180, data);
 
-  data = { value: ethers.utils.parseEther('0.3') }
+  data = { value: ethers.utils.parseEther('0.03') }
   transaction = await staking.connect(signer2).stakeMatic(90, data);
   receipt = await transaction.wait();
   block = await provider.getBlock(receipt.blockNumber);
@@ -43,7 +41,7 @@ async function main() {
   receipt = await transaction.wait();
   block = await provider.getBlock(receipt.blockNumber);
   newUnlockDate = block.timestamp - (60 * 60 * 24 * 1000);
-  await staking.connect(signer1).changeUnlockPeriod(4, newUnlockDate);
+  await staking.connect(signer1).changeUnlockPeriod(4, newUnlockDate);*/
 
 }
 
