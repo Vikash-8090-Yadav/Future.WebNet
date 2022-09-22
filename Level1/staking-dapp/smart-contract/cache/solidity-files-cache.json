@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Web\\Web3.0-World\\Level1\\staking-dapp\\smart-contract\\contracts\\Staking.sol": {
+      "lastModificationDate": 1663853779677,
+      "contentHash": "1b2ec3ffa37aa7122c0c973579b0a709",
+      "sourceName": "contracts/Staking.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Staking"
+      ]
+    }
+  }
+}
