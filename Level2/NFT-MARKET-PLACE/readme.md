@@ -7,7 +7,7 @@
 - React
 - CSS3
 - HTML5
-- -IPFS
+- IPFS
 
 
 ## Steps to run in the local environment
