@@ -19,8 +19,12 @@ After cloning the repository using the `cd <folder-name>` command.
 
 ###  Install Dependencies
 
+```bash
 npm install
+```
 
 ### Running the Project
 
+```bash
 npm start
+```
