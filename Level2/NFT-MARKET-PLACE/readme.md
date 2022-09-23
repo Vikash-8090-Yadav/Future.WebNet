@@ -28,3 +28,15 @@ npm install
 ```bash
 npm start
 ```
+
+
+https://user-images.githubusercontent.com/95535448/192009084-beee4553-7427-467a-a05d-5f30972a10f9.mp4
+
+It took a while to store the nft into IPFS. End Result
+
+
+
+https://user-images.githubusercontent.com/95535448/192009214-5e391d94-cf04-4c2e-8075-3567e0935ccd.mp4
+
+
+
