@@ -10,16 +10,17 @@
 - IPFS
 
 
-## Steps to run in the local environment
-To set up the repository and run the marketplace locally, run the below
-```bash
-git clone 
-cd NFT-Marketplace
+### Fork and Clone the Repo 
+First, you need to fork the `Web3.0-World` repo. You can do this by clicking the `Fork` button on the top right corner of the repo.
 
-npm install ( To install all of the dependencies)
+Once forked, you can clone the repo by clicking the `Clone or Download` button on the top right corner of the forked repo.
 
-make an alchemy account for getting api .
-You can also get some fake ethers from faucets through alchemy.
+After cloning the repository using the `cd <folder-name>` command.
 
-We are using Pinata as IPFS ( make sure to make account in pinata)
+###  Install Dependencies
 
+npm install
+
+### Running the Project
+
+npm start
