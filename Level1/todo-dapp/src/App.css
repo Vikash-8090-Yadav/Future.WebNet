@@ -1,0 +1,112 @@
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(43, 155, 207);
+    color: white;
+}
+
+.header {
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+.big_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(234, 234, 234);
+}
+
+.big_button:active {
+    opacity: 0.5;
+}
+
+.small_button {
+    padding: 2px 8px;
+    border: none;
+    border-radius: 100px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.small_button:active {
+    opacity: 0.5;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    background-color: rgb(69, 69, 69);
+}
+
+.input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 10px;
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    background-color: rgb(234, 234, 234);
+}
+
+.main_col {
+    display: flex;
+    flex: 1;
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.main_col_heading {
+    margin-bottom: 10px;
+}
+
+.main_ticket_card {
+    font-size: 14px;
+    background-color: rgb(26, 113, 243);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.main_ticket_card_id {
+    font-size: 10px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding: 5px;
+    background-color: rgb(26, 113, 243);
+    border-radius: 5px;
+}
+
+.main_ticket_button_section {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
