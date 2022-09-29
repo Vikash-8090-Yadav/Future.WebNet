@@ -1,0 +1,76 @@
+
+
+.feedTweet {
+    max-width: 100%;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+}
+
+.feedTweet:hover{
+    background-color: #1c2834;
+}
+
+.completeTweet {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 89%;
+}
+
+.interactions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.interactionNums{
+    color: #3f3f3f;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 1000px;
+}
+
+.who {
+    display: flex;
+    gap:10px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.accWhen {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+
+.tweetContent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 350px;
+}
+
+.tweetImg {
+    width: 98%;
+    border-radius: 10px;
+    height: 90%;
+}
+
+.loading {
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
