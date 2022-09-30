@@ -1,0 +1,28 @@
+
+
+.settingsPage {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pfp {
+    color: #68738D;
+    padding-left: 10px;
+}
+
+.save {
+    background-color: #1DA1F2;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.save:hover {
+    cursor: pointer;
+}

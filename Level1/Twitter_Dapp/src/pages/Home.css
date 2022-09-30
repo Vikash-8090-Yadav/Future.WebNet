@@ -1,0 +1,47 @@
+
+
+.textArea {
+    width: 85%;
+    color: #FFF;
+    background: transparent;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    min-height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.profileTweet {
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px;
+}
+
+.tweetSection {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tweet {
+    background-color: #8247e5;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    color: white;
+}
+
+.tweet:hover {
+    cursor: pointer;
+}
+
+.imgDiv {
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.imgDiv:hover {
+    cursor: pointer;
+    background-color: #282828;
+}
