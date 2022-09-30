@@ -1,5 +1,6 @@
 # Decentralized Twitter Dapp
 
+**My_Twitter_Dapp** is a microblogging and social networking service which allows users to post and interact with messages known as "tweets". It is a decentralized platform build on polygon testnet chain. People can tweet and upload images on the blockchain and the images are stored in the chain by web3 storage an ipfs protocol based platform system. Also whenever a person creates a profile and random avator is generated and assigned to his profile.
 ### Technologies Used
 - Solidity
 - JavaScript
