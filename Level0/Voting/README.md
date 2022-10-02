@@ -1,6 +1,9 @@
 # Voting applcation
 
-
+This is a voting application in which we can vote for two different aspect.
+After the complete voting you can generally check the result on clicking the button 
+CHECK RESULT.
+It immediately show the result in the bottom left tag.
 
 <br>
 <br>
