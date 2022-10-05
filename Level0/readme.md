@@ -20,7 +20,7 @@ Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ![folder2](https://user-images.githubusercontent.com/85816852/181048844-0d1d51d7-bf2a-42b0-83a9-3b6cd74a7f6b.png)
 
 ### SendtoEther
-![Screenshot 2022-10-01 153636](https://user-images.githubusercontent.com/81668653/193404360-7217fd5a-d2db-4d5a-81a1-a75b4eceb8e2.png)
+![image](https://user-images.githubusercontent.com/81668653/194089177-427d1bb6-dc20-4a92-90a7-99e113a955d6.png)
 
 ### Voting
 ![Screenshot (67)](https://user-images.githubusercontent.com/85816852/181049228-c8dd2b9e-9f37-4466-aa03-9cbc898ca627.png)
