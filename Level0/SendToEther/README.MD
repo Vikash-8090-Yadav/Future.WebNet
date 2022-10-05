@@ -1,4 +1,4 @@
-# Send Ether
+# Send to Ether
 
 ### This can be used to send cryptocurrency all over the world. You can send Ethereum to whoever you want.
 
