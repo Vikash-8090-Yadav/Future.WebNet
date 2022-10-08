@@ -146,6 +146,7 @@ body{
   padding-left: 26px;
   color: white;
   font-size: 18px;
+  background-image: linear-gradient(180deg, rgb(184, 248, 248), rgb(55, 200, 245));
 }
 
 #cnf{
