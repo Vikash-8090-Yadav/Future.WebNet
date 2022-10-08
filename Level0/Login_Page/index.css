@@ -1,3 +1,8 @@
+body{
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -118,4 +123,33 @@
 #loading span:nth-child(3) {
   animation-delay: 300ms;
   animation-delay: 300ms;
+}
+
+#add{
+  padding-left: 33%;
+  margin-top: 30px;
+
+}
+
+#meta-img{
+  margin-left: 39%;
+  margin-top: 55px;
+}
+
+#btn{
+  margin-left: 43%;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding-top: 11px;
+  padding-bottom: 11 px;
+  padding-right: 26px;
+  padding-left: 26px;
+  color: white;
+  font-size: 18px;
+}
+
+#cnf{
+  margin-left: 43%;
+  margin-top: 20px;
+  border-radius: 12px;
 }
