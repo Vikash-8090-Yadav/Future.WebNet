@@ -1,3 +1,7 @@
+![defi1](https://user-images.githubusercontent.com/95535448/196693299-c6bab082-ee44-4fc8-812a-b94696ef97a5.jpg)
+
+
+
 # What is Defi
 Defi stands for the **Decentralized finance** which is an emerging technology which is totally based on the blockchain secure distributed ledgers similar to those used by cryptocurrencies. This system removes the complete third party which involved in passing or conforming the bill etc . This system remove the centralised system which cause many trust issue , money doubt etc . In centralized finance, your money is held by banks, corporations whose overarching goal is to make money. The financial system is full of third parties who facilitate money movement between parties, with each one charging fees for using their services
 
@@ -23,6 +27,7 @@ If we talked about the future of the defi , this technology is still in progress
 ### Protocols in the Defi
 
 
+![defi 2'](https://user-images.githubusercontent.com/95535448/196693239-29dd2d88-682a-4b4d-8492-624f2e49f63b.jpg)
 
 
 
