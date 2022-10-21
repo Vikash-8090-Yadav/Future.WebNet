@@ -1,0 +1,60 @@
+*{
+    margin:0 ;
+    padding:0;
+    max-height: 100%;
+}
+body{
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:absolute;
+    background: url('Game_of_Thrones_title_card.jpg') no-repeat center center/cover;
+ height: 100vh;
+ max-width: 100%;}
+
+.container:hover{
+    border-radius: 25px;
+    border:4px solid rgb(255, 251, 0);
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+ max-width: 70%;
+}
+.container{
+    color: rgb(224, 235, 17);
+    opacity:1;
+ font-size: large;
+ font-weight:bolder;
+ height: 100vh;
+ max-width: 70%;
+}
+.container1:hover{
+    opacity:1;
+    color: rgb(8, 8, 8);
+ font-size: large;
+ font-weight:bolder;
+ height: 100vh;
+ max-width: 100%;
+} 
+@keyframes start{
+    from{background-image:url("gameofthrones-allseasons.jpg");} to {background-image:url("got.jpg");}
+}
+.container3{
+    border:2px solid rgb(52, 8, 8);
+    padding:3%;
+    border-radius:25px;
+    text-shadow: 1px 1px black;
+      display: flex; 
+justify-content: center;
+align-items: center;
+animation-name: start;
+animation-duration: 8s;
+}
+.container3:hover{
+    border:2px solid rgb(255, 249, 249);
+    border-radius:25px;
+      display: flex; 
+justify-content: center;
+align-items: center;
+}
+
