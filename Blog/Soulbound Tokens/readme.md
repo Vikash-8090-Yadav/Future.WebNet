@@ -1,8 +1,14 @@
+# 👻 What are Soulbound Tokens
+
+![Blog Banner](./assets/banner.png)
+
 ## Introduction
 
 Soulbound Tokens (SBTs) were proposed in May 2022 in a [whitepaper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) entitled “Decentralized Society: Finding Web3’s Soul,” by economist & social technologist E. Glen Weyl, lawyer Puja Ohlhaver, and Ethereum creator Vitalik Buterin.
 
-{% embed https://twitter.com/VitalikButerin/status/1486375000793776131?s=20&t=Uz7mfBfobktao57aWRXyoA %}
+<a href="https://twitter.com/VitalikButerin/status/1486375000793776131?s=20&t=Uz7mfBfobktao57aWRXyoA">
+<img src="./assets/Tweet%20by%20vitalik.eth.png" alt="Tweet on Soulbound Tokens by Vitalik" width="500px"  />
+</a>
 
 <br>
 
@@ -16,7 +22,9 @@ SoulBound Tokens(`SBTs`) are a primitive, or foundational building block, in an 
 
 DeSoc sits at the intersection of politics and markets and, much like the wider Web3 context into which it fits, is based around principles of composability, bottom-up community, cooperation, and emergent networks that are owned and governed by network users. It aims to augment Web3’s trajectory toward [hyper-financialization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) to something more inclusive, democratic, and decentralized.SBTs are an essential feature of DeSoc.
 
-{% embed https://twitter.com/pujaohlhaver/status/1524392972044972033?s=20&t=jWSOsZkWJJfvmZ4wTB2kzQ %}
+<a href="https://twitter.com/pujaohlhaver/status/1524392972044972033?s=20&t=jWSOsZkWJJfvmZ4wTB2kzQ">
+<img src="./assets/Tweet%20by%20Puja%20Ohlhaver.png" alt="Tweet on DeSoc by Puja Ohlhaver" width="500px"  />
+</a>
 
 <br>
 
@@ -60,6 +68,8 @@ Buterin has proposed community-wide adoption of the [social recovery](https://vi
 
 SBTs could be available by the [end of 2022](https://twitter.com/iamjasonlevin/status/1527316024659353601), according to Jason Levin, who interviewed the paper’s co-author, E. Glen Weyl.
 
-{% embed https://twitter.com/iamjasonlevin/status/1527316023614918656?s=20&t=37iwok_idIMs4yAFE8g0jg %}
+<a href="https://twitter.com/iamjasonlevin/status/1527316023614918656?s=20&t=37iwok_idIMs4yAFE8g0jg">
+<img src="./assets/Tweet%20by%20Jason%20Levin.png" alt="Tweet on SBTs by Jason Levin" width="500px"  />
+</a>
 
 ---
