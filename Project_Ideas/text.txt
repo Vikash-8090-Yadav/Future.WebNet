@@ -1,0 +1,7 @@
+For beginner
+	1. Portfolio website (Responsive)
+	2. Built a basic website using HTML, CSS, and Javascript
+	3. Simple game using Javascript
+	4. Basic Flask web application
+	5. Small Python game
+	6. Create a simple GUI using Python 
