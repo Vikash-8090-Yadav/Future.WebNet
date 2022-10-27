@@ -1,5 +1,11 @@
 # 🪐 Web3 Glossary
 
+## Introduction
+
+Web3 or Web 3.0 is the common denominator of projects that implement or utilize blockchain technology. Web3 (sometimes stylized as web 3 or web 3.0) is the umbrella term for the set of technologies underlying the decentralized Internet. Web 3.0 describes the next generation of Internet services, where the Web is a decentralized online ecosystem built on top of a blockchain. Web3 is inclusive of the blockchain, cryptocurrency, the metaverse, and other emerging technologies.
+
+Here is a list of frequently used terminology that every online aficionado should be familiar with because it is quite difficult to enter this enormous, limitless field of technology without such understanding.
+
 ### 🚀 BEP20
 
 BEP20, an abbreviation of Binance Smart Chain Evolution Proposal, is the standard for creating digital tokens on the Binance Smart Chain (BSC).
