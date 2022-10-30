@@ -1,0 +1,61 @@
+
+#btn{
+
+	border-radius: 12px ;
+	margin-top: 52px;
+	color: white;
+	background-color: blue;
+	margin-left: 70px ;
+}
+.id1{
+	font-size: 30px;
+	border-radius: 12px ;
+color: black;
+}
+.frm{
+	/*border: 2px solid red;*/
+	padding-left: 590px;
+	font-size: 30px;
+	color: blue;
+}
+#frt-id{
+	margin-left: 162px;
+}
+#frt-cost{
+	margin-left: 128.7px;
+}
+
+#frt-name{
+	margin-top: 12px;
+margin-left: 40px;
+}
+
+#tb{
+font-size: 28px;
+}
+#tb thead th{
+	padding-left: 10px;
+}
+#tb td{
+	padding-left: 10px;
+	color: red;
+
+}
+
+#byer{
+	margin-top: 22px;
+}
+
+#spn{
+	font-size: 30px;
+}
+
+#btn1 , #btn2{
+	font-size: 33px;
+	border-radius: 12px ;
+	margin-top: 52px;
+	color: white;
+	background-color: blue;
+	margin-left: 700px ;
+}
+
