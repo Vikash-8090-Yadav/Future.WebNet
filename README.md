@@ -80,6 +80,11 @@ git remote add upstream https://github.com/Vikash-8090-Yadav/Web3.O.World.git
 ```bash
 git checkout -b YourBranchName
 ```
+<i>or</i>
+```bash
+git branch YourBranchName
+git switch YourBranchName
+``` 
 
 **6.** Sync your fork or local repository with the origin repository:
 
