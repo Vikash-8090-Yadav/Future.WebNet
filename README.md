@@ -31,6 +31,9 @@
  ---
 
 <div align="center">
+
+![Hack](https://user-images.githubusercontent.com/85225156/206849392-7d63a37e-1d91-4e34-865f-1ff80b80274e.png)
+
   <img src="./images/logo.jpg" width="20%" >
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="./images/SSOC.jpg" width="22%" >
@@ -128,6 +131,31 @@ git push origin YourBranchName
 **10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 **11.** **Congratulations!** You've made your first contribution! 🙌🏼
+
+# How to Setup Locally 
+
+**1.** Follow the [PR STEPS](https://github.com/Vikash-8090-Yadav/Web3.0-World/edit/main/README.md#how-to-make-a-pull-request) , after   cloning repo in your local system 
+
+
+##  **2.**  Install Dependencies !!
+
+```
+npm install node 
+```
+
+
+ (i) if that project using Web3 , Truffle then follow this steps , -> [Truffle , web3 , Ganache ](https://web3js.readthedocs.io/en/v1.2.11/getting-started.html)
+ 
+ (ii) If using Hardhat , Ether -> https://hardhat.org/hardhat-runner/docs/getting-started#overview
+ 
+
+
+**3.** Hardhat Tutorial -> https://www.youtube.com/watch?v=FIiekfY6q7Y&t=1085s
+
+**4.** Web3 Tutorial -> https://www.youtube.com/watch?v=pZjQxs1piEk&list=PLgPmWS2dQHW9F8fRXzrFBtcrwE-uS8Qa5
+
+
+**4.** Congratulations 🙌🏼 , You have setup the Blockchain project  in your PC ,It's time to check the code and Raise a PR 
 
 </br>
 <p align = "center">
