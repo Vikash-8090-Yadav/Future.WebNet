@@ -1,0 +1,175 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* CSS Variables
+:root{
+    --navbar-height:59px;
+} */
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    bottom: 2px;
+    position: sticky;
+
+}
+
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   
+}
+/* Navigation Bar:Logo and image */
+#logo{
+margin: 21px 45px;
+}
+#logo img{
+    height: 49px;
+    margin: -15px -29px;
+}
+
+
+/* Navigation Bar:List styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#navbar ul li {
+  
+  list-style:none;
+  font-size: 1.3rem;
+
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+padding: 3px 22px;
+border-radius: 12px;
+text-decoration: none;
+  }
+
+  #navbar ul li a:hover {
+    color:black;
+background-color:white;
+
+  }
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+#home::before{
+    content: "";
+    background:url('vote.webp') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+#home h1{
+    color: rgb(15, 14, 14);
+    
+    text-align: left;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/* #home p{
+    color: rgb(240, 21, 21);
+    text-align: center;
+
+    font-size: 0.9rem;
+    font-family: 'Baloo Bhai 2', cursive;
+} */
+
+.btn-group button {
+    background-color:tomato; 
+    border: 1px solid white; 
+    color: rgb(9, 9, 9); 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; /* Float the buttons side by side */
+    padding: 4px 20px;
+    margin: 14px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    
+  }
+  .btn-group button:hover {
+    background-color: aqua;
+  }
+#res{
+	padding: 4px 20px;
+    border: 2px solid white;
+    background-color: #ffe345;
+    margin: 17px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+#res:hover{
+    background-color:rgb(7, 155, 108);
+}
+.Total-vote button{
+    background-color:grey; 
+    border: 1px solid white; 
+    color: rgb(9, 9, 9); 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; /* Float the buttons side by side*/
+    padding: 4px 20px;
+    margin: 14px;
+    border-radius: 7px;
+    font-size: 1.2rem; 
+} 
+.Total-vote button:hover{
+    background-color: white;
+    border:2px solid black;
+}
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+ #services .box{
+    border: 5px solid #feda0c;
+    padding: 31px;
+    margin: 12px;
+    border-radius: 17px;
+    background-color:  rgb(202, 200, 200);
+} 
+  #services .box img{
+
+    height: 160px; 
+    margin: auto;
+    display: block;
+
+  }
+  #services .box p{
+    font-family: 'Libre Baskerville', serif;
+  }
+.center{
+    text-align: center;
+}
