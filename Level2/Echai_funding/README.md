@@ -42,12 +42,17 @@ https://drive.google.com/drive/folders/1fM9g84aN4GYZfJp8QN-ps5xertshxx-V?usp=sha
 
 
 ## HOW TO RUN THIS PROJECT ON YOUR PC:
- steo 1: clone the repo
- step 2: install hardhat and react according to dosumentation.
- step 3: setup your own metamask walleet address and alchemy api key via .env file.
- step: test smart contract with already written test cases.
- step4: if you face any issue feel free to dm me GitHub = @DevSwayam
+ step 1: clone the repo.
  
+ step 2: install hardhat (link =https://hardhat.org/hardhat-runner/docs/getting-started#overview) and react (link= https://reactjs.org/docs/getting-started.html) package according to documentation.
+ 
+ step 3: setup your own metamask walleet address and alchemy api key via .env file.
+ 
+ step4: Deploy and test smart contract with already written test cases.
+ 
+ step5: After go to terminal and cd client and run your react app now your good to see transactions.
+  If you face any issue feel free to dm me GitHub = @DevSwayam
+
  
 #### Are you contributing under any open source program:
 Yes
