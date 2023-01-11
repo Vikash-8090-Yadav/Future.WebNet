@@ -18,11 +18,11 @@ all recieved funds get listed below for transparancy and past records.
 All can see total amount of funds Website owner holds.
 
 #### Text Stack used:
-[x] Solidity
-[x] Ethers
-[x] React
-[x] HardHat
-[x] remix
+✅ Solidity
+✅ Ethers
+✅ React
+✅ HardHat
+✅ remix
 
 
 ### UI Screenshot:
@@ -42,14 +42,15 @@ https://drive.google.com/drive/folders/1fM9g84aN4GYZfJp8QN-ps5xertshxx-V?usp=sha
 ## HOW TO RUN THIS PROJECT ON YOUR PC:
  step 1: clone the repo.
  
- step 2: install hardhat (link =https://hardhat.org/hardhat-runner/docs/getting-started#overview) and react (link= https://reactjs.org/docs/getting-started.html) package according to documentation.
+ step 2: install hardhat (link =https://hardhat.org/hardhat-runner/docs/getting-started#overview) and react (link= https://reactjs.org/docs/getting-started.html) package according to documentation. And install all dependies using npm install.
  
  step 3: setup your own metamask walleet address and alchemy api key via .env file.
  
  step4: Deploy and test smart contract with already written test cases.
  
  step5: After go to terminal and cd client and run your react app now your good to see transactions.
-  If you face any issue feel free to dm me GitHub = @DevSwayam
+ 
+
 
  
 #### Are you contributing under any open source program:
