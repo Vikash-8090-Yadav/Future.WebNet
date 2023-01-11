@@ -36,7 +36,7 @@ All can see total amount of funds Website owner holds.
 
 
 
-### drive link for refernce:
+### Drive link for refernce:
 https://drive.google.com/drive/folders/1fM9g84aN4GYZfJp8QN-ps5xertshxx-V?usp=share_link
 
 
