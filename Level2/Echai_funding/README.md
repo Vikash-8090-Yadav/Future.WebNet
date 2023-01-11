@@ -19,9 +19,13 @@ All can see total amount of funds Website owner holds.
 
 #### Text Stack used:
 ✅ Solidity
+
 ✅ Ethers
+
 ✅ React
+
 ✅ HardHat
+
 ✅ remix
 
 
