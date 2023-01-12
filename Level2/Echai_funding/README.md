@@ -45,7 +45,7 @@ All can see total amount of funds Website owner holds.
 git clone https://github.com/<your-github-username>/Web3.0-World
 ```
 
- step 2: Then go to my project directory usng cd Level2/Echai_funding
+ step 2: Then go to my project directory using cd Level2/Echai_funding
  
  
  step 3: Install Dependensies using 
