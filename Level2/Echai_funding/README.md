@@ -39,7 +39,9 @@ All can see total amount of funds Website owner holds.
 
 
 ## HOW TO RUN THIS PROJECT ON YOUR PC:
- step 1: clone the repo. Using ```bash
+ step 1: clone the repo. Using 
+ 
+ ```bash
 git clone https://github.com/<your-github-username>/Web3.0-World
 ```
 
@@ -73,9 +75,12 @@ If you face any issue you can refer to this documentation:
  
  step4: Deploy and test smart contract with already written test cases.
  
- step5: After go to terminal and cd client and run your react app using ```bash
+ step5: After go to terminal and cd client and run your react app using
+ ```bash
 npm start"
 ```
+
+
 now your good to see transactions.
  
 
