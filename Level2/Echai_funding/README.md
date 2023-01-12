@@ -36,23 +36,47 @@ All can see total amount of funds Website owner holds.
 
 
 
-### Drive link for refernce:
-https://drive.google.com/drive/folders/1fM9g84aN4GYZfJp8QN-ps5xertshxx-V?usp=share_link
-
-
-
 
 
 ## HOW TO RUN THIS PROJECT ON YOUR PC:
- step 1: clone the repo.
+ step 1: clone the repo. Using ```bash
+git clone https://github.com/<your-github-username>/Web3.0-World
+```
+
+ step 2: Then go to my project directory usng cd Level2/Echai_funding
  
- step 2: install hardhat (link =https://hardhat.org/hardhat-runner/docs/getting-started#overview) and react (link= https://reactjs.org/docs/getting-started.html) package according to documentation. And install all dependies using npm install.
  
- step 3: setup your own metamask walleet address and alchemy api key via .env file.
+ step 3: Install Dependensies using 
+ ```bash
+npm install --save-dev hardhat	
+```
+```bash
+npx hardhat (Basic javascript Project)
+```
+```bash
+npm install dotenv
+```
+```bash
+npm install --save-dev @nomicfoundation/hardhat-toolbox@^2.0.0
+```
+```bash
+npm install ethers
+```
+```bash
+npm install create-react-app-"client"
+```
+
+If you face any issue you can refer to this documentation:
+ install hardhat (link =https://hardhat.org/hardhat-runner/docs/getting-started#overview) and react (link= https://reactjs.org/docs/getting-started.html) package according to documentation. And install all dependies using npm install.
+ 
+ step 3: setup your own metamask wallet address and alchemy api key via .env file and import some test ether from faucet.
  
  step4: Deploy and test smart contract with already written test cases.
  
- step5: After go to terminal and cd client and run your react app now your good to see transactions.
+ step5: After go to terminal and cd client and run your react app using ```bash
+npm start"
+```
+now your good to see transactions.
  
 
 
