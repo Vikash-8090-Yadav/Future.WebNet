@@ -81,7 +81,6 @@ npm start"
 ```
 
 
-now your good to see transactions.
  
 
 
