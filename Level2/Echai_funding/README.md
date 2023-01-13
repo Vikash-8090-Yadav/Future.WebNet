@@ -94,8 +94,6 @@ npm start"
  
 
 
- 
-#### Are you contributing under any open source program:
-Yes
+
 
 
