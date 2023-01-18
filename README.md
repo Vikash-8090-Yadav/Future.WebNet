@@ -63,7 +63,7 @@ This repo will have web3 project which consist of the smart contract(backend) an
 **2.** Clone your forked repository:
 
 ```bash
-git clone https://github.com/<your-github-username>/Web3.O.World
+git clone https://github.com/<your-github-username>/Web3.0-World
 ```
 
 **3.** Navigate to the new project directory:
@@ -75,7 +75,7 @@ cd Web3.O.World
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/Vikash-8090-Yadav/Web3.O.World.git
+git remote add upstream https://github.com/Vikash-8090-Yadav/Web3.0-World
 ```
 
 **5.** Create a new branch:
