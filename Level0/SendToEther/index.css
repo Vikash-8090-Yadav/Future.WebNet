@@ -183,7 +183,9 @@ a {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  background-color: #1ed760;
+ background-image: url(https://thumbs.dreamstime.com/b/money-exchange-dollar-sign-icon-isolated-abstract-blue-background-illustration-design-money-exchange-dollar-sign-icon-abstract-167323838.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #main h1,
 #main label {
