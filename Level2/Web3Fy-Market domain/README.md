@@ -1,4 +1,4 @@
-# ETH Daddy 
+# Web3Fy 
 
 ## Technology Stack & Tools
 
