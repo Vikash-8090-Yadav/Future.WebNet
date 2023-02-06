@@ -32,9 +32,9 @@
 
 <div align="center">
 
-![Hack](https://user-images.githubusercontent.com/85225156/206849392-7d63a37e-1d91-4e34-865f-1ff80b80274e.png)
 
-  <img src="./images/logo.jpg" width="20%" >
+  <img src="./images/hacktoberfest.png" width="100%" >
+  <img src="./images/logo.png" width="20%" >
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="./images/SSOC.jpg" width="22%" >
 </div>
