@@ -67,6 +67,9 @@ https://user-images.githubusercontent.com/108119109/218824389-9703e501-3ea0-4191
 
 ---
 
+## Contribution
+You can update the UI of the pages and feel free to find issues and update them. 
+
 
 
 
