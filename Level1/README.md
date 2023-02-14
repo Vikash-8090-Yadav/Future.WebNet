@@ -14,7 +14,7 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 | 5. | [todo-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/todo-dapp) 
 
 # DataFeed
-## Introduction to Data Feed
+## Introduction to DataFeed
 ### Welcome to DataFeed, a revolutionary project that provides users with real-time, accurate, and reliable asset prices through Chainlink. Chainlink's technology expands the capabilities of smart contracts by providing access to real-world data and off-chain computation, while still maintaining the security and reliability guarantees of blockchain technology. By utilizing Chainlink's data feeds, DataFeed is able to provide users with access to accurate and up-to-date information on a wide range of assets, including popular pairs like ETH/USD and EUR/USD. Whether you're an investor, trader, or simply interested in the value of your assets, DataFeed is the perfect solution for accessing real-time market data.
 
 ### Data Feed Image
