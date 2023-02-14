@@ -48,7 +48,7 @@ https://user-images.githubusercontent.com/108119109/218821243-6a07d12f-b7dd-440a
 
 ---
 
-#Staking-dapp
+# Staking-dapp
 ## Introduction to Staking-dapp
 ### Welcome to the decentralized staking platform, a revolutionary project that allows users to participate in staking on a completely decentralized and secure network. With the decentralized staking platform, users can stake their cryptocurrency assets and earn rewards without having to rely on a centralized third-party service. This ensures that users have full control over their staked assets, with no need for a middleman. By utilizing the power of blockchain technology, the decentralized staking platform provides a transparent and secure staking experience, with all transactions recorded immutably on the blockchain. Whether you're new to staking or an experienced cryptocurrency user, the decentralized staking platform is the perfect solution for those seeking a secure and decentralized staking experience.
 
