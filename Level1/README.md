@@ -7,11 +7,11 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 | Sr. No | Name     | Description                |
 | :-------- | :------- | :------------------------- |
-| 1. | [DataFeed(https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/DataFeed) | Here you will find a login screen where user can sign in |
-| 2. | [MarketPlace](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/MarketPlace) | User can write their first contract |
-| 3. | [Twitter_Dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/Twitter_Dapp) | User can send the amount to other person |
-| 4. | [staking-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/staking-dapp) | A simple voting place where the votes will be counted |
-| 5. | [todo-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/todo-dapp) | A simple voting place where the votes will be counted |
+| 1. | [DataFeed(https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/DataFeed)
+| 2. | [MarketPlace](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/MarketPlace) 
+| 3. | [Twitter_Dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/Twitter_Dapp) 
+| 4. | [staking-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/staking-dapp) 
+| 5. | [todo-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/todo-dapp) 
 
 # DataFeed
 ## Introduction to Data Feed
