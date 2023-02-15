@@ -39,11 +39,8 @@
   <img src="./images/SSOC.jpg" width="22%" >
 </div>
 
-  <div align="center">
-  
-       ![iwoc](https://user-images.githubusercontent.com/108119109/219053014-7a59afab-a1f1-48c1-ad78-0d2fb6d5e66d.png)
-   
-</div>
+![iwoc](https://user-images.githubusercontent.com/108119109/219053014-7a59afab-a1f1-48c1-ad78-0d2fb6d5e66d.png)
+
 
 
  ---
