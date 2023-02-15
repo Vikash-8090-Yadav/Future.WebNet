@@ -52,12 +52,6 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 #### SS4 :
 ![Screenshot_20230121_012820](https://user-images.githubusercontent.com/99035115/213860563-664eb99d-7481-45d4-9223-1531cc35bf5a.png)
 
-### Video of working
-
-https://user-images.githubusercontent.com/99035115/213901986-acd820e1-a775-4163-9854-6bc68f166908.mp4
-
-https://user-images.githubusercontent.com/99035115/213901995-979d2452-98a7-4650-bb27-7a86dd2642e6.mp4
-
 ---
 
 # Echai_funding
@@ -68,28 +62,15 @@ https://user-images.githubusercontent.com/99035115/213901995-979d2452-98a7-4650-
 ### UI Screenshot:
 ![image](https://user-images.githubusercontent.com/99035115/211228412-0ada2e46-8723-446e-b927-8d4a6416bdd3.png)
 
-### Video of working :
-
-
-
-https://user-images.githubusercontent.com/99035115/212381196-1d1b9139-6b1a-4336-a041-19478614bc31.mp4
-
 ---
 
 # MetaNft_Minting
-### Video of working
-
-https://user-images.githubusercontent.com/85225156/177554198-2669d412-a64d-4289-a968-daa59d2c5401.mp4
 
 ---
 
 # NFT-MARKET-PLACE
-### Video of woring
-https://user-images.githubusercontent.com/95535448/192009084-beee4553-7427-467a-a05d-5f30972a10f9.mp4
 
 It took a while to store the nft into IPFS. End Result
-
-https://user-images.githubusercontent.com/95535448/192009214-5e391d94-cf04-4c2e-8075-3567e0935ccd.mp4
 
 ---
 
