@@ -32,7 +32,7 @@
 
 <div style="display: flex; align-items: center;">
   <img src="./images/hacktoberfest.png" width="100%">
-  <img src="./images/logo.png" width="100%">
+  <img src="./images/logo.png" width="20%">
   <span style="width: 30px;"></span>
   <img src="./images/SSOC.jpg" width="100%">
 </div>
