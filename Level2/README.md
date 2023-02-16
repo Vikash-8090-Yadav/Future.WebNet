@@ -22,17 +22,6 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ![Wallet Connect
 ](https://github.com/AyushPathak3011/Web3.0-World/blob/blogchain/Level2/Blogchain/src/images/Wallet%20Connect.png)
 
-#### Home Page
-![Home Page
-](https://github.com/AyushPathak3011/Web3.0-World/blob/blogchain/Level2/Blogchain/src/images/Home%20Page.png)
-
-### My Blogs
-![My Blog
-](https://github.com/AyushPathak3011/Web3.0-World/blob/blogchain/Level2/Blogchain/src/images/MyBlog.png)
-
-### Create Blog
-![Create Blog](https://github.com/AyushPathak3011/Web3.0-World/blob/blogchain/Level2/Blogchain/src/images/CreateBlog.png)
-
 ---
 
 # DDrive
@@ -42,15 +31,6 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ### UI Screenshot:
 #### SS1 :
 ![Screenshot_20230121_012524](https://user-images.githubusercontent.com/99035115/213860538-6c49b02c-02d9-476a-8af2-779534d1f20b.png)
-
-#### SS2 :
-![Screenshot_20230121_012541](https://user-images.githubusercontent.com/99035115/213860548-dba6cfac-67db-4090-98aa-ee497f35d3d9.png)
-
-#### SS3 :
-![Screenshot_20230121_012634](https://user-images.githubusercontent.com/99035115/213860557-12a3580a-381b-42c9-bbca-994af2b3377b.png)
-
-#### SS4 :
-![Screenshot_20230121_012820](https://user-images.githubusercontent.com/99035115/213860563-664eb99d-7481-45d4-9223-1531cc35bf5a.png)
 
 ---
 
@@ -83,8 +63,6 @@ It took a while to store the nft into IPFS. End Result
 
 
 ![sCwNstBujG](https://user-images.githubusercontent.com/94303484/213798284-9cf42002-c29c-4aba-9b67-f0048c7bace9.png)
-
-![chrome_p3r1imzITQ](https://user-images.githubusercontent.com/94303484/213798328-e3b9af7f-3c60-419b-b0b7-f9051b1f02ce.png)
 
 The project offers a unique and innovative way for users to buy and own their domain names
 
