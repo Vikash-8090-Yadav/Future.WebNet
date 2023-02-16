@@ -37,6 +37,7 @@
   <img src="./images/logo.png" width="20%" >
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="./images/SSOC.jpg" width="22%" >
+  <img src-"https://user-images.githubusercontent.com/85225156/218998600-b5817d71-6e3c-4fa8-a677-ea72d43d1ffb.png" width="" >
 </div>
 
 
