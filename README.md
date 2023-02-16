@@ -36,6 +36,7 @@
 <div align="center">
   <img src="./images/logo.png" width="20%">
 </div>
+<br>
 <div align = "center">
   <img src="./images/SSOC.jpg" width="22%">
 </div>
