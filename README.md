@@ -32,10 +32,14 @@
 
 <div style="display: flex; align-items: center;">
   <img src="./images/hacktoberfest.png" width="100%">
+  </div>
+<div align="center">
   <img src="./images/logo.png" width="20%">
   <span style="width: 30px;"></span>
 </div>
-  <img src="./images/SSOC.jpg" width="50%">
+<div align = "center">
+  <img src="./images/SSOC.jpg" width="22%">
+</div>
 
 ![iwoc](https://user-images.githubusercontent.com/108119109/219053014-7a59afab-a1f1-48c1-ad78-0d2fb6d5e66d.png)
 
