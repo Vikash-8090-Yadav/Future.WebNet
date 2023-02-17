@@ -38,14 +38,10 @@ Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ### Screenshots of New_Voting in Desktop
 
 ![image](https://user-images.githubusercontent.com/98798977/215267389-f4c34448-29b5-4675-a27f-8da4459fe24d.png)<br>
-![image](https://user-images.githubusercontent.com/98798977/215267422-75d6700f-8799-4f90-9f86-13f5eee2c9c3.png)<br>
-![image](https://user-images.githubusercontent.com/98798977/215267439-d0f464cd-3a56-46cc-a0f3-210594f8df62.png)
 
 ### Screenshots of New_Voting in Mobile
 ![image](https://user-images.githubusercontent.com/98798977/215267451-b6a9e5ee-0b71-4fd9-acd6-67914fc79663.png)<br>
-![image](https://user-images.githubusercontent.com/98798977/215267459-49726d20-8ca7-4d19-961f-cc44739328ff.png)<br>
-![image](https://user-images.githubusercontent.com/98798977/215267473-65357f99-00d6-4924-9362-3118063b5a53.png)<br>
-![image](https://user-images.githubusercontent.com/98798977/215267487-76bbb756-d259-4424-986f-5d99c3f94e8f.png)
+
 
 # SendtoEther
 ## Introduction to SendtoEther
