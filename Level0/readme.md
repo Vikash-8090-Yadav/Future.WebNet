@@ -39,10 +39,6 @@ Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 ![image](https://user-images.githubusercontent.com/98798977/215267389-f4c34448-29b5-4675-a27f-8da4459fe24d.png)<br>
 
-### Screenshots of New_Voting in Mobile
-![image](https://user-images.githubusercontent.com/98798977/215267451-b6a9e5ee-0b71-4fd9-acd6-67914fc79663.png)<br>
-
-
 # SendtoEther
 ## Introduction to SendtoEther
 ### Welcome to SendtoEther, here User can send the amount to other person
