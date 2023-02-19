@@ -1,15 +1,14 @@
 # <p align = "center"> CrowdFund (A decentralized full stack crowd funding application) </p>
 
+# <p align = "center"> Demo Video </p>
 
+## <p align = "center"> https://youtu.be/YY9O5XZm6ak </p>
 
 
 ## Description
 
-In this website a user can buy the registered domain name by giving certain amount of money and after the user buys the domain they will be given a NFT having the name of the domain on it, which they can view directly on opensea testnet. The user can also check their transaction hash, and view the transaction.
+In this crowd funding application one can create their own campaign by uploading the details and can list it in the smart contract, then the contributor can visit the campaign and contribute in it. Also the conributor will be getting an NFT if they donate more than a certain amount.
 
-## Problem it solves
-
-In general web2.0, if the organization is not trusted they can sell the same domain name to a number of user, and the user canot have any proof that this domain belongs them . In our decentralized application, after the domain name is bought their transaction is registered in the blockchain and also an NFT is provided as the proof.
 
 
 ## Technology Stack & Tools
@@ -18,7 +17,7 @@ In general web2.0, if the organization is not trusted they can sell the same dom
 - Javascript (React & Testing)
 - [Hardhat](https://hardhat.org/) (Development Framework)
 - [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
+- [Next.js](https://nextjs.org/) (Frontend Framework)
 
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
@@ -44,7 +43,10 @@ In a separate terminal execute:
 
 ## <p align = "center"> Added Screenshots </p>
 
+![chrome_VFZf3Lebnm](https://user-images.githubusercontent.com/94303484/219931490-218f2a80-5981-4c04-b82c-2175dce5c279.png)
 
-![sCwNstBujG](https://user-images.githubusercontent.com/94303484/213798284-9cf42002-c29c-4aba-9b67-f0048c7bace9.png)
+![chrome_FcX4rHfN2P](https://user-images.githubusercontent.com/94303484/219931500-b21bb2d5-9681-4e6e-91c8-73769fd0d968.png)
 
-![chrome_p3r1imzITQ](https://user-images.githubusercontent.com/94303484/213798328-e3b9af7f-3c60-419b-b0b7-f9051b1f02ce.png)
+![chrome_1efabn7xPd](https://user-images.githubusercontent.com/94303484/219931506-52df05ae-2616-43e6-bd45-2a647c47d337.png)
+
+![chrome_jamc69GC9d](https://user-images.githubusercontent.com/94303484/219931520-da329c33-c06f-4926-8cf0-a5c9b496e531.png)
