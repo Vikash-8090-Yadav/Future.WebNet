@@ -46,11 +46,13 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 # MetaNft_Minting
 
+![metanft](https://user-images.githubusercontent.com/108119109/220167969-c161b882-098c-4607-9ae0-bfd0995ea3aa.png)
+
 ---
 
 # NFT-MARKET-PLACE
 
-It took a while to store the nft into IPFS. End Result
+![nftnarket](https://user-images.githubusercontent.com/108119109/220168126-a17dc011-91ae-46f8-9082-566532ba8031.png)
 
 ---
 
