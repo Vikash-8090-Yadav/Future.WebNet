@@ -33,7 +33,10 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 # Twitter_Dapp
 ## Introduction to Twitter_Dapp
-### Welcome to Twitter_Dapp, a groundbreaking decentralized microblogging and social networking service built on the Polygon testnet chain. With Twitter_Dapp, users can post and interact with messages known as "tweets", and upload images to the blockchain, which are stored using the cutting-edge web3 storage and IPFS protocol-based platform system. This ensures that all tweets and images are securely stored and are immutable, giving users a truly decentralized and secure experience. Moreover, whenever a new user creates a profile on Twitter_Dapp, a random avatar is generated and assigned to their account, adding a fun and unique touch to the platform. With its fast and efficient transactions and secure, decentralized storage system, Twitter_Dapp is the perfect solution for those seeking a next-generation social networking experience.
+### Welcome to Twitter_Dapp, a groundbreaking decentralized microblogging and social networking service built on the Polygon testnet chain. With Twitter_Dapp, users can post and interact with messages known as "tweets", and upload images to the blockchain, which are stored using the cutting-edge web3 storage and IPFS protocol-based platform system. This ensures that all tweets and images are securely stored and are immutable, giving users a truly decentralized and secure experience. Moreover, whenever a new user creates a profile on Twitter_Dapp, a random avatar is generated and assigned to their account, adding a fun and unique touch to the platform. With its fast and efficient transactions and secure, decentralized storage system, Twitter_Dapp is the perfect solution for those seeking a next-generation social networking experience
+
+### Twitter_Dapp Image
+![twitter](https://user-images.githubusercontent.com/108119109/220172480-8980f3f8-84c4-4a05-b805-09ae0f18a698.png)
 
 ---
 
@@ -41,11 +44,17 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 ## Introduction to Staking-dapp
 ### Welcome to the decentralized staking platform, a revolutionary project that allows users to participate in staking on a completely decentralized and secure network. With the decentralized staking platform, users can stake their cryptocurrency assets and earn rewards without having to rely on a centralized third-party service. This ensures that users have full control over their staked assets, with no need for a middleman. By utilizing the power of blockchain technology, the decentralized staking platform provides a transparent and secure staking experience, with all transactions recorded immutably on the blockchain. Whether you're new to staking or an experienced cryptocurrency user, the decentralized staking platform is the perfect solution for those seeking a secure and decentralized staking experience.
 
+### Staking-dapp Image
+![staking](https://user-images.githubusercontent.com/108119109/220172549-1034421c-dec9-4550-aaf2-55f9707dc438.png)
+
 ---
 
 # todo-dapp
 ## Introduction to todo-dapp
 ### Welcome to the decentralized Todo application, a revolutionary project that allows users to create and manage their to-do lists on a completely decentralized and secure network. With the decentralized Todo application, users can create their to-do lists, set reminders, and mark off completed tasks, all without the need for a centralized service. This ensures that users have full control over their data, with no need to rely on third-party services. By utilizing the power of blockchain technology, the decentralized Todo application provides a transparent and secure to-do list management experience, with all data stored immutably on the blockchain. Whether you're a busy professional, a student, or just looking for a more secure way to manage your to-do list, the decentralized Todo application is the perfect solution for those seeking a secure and decentralized to-do list management experience.
+
+### todo-dapp Image
+![todo](https://user-images.githubusercontent.com/108119109/220172653-2b14f422-8a26-4da9-8c29-1125c148df92.png)
 
 ---
 
