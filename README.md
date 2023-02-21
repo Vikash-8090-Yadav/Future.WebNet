@@ -31,12 +31,9 @@
  ---
 
 <div align="center">
-
-
-  <img src="./images/hacktoberfest.png" width="100%" >
-  <img src="./images/logo.png" width="20%" >
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./images/SSOC.jpg" width="22%" >
+  <img src="./images/hacktoberfest.png" width="100%">
+  <img src="./images/logo.png" width="20%">
+  <img src="./images/SSOC.jpg" width="22%">
 </div>
 
 
