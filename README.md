@@ -33,7 +33,6 @@
 <div align="center">
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
-<br>
 <div align="center">
   <img src="./images/logo.png" width="20%">
 </div>
@@ -41,6 +40,9 @@
 <div align="center">
   <img src="./images/SSOC.jpg" width="22%">
 </div>
+
+![iwoc](https://user-images.githubusercontent.com/108119109/220409169-f5ca3def-ab92-4e3d-ac32-1d6aee97a5f1.png)
+
 
  ---
  
