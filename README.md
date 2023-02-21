@@ -44,8 +44,8 @@
 ![iwoc](https://user-images.githubusercontent.com/108119109/220409169-f5ca3def-ab92-4e3d-ac32-1d6aee97a5f1.png)
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="./images/swoc.png" width="30%">
-  <img src="./images/kwoc.jgp">
+  <img src="./images/swoc.png" width="50%">
+  <img src="./images/kwoc.jpg" width="50%">
 </div>
 
 
