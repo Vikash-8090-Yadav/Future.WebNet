@@ -45,7 +45,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="./images/swoc.png" width="70%">
-  <img src="./images/kwoc.jpg">
+  <img src="./images/kwoc.jpg" height="60%">
 </div>
 
 
