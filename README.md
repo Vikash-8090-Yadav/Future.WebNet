@@ -34,10 +34,10 @@
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
 <div>
-  <img src="./images/SSOC.jpg" width="20%">
-  <img src="./images/logo.png" width="20%">
-  <img src="./images/SWOC.png" width="20%">
-  <img src="./images/kwoc.jpg" width="20%">
+  <img src="./images/SSOC.jpg" width="22%">
+  <img src="./images/logo.png" width="22%">
+  <img src="./images/swoc.png" width="22%">
+  <img src="./images/kwoc.jpg" width="22%">
 </div>
 
 
