@@ -34,19 +34,12 @@
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
 <div align="center">
-  <img src="./images/logo.png" width="20%">
-</div>
-<br>
-<div align="center">
-  <img src="./images/SSOC.jpg" width="22%">
+  <img src="./images/SSOC.jpg" width="100%">
+  <img src="./images/logo.png" width="100%">
+  <img src="./images/SWOC.png" width="100%">
+  <img src="./images/kwoc.jpg" width="100%">
 </div>
 
-![iwoc](https://user-images.githubusercontent.com/108119109/220409169-f5ca3def-ab92-4e3d-ac32-1d6aee97a5f1.png)
-
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="./images/swoc.png" width="70%">
-  <img src="./images/kwoc.jpg" height="60%">
-</div>
 
 
  ---
