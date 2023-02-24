@@ -33,11 +33,11 @@
 <div align="center">
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
-<div align="center">
-  <img src="./images/SSOC.jpg" width="25%">
-  <img src="./images/logo.png" width="25%">
-  <img src="./images/SWOC.png" width="25%">
-  <img src="./images/kwoc.jpg" width="25%">
+<div>
+  <img src="./images/SSOC.jpg" width="20%">
+  <img src="./images/logo.png" width="20%">
+  <img src="./images/SWOC.png" width="20%">
+  <img src="./images/kwoc.jpg" width="20%">
 </div>
 
 
