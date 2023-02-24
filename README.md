@@ -35,8 +35,8 @@
 </div>
 <div>
   <img src="./images/swoc.png" width="27%">
-  <img src="./images/SSOC.jpg" width="24%">
-   <img src="./images/kwoc.jpg" width="22%">
+  <img src="./images/SSOC.jpg" width="25%">
+   <img src="./images/kwoc.jpg" width="25%">
    <img src="./images/logo.png" width="24%">
 </div>
 
