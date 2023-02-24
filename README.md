@@ -34,19 +34,16 @@
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
 <div>
-  <img src="./images/SSOC.jpg" width="24%">
-  <img src="./images/logo.png" width="24%">
   <img src="./images/swoc.png" width="27%">
-  <img src="./images/kwoc.jpg" width="22%">
+  <img src="./images/SSOC.jpg" width="24%">
+   <img src="./images/kwoc.jpg" width="22%">
+   <img src="./images/logo.png" width="24%">
 </div>
 
 <img src="./images/iwoc.png" width="100%">
 
-
-
- ---
+---
  
-
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
 This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
