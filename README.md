@@ -34,10 +34,10 @@
   <img src="./images/hacktoberfest.png" width="100%">
 </div>
 <div>
-  <img src="./images/swoc.png" width="27%" style="padding-right: 10px;">
-  <img src="./images/SSOC.jpg" width="22%" style="padding-right: 10px;">
-  <img src="./images/kwoc.jpg" width="24%" style="padding-right: 10px;">
-  <img src="./images/logo.png" width="22%" style="padding-right: 10px;">
+  <img src="./images/swoc.png" width="27%" style="margin-right: 10px;">
+  <img src="./images/SSOC.jpg" width="22%" style="margin-right: 10px;">
+  <img src="./images/kwoc.jpg" width="24%" style="margin-right: 10px;">
+  <img src="./images/logo.png" width="22%" style="margin-right: 10px;">
 </div>
 
 <img src="./images/iwoc.png" width="100%">
