@@ -48,6 +48,12 @@ The one place for the Web3  developer to showcase their ideas and code. Here web
 This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
  I welcome all the Web3,Web2 developer to contribute in this repo .
+ 
+---
+
+## Reach out our Complete Blog 
+     	🔗 https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world
+   
   
 ## How to Contribute?
 
