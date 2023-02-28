@@ -47,7 +47,13 @@
 The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
 This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
- I welcome all the Web3, Web2 developer to contribute in [this repo](https://github.com/Vikash-8090-Yadav/Web3.0-World) .
+
+<<<<<<< HEAD
+## Reach out our Complete Blog 
+     	[blog](https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world)
+   
+=======
+>>>>>>> 7abbd965b904e9835699bef2472948b74db5a627
   
 ## How to Contribute?
 
