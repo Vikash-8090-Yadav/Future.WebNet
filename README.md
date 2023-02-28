@@ -50,7 +50,7 @@ This repo will have web3 project which consist of the smart contract (backend) a
 ---
 
 ##  Blog 
-<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">BLOG🔗</a>
+<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Click here to reach Blog 🔗</a>
 
      	   
 ---
