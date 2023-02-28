@@ -31,21 +31,20 @@
  ---
 
 <div align="center">
-
-
-  <img src="./images/hacktoberfest.png" width="100%" >
-  <img src="./images/logo.png" width="20%" >
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./images/SSOC.jpg" width="22%" >
+  <img src="./images/hacktoberfest.png" width="100%">
+</div>
+<div>
+  <img src="./images/swoc.png" width="27%"> &nbsp; &nbsp;
+  <img src="./images/SSOC.jpg" width="22%"> &nbsp; 
+  <img src="./images/kwoc.jpg" width="20%"> &nbsp; &nbsp;
+  <img src="./images/logo.png" width="22%"> 
 </div>
 
+<img src="./images/iwoc.png" width="100%">
 
- ---
+---
  
 
-##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
-This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
  I welcome all the Web3, Web2 developer to contribute in [this repo](https://github.com/Vikash-8090-Yadav/Web3.0-World) .
   
