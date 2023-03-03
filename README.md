@@ -31,12 +31,17 @@
  ---
 
 <div align="center">
+<div>
+  <img src="./images/hacktoberfest.png" width="100%">
+</div>
+<div>
+  <img src="./images/swoc.png" width="27%"> &nbsp; &nbsp;
+  <img src="./images/SSOC.jpg" width="22%"> &nbsp; 
+  <img src="./images/kwoc.jpg" width="20%"> &nbsp; &nbsp;
+  <img src="./images/logo.png" width="22%"> 
+</div>
 
-
-  <img src="./images/hacktoberfest.png" width="100%" >
-  <img src="./images/logo.png" width="20%" >
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./images/SSOC.jpg" width="22%" >
+<img src="./images/iwoc.png" width="100%">
 </div>
 
 
