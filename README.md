@@ -31,12 +31,17 @@
  ---
 
 <div align="center">
+<div>
+  <img src="./images/hacktoberfest.png" width="100%">
+</div>
+<div>
+  <img src="./images/swoc.png" width="27%"> &nbsp; &nbsp;
+  <img src="./images/SSOC.jpg" width="22%"> &nbsp; 
+  <img src="./images/kwoc.jpg" width="20%"> &nbsp; &nbsp;
+  <img src="./images/logo.png" width="22%"> 
+</div>
 
-![Hack](https://user-images.githubusercontent.com/85225156/206849392-7d63a37e-1d91-4e34-865f-1ff80b80274e.png)
-
-  <img src="./images/logo.jpg" width="20%" >
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./images/SSOC.jpg" width="22%" >
+<img src="./images/iwoc.png" width="100%">
 </div>
 
 
@@ -44,16 +49,22 @@
  
 
 ##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e (Web2+smart contract) == Web3. 
-This repo will have web3 project which consist of the smart contract(backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
+The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
+This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
- I welcome all the Web3,Web2 developer to contribute in this repo .
+---
+
+##  Blog 
+<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Click here to reach Blog 🔗</a>
+
+     	   
+---
   
 ## How to Contribute?
 
-- Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues) 
+- Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues). 
 - Fork the Repo create a branch for any issue that you are working on and commit your work.
-- Create a ** [Pull Request](https://github.com/Vikash-8090-Yadav/Web3.0-World/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
+- Create a [**Pull Request**](https://github.com/Vikash-8090-Yadav/Web3.0-World/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
 
 ## How to make a Pull Request?
@@ -91,8 +102,8 @@ git switch YourBranchName
 
 **6.** Sync your fork or local repository with the origin repository:
 
-- In your forked repository click on "Fetch upstream"
-- Click "Fetch and merge".
+- In your forked repository click on `Fetch upstream`.
+- Click `Fetch and merge`.
 
 ### Alternatively, Git CLI way to Sync forked repository with origin repository:
 
@@ -134,35 +145,47 @@ git push origin YourBranchName
 
 # How to Setup Locally 
 
-**1.** Follow the [PR STEPS](https://github.com/Vikash-8090-Yadav/Web3.0-World/edit/main/README.md#how-to-make-a-pull-request) , after   cloning repo in your local system 
+## **1.** Follow the [PR STEPS](https://github.com/Vikash-8090-Yadav/Web3.0-World/edit/main/README.md#how-to-make-a-pull-request) , after   cloning repo in your local system 
 
 
-##  **2.**  Install Dependencies !!
+## **2.**  Install Dependencies !!
 
 ```
 npm install node 
 ```
 
 
- (i) if that project using Web3 , Truffle then follow this steps , -> [Truffle , web3 , Ganache ](https://web3js.readthedocs.io/en/v1.2.11/getting-started.html)
+ &nbsp; (i) If that project using Web3 , Truffle then follow this steps , -> Refer [Truffle , Web3 , Ganache ](https://web3js.readthedocs.io/en/v1.2.11/getting-started.html)
  
- (ii) If using Hardhat , Ether -> https://hardhat.org/hardhat-runner/docs/getting-started#overview
+ &nbsp; (ii) If using Hardhat , Ether -> Refer [Hardhat , Ether](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
  
 
 
-**3.** Hardhat Tutorial -> https://www.youtube.com/watch?v=FIiekfY6q7Y&t=1085s
+## **3.** Hardhat Tutorial -> https://www.youtube.com/watch?v=FIiekfY6q7Y&t=1085s
 
-**4.** Web3 Tutorial -> https://www.youtube.com/watch?v=pZjQxs1piEk&list=PLgPmWS2dQHW9F8fRXzrFBtcrwE-uS8Qa5
+## **4.** Web3 Tutorial -> https://www.youtube.com/watch?v=pZjQxs1piEk&list=PLgPmWS2dQHW9F8fRXzrFBtcrwE-uS8Qa5
 
 
-**4.** Congratulations 🙌🏼 , You have setup the Blockchain project  in your PC ,It's time to check the code and Raise a PR 
+## **5.** Congratulations 🙌🏼 , You have setup the Blockchain project in your PC, It's time to check the code and Raise a PR 
 
 </br>
 <p align = "center">
 Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> to this repo
 </p>
 
-### Project Contributors
+## Project Admin
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Vikash-8090-Yadav"><img src="https://avatars.githubusercontent.com/u/85225156?s=400&u=3363e9db42792ae40a18b3119c745930bb85cf47&v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Vikash Kumar Yadav</h4>
+<a href="https://www.linkedin.com/in/vikash-kumar-yadav-8090/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a>
+   </td>
+
+</tr>
+</table>
+
+## Project Contributors
+
 <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Vikash-8090-Yadav/Web3.0-World" />
 </a>
