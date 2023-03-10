@@ -1,0 +1,42 @@
+{
+    "name": "@types/cli-progress",
+    "version": "3.11.0",
+    "description": "TypeScript definitions for cli-progress",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cli-progress",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": " Mohamed Hegazy",
+            "url": "https://github.com/mhegazy",
+            "githubUsername": "mhegazy"
+        },
+        {
+            "name": "Álvaro Martínez",
+            "url": "https://github.com/alvaromartmart",
+            "githubUsername": "alvaromartmart"
+        },
+        {
+            "name": "Piotr Błażejewicz",
+            "url": "https://github.com/peterblazejewicz",
+            "githubUsername": "peterblazejewicz"
+        },
+        {
+            "name": "Marko Schilde",
+            "url": "https://github.com/mschilde",
+            "githubUsername": "mschilde"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/cli-progress"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "e288d01ff22a5d46bcc920c9cfe386f8235134916f43027f327b4b62f9c9a847",
+    "typeScriptVersion": "3.9"
+}
