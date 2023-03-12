@@ -16,3 +16,7 @@ Once forked, you can clone the repo by clicking the Clone or Download button on 
 
 After cloning the repository using the cd <folder-name> command.
 
+## Requirements for initial setup
+```node js
+npm install
+```
