@@ -20,3 +20,7 @@ After cloning the repository using the cd <folder-name> command.
 ```node js
 npm install
 ```
+## Run the app
+```node js
+npm run dev
+```
