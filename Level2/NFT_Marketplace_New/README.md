@@ -10,11 +10,11 @@ The tech stack and the platforms used in this project is
 6. Moralis 
 
 ## Fork and Clone the Repo
-First, you need to fork the Web3.0-World repo. You can do this by clicking the Fork button on the top right corner of the repo.
+First, you need to fork the Web3.0-World repo. You can do this by clicking the ```Fork button``` on the top right corner of the repo.
 
-Once forked, you can clone the repo by clicking the Clone or Download button on the top right corner of the forked repo.
+Once forked, you can clone the repo by clicking the ```Clone or Download``` button on the top right corner of the forked repo.
 
-After cloning the repository using the cd <folder-name> command.
+After cloning the repository using the cd ```<folder-name>``` command.
 
 ## Requirements for initial setup
 ```node js
