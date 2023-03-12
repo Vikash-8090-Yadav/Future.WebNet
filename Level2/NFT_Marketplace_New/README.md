@@ -24,3 +24,7 @@ npm install
 ```node js
 npm run dev
 ```
+## Screenshots
+![alt text][logo]
+
+[logo]: https://dochub.com/syedhussainsaber8/dPB1mkMKO5ZNe52wEOjyzD/screenshot-2023-03-12-at-10-27-23-am-png?dt=kf6oJsQH-xFshxWMXrrH "Logo Title Text 2"
