@@ -76,7 +76,7 @@ module.exports = {
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
             chainId: 80001,
-            blockConfirmations: 3,
+            blockConfirmations: 1,
             // from: signer.address,
             gasPrice: 8000000000,
             allowUnlimitedContractSize: true,

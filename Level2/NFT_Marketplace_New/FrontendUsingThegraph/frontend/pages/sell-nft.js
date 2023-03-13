@@ -8,11 +8,13 @@ import { useMoralis, useWeb3Contract } from "react-moralis"
 import nftAbi from "../constants/BasicNft.json"
 import marketPlaceAddress from "../constants/networkMapping.json"
 import nftMarketplaceAbi from "../constants/NftMarketplace.json"
+import { useState } from "react"
+
 export default function SellNFT() {
     const { chainId } = useMoralis()
     const chainString = chainId ? parseInt(chainId).toString() : null
     const nftMarketplaceAddress = chainId ? marketPlaceAddress[chainString].NftMarketplace[0] : null
-
+    const { account, isWeb3Enabled } = useMoralis
     const dispatch = useNotification()
     const { runContractFunction } = useWeb3Contract()
     async function approveAndList(data) {
@@ -30,6 +32,7 @@ export default function SellNFT() {
                 tokenId: tokenId,
             },
         }
+        console.log(nftAddress, tokenId, price)
 
         await runContractFunction({
             params: approveOptions,
@@ -64,6 +67,21 @@ export default function SellNFT() {
             title: "Item Listed",
             message: "Nft Listed, please refresh (and move blocks)",
             position: "topR",
+        })
+    }
+    const isOwner = true || null
+    const { proceeds, setProceeds } = useState("0")
+    async function handleWithdraw() {
+        const withdrawOptions = {
+            abi: nftMarketplaceAbi,
+            contractAddress: nftMarketplaceAddress,
+            functionName: "withdraw",
+            params: {},
+        }
+        await runContractFunction({
+            params: withdrawOptions,
+            onSuccess: () => setProceeds("0"),
+            onError: (error) => console.log(error),
         })
     }
 
@@ -105,6 +123,19 @@ export default function SellNFT() {
                         title="Sell NFT!"
                         id="Main Form"
                     />
+                    {isOwner ? (
+                        <div className="withdraw m-6">
+                            <button
+                                onClick={handleWithdraw}
+                                className="bg-green-300 font-serif cursor-pointer p-1 pr-2 rounded-sm border border-slate-600"
+                            >
+                                Withdraw
+                            </button>
+                            <h3 className="my-4">Total Amount : {proceeds}</h3>
+                        </div>
+                    ) : (
+                        console.log("Not owner")
+                    )}
                 </div>
             </main>
         </>

@@ -8,7 +8,10 @@ import GET_ACTIVE_ITEMS from "@/constants/subgraphData"
 import { useQuery } from "@apollo/client"
 import NFTBox from "@/Components/NFTBox"
 // console.log(storedData)
+import { useState } from "react"
+
 export default function Home() {
+    const [proceeds, setProceeds] = useState("0")
     const { isWeb3Enabled, chainId } = useMoralis()
     const chainString = chainId ? parseInt(chainId).toString() : null
     // const marketplaceAddress = networkMapping[chainString]["NftMarketplace"][0]
@@ -41,6 +44,7 @@ export default function Home() {
                                             tokenId={tokenId}
                                             nftAddress={nftAddress}
                                             seller={seller}
+                                            proceeds={proceeds}
                                             // key={`${nftAddress}${tokenId}`}
                                         />
                                     </div>

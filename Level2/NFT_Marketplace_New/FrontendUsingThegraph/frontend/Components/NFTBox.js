@@ -13,7 +13,7 @@ import marketPlaceAddress from "../constants/networkMapping.json"
 import Moralis from "moralis"
 
 // import { EvmChain } from "@moralisweb3/evm-utils"
-const NFTBox = ({ price, tokenId, nftAddress, seller }) => {
+const NFTBox = ({ price, tokenId, nftAddress, seller, proceeds }) => {
     const { chainId } = useMoralis()
     console.log(chainId)
     const chainString = chainId ? parseInt(chainId).toString() : null
@@ -80,6 +80,7 @@ const NFTBox = ({ price, tokenId, nftAddress, seller }) => {
             message: "Listng Bought, please refresh (and move blocks)",
             position: "topR",
         })
+        proceeds = ethers.formatUnits(price, "eth")
         // onClose && onClose()
         // setPriceToUpdateTheListing("0")
     }
