@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+var JsYaml = require("js-yaml");
+var Path = require("path");
+var Fs = require("fs");
+var CodegenConfig = require("../src/CodegenConfig.bs.js");
+require("graphql-import-node/register");
+
+var sourceDir = Path.dirname(CodegenConfig.graphManifest);
+var manifestString = Fs.readFileSync(CodegenConfig.graphManifest, "utf8");
+var manifest = JsYaml.load(manifestString);
+var schemaPath = manifest.schema.file;
+var absolutePathSchema = Path.resolve(sourceDir, schemaPath);
+var loadedGraphSchema = require(absolutePathSchema);
+var entityDefinitions = loadedGraphSchema.definitions;
+
+require("../src/Index.bs.js").run(
+  entityDefinitions,
+  CodegenConfig.codegenConfigPath,
+  CodegenConfig.outputEntityFilePath
+);
