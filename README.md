@@ -23,12 +23,15 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Web3.0-World)
  </p>
  </div>
+ <br>
+ <p align="center">
+   <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-the-World-of-Web3"/>
+</p>
+ 
  
  ## 📌 Open Source Program
 
  ### This project is a part of following Open Source Programs
-
- ---
 
 <div align="center">
 <div>
@@ -45,20 +48,16 @@
 </div>
 
 
- ---
- 
 
 ##  About Web3.O.World
 The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
 This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
 
----
 
 ##  Blog 
 <a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Click here to reach Blog 🔗</a>
 
-     	   
----
+
   
 ## How to Contribute?
 
