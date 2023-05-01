@@ -5,19 +5,45 @@ third-party developers, business partners, and internal departments within their
 
 ### How an API works?
 
-Let's take an exmaple of third party e-commerce site to understand this concept. 
+Let's take an example of third party e-commerce site to understand this concept. 
 - When the buyer clicks the payment button, an API calls to retrieve information—also known as a request. This request is processed from an application to the web server.
  
 - After receiving a valid request from the product webpage, the API makes a call to the external program or web server( in this case, the third-party payment system).
  
 -The server sends a response to the API with the requested information.
  
--The API transfers the data to the initial requesting application( here the product website).
+-The API transfers the data to the initial requesting application( here it is product website).
 
 You can also understand this concept  by taking an example of a servant in restaurant , as servants acts as an intermediate between customers and the chef just like that API's send 
 request to web server and then according to the request another web server responds.
 
 ###API benefits
-APIs simplify helps in design and development of new applications , services and integration or management of existing ones.
+APIs simply helps in design and development of new applications , services and integration or management of existing ones.
+
+###Types os API's :
+1) Hardware APIs
+Interface for software to talk to hardware.
+Example: How your phone's camera talks to the operating system. 
+
+2) Software Library APIs
+Interface for directly consuming code from another code base.
+Example: Using methods from a library you import into your application.
+
+3) Web APIs
+Interface for communicating across code bases over a network.
+Example: Fetching current stock prices from a finance API over the internet.
+
+Accessibility:
+APIs also vary in the scope of who can access them.
+
+Public APIs (aka Open APIs)
+Consumed by anyone who discovers the API
+
+Private APIs
+Consumed only within an organization and not made public
+
+Partner APIs
+Consumed between one or more organizations that have an established relationship.
+
 
 
