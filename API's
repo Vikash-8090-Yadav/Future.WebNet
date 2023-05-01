@@ -1,0 +1,23 @@
+##What is an API?
+API(application programming interface) is a is a set of defined rules that enable different applications to communicate with each other.
+It acts as an intermediate  layer that processes data transfers between systems, letting companies open their application data and functionality to external
+third-party developers, business partners, and internal departments within their companies.
+
+### How an API works?
+
+Let's take an exmaple of third party e-commerce site to understand this concept. 
+- When the buyer clicks the payment button, an API calls to retrieve information—also known as a request. This request is processed from an application to the web server.
+ 
+- After receiving a valid request from the product webpage, the API makes a call to the external program or web server( in this case, the third-party payment system).
+ 
+-The server sends a response to the API with the requested information.
+ 
+-The API transfers the data to the initial requesting application( here the product website).
+
+You can also understand this concept  by taking an example of a servant in restaurant , as servants acts as an intermediate between customers and the chef just like that API's send 
+request to web server and then according to the request another web server responds.
+
+###API benefits
+APIs simplify helps in design and development of new applications , services and integration or management of existing ones.
+
+
