@@ -1,0 +1,18 @@
+{
+  "name": "weave-chain-dapp",
+  "version": "1.0.0",
+  "description": "blockchain-based supplychain system for traditional weaving craft",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diky Wiraguna",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.10",
+    "dotenv": "^16.0.3"
+  }
+}
