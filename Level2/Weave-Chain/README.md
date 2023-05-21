@@ -51,7 +51,11 @@ step 6: Finally, You can run this project, using
  ```bash
 npm run dev 
 ```
-If there are any errors or bugs when you run this application, please contact me. You are also welcome to contribute to the development of this project to make it even better. Terimakasih (ThankYou)
+
+
+_If there are any errors or bugs when you run this application, please contact me. You are also welcome to contribute to the development of this project to make it even better._
+
+Terimakasih (ThankYou)
  
 
 
