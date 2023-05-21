@@ -33,11 +33,13 @@ https://github.com/Raguna9/Future.WebNet/assets/62635335/fb3eb6a5-7d18-485d-b7d9
 git clone https://github.com/<your-github-username>/Future.WebNet
 ```
  step 2: Then go to this project directory using cd Level2/weave-chain
+ 
  step 3: Install Dependencies in root Directories
  ```bash
 npm install 
 ```
 step 4: Setup your Ganache or you can use testnet by configuring it in truffle-config.js
+
 step 5: Go to Client Folder and Install Client Dependencies
  ```bash
  cd client
