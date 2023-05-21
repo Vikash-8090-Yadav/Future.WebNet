@@ -26,4 +26,29 @@ WeaveChain is an application for managing the supply chain of handwoven crafts (
 **Video Short Demo :**
 https://github.com/Raguna9/Future.WebNet/assets/62635335/fb3eb6a5-7d18-485d-b7d9-a54a59386302
 
+**How To Run This Project :**
+ step 1: clone this repo 
+ ```bash
+git clone https://github.com/<your-github-username>/Future.WebNet
+```
+ step 2: Then go to this project directory using cd Level2/weave-chain
+ step 3: Install Dependencies in root Directories
+ ```bash
+npm install 
+```
+step 4: Setup your Ganache or you can use testnet by configuring it in truffle-config.js
+step 5: Go to Client Folder and Install Client Dependencies
+ ```bash
+ cd client
+```
+ ```bash
+npm install 
+```
+step 6: Finally, You can run this project, using
+ ```bash
+npm run dev 
+```
+If there are any errors or bugs when you run this application, please contact me. You are also welcome to contribute to the development of this project to make it even better. Terimakasih (ThankYou)
+ 
+
 
