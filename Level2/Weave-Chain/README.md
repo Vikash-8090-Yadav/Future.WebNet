@@ -24,7 +24,8 @@ WeaveChain is an application for managing the supply chain of handwoven crafts (
 ![ss5](https://github.com/Raguna9/Future.WebNet/assets/62635335/a9650ff5-d376-42f4-81cd-7d49e7f20dcc)
 
 **Video Short Demo :**
-https://github.com/Raguna9/Future.WebNet/assets/62635335/fb3eb6a5-7d18-485d-b7d9-a54a59386302
+https://github.com/Raguna9/web3-world/assets/62635335/d6674cf7-f3b4-4ced-bbb7-0a20d8ce9dfb
+
 
 **How To Run This Project :**
  
