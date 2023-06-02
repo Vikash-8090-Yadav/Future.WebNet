@@ -67,6 +67,9 @@ The Truffle Suite also includes **Ganache**, which helps in testing Solidity con
 
 ### Conclusion 
 **Web3 has the potential to change the world**, The developments in the world of web3 have proved how successful web3 will be in the future. Most important of all, the assurance of decentralization, data privacy, and control over digital identities can also serve as crucial advantages for internet users. Soon the concept of decentralizaion will applied to everything from banking to social media , from E- voting to charity all these things may be decentralized in the future. 
+Web 3.0 is a mindset. It is a different way of thinking and building businesses, Time will tell which of these technologies will rule the Web, but Web 3.0 is almost here, and it's coming in a big way. One thing is for sure - with all this innovation and development, security (data, web, and everything else) is going to be a major problem. That means that there is going to be a huge need for security experts and security-related systems.
+
+
 
 ### Reference 
 - https://www.quicknode.com/guides/web3-sdks/the-web3-developer-stack
@@ -74,3 +77,7 @@ The Truffle Suite also includes **Ganache**, which helps in testing Solidity con
 - https://medium.com/coinmonks/solidity-and-object-oriented-programming-oop-191f8deb8316
 - https://moralis.io/
 - https://coinsbench.com/which-is-best-hardhat-or-truffle-86ea1fcb7f4f
+- https://101blockchains.com/flash-cards/web3/
+- https://www.forbes.com/sites/forbestechcouncil/2022/12/15/what-to-consider-for-web3-development/
+- https://docs.near.org/concepts/web3/intro
+- https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application
