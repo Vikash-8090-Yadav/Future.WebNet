@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <link rel="icon" href="favicon.ico?" type="image/x-icon">
+	<!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+
+</head>
+<body>
+
+	<div class="info">
+		<p>2048</p>
+
+		<div id="container">
+			<div class="btn" id="score">Score<br>0</div>
+			<div class="btn" id="highscore">Best<br>0</div>
+			<button class="btn" id="newGame">New Game</button>
+		</div>
+
+		<div id="size">
+			<strong>Size: </strong>
+			<input type="number" id="inputSize" value="4" min="2" max="10">
+			<input type="button" id="sizeBtn" value="GO!">
+			<br>
+			<!-- <strong>Play 2048 Game !!</strong> -->
+			<!-- <br> -->
+			<div>
+				Join the numbers and get to the <strong>2048 tile!</strong>	
+			</div>
+		</div>
+
+		<div id="container2">
+			<div id="gameEnd" id="hide">
+				<strong>Game Over!!</strong>
+				<!-- <br> -->
+				<!-- <input type="button" id="tryAgain" value="Try Again!"> -->
+				<!-- <button id="tryAgain" ><strong>Try Again</strong></button> -->
+			</div>
+		</div>
+
+		<div id="canvasBlock">
+			<canvas id="canvas" width="500" height="500"></canvas>
+		</div>
+		
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
