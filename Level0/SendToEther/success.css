@@ -78,7 +78,19 @@ body {
     background-image: url("bg.jpg"); /* Replace "background.jpg" with your desired image */
     background-size: cover;
     background-position: center;
+    animation: fadeIn 1s ease-in-out;
     /* box-shadow: 0px 0px 20px #eee5e7; */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .content {
@@ -92,6 +104,18 @@ body {
 h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    animation: scaleIn 0.8s ease-in-out;
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 p {
