@@ -256,3 +256,55 @@ a {
   letter-spacing: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+
+#form {
+  min-height: 65vh;
+  margin: 10px auto;
+  width: 100%;
+  min-width: 240px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4em 1em;
+  background: #fffcff;
+  box-shadow: 0px 0px 20px #eee5e7;
+  border-radius: 40px;
+}
+
+.form-heading{
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #360153;
+  padding-bottom: 10px;
+}
+
+.main label {
+  font-weight: 700;
+  font-size: 20px;
+  color: #360153;
+  padding-bottom: 10px;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+.input {
+  width: 100%;
+  padding: 1em 0.5em;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+  /* border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px; */
+}
