@@ -308,3 +308,52 @@ a {
   /* border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px; */
 }
+
+
+
+/* .input:focus, */
+.input:hover {
+  border: 2px solid #3a0259;
+  border-left: 4px solid black;
+}
+
+.input:active,
+.input:focus {
+  border-left: 4px solid black;
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 2.8em;
+  justify-self: flex-end;
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+.button-group #send{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-group > .button {
+  border: none;
+  padding: 1em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  width: fit-content;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  background: linear-gradient(to right,#750cad, #2d064b);
+  color: #fff;
+  transition: transform 0.2s linear;
+}
+
+.button:hover {
+  transform: scale(1.04);
+  border-color: rgba(0, 128, 0, 0.205);
+  background: linear-gradient(to right,#2d064b, #750cad);
+}
