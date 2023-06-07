@@ -31,9 +31,9 @@
 
 <br>
 
-![image](../../screenshots/Screenshot0.png)
-![image](../../screenshots/Screenshot1.png)
-![image](../../screenshots/Screenshot2.png)
+![image](./screenshots/Screenshot0.png)
+![image](./screenshots/Screenshot1.png)
+![image](./screenshots/Screenshot2.png)
 
 <br>
 
