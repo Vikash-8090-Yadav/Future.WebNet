@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", "Sora", "Segoe UI Variable", -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: grayscale;
+  
+}
+
+body {
+    background-color: #2C1445;
+    font-family: "Eudoxus Sans", "san-serif";
+    color: #FFF;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    /* background-color: #222; */
+    background: linear-gradient(to right, #3a0259, #19002c);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .navbar a:hover {
+    color: #01ffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .navbar .brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar .right-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+  }
+  
+  .navbar .right-links a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .navbar-toggler {
+    background-color: #fff;
+    border-color: #fff;
+    color: #212529;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("bg.jpg"); /* Replace "background.jpg" with your desired image */
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 1s ease-in-out;
+    /* box-shadow: 0px 0px 20px #eee5e7; */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    max-width: 600px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #eee5e7;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    animation: scaleIn 0.8s ease-in-out;
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
