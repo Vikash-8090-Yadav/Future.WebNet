@@ -273,7 +273,8 @@ margin: 15px 29px;
 #res{
 	padding: 4px 20px;
     border: 2px solid white;
-    background-color: #ffe345;
+    background: linear-gradient(180deg, #40128B , #9336B4);
+  color: #fff;
     margin: 17px;
     border-radius: 7px;
     font-size: 1.2rem;
@@ -281,10 +282,12 @@ margin: 15px 29px;
     cursor: pointer;
 }
 #res:hover{
-    background-color:rgb(7, 155, 108);
+  background: linear-gradient(360deg, #40128B , #9336B4);
+  color: #fff;
 }
 .Total-vote button{
-    background-color:grey; 
+  background: linear-gradient(to left, #62CDFF , #97DEFF);
+  color: #fff;
     border: 1px solid white; 
     color: rgb(9, 9, 9); 
     padding: 10px 24px; 
