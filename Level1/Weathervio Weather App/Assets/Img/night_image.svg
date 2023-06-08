@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="383" viewBox="0 0 500 383">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.516" y1="0.93" x2="0.512" y2="0.269" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#0c0d43"/>
+    </linearGradient>
+  </defs>
+  <g id="night_image" data-name="night image" transform="translate(-678 -214)">
+    <path id="Intersection_1" data-name="Intersection 1" d="M74,405V64a42,42,0,0,1,42-42H532a42,42,0,0,1,42,42V405Z" transform="translate(604 192)" fill="url(#linear-gradient)"/>
+    <g id="cloud2" transform="translate(259 38)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="161" height="66" rx="33" transform="translate(461 301)" fill="#56567c"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="38" cy="37.5" rx="38" ry="37.5" transform="translate(466 253)" fill="#56567c"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="38" cy="37.5" rx="38" ry="37.5" transform="translate(518 278)" fill="#56567c"/>
+    </g>
+    <g id="cloud2-2" data-name="cloud2" transform="translate(584 36)">
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" width="123" height="50" rx="25" transform="translate(461 290)" fill="#56567c"/>
+      <ellipse id="Ellipse_5-2" data-name="Ellipse 5" cx="29" cy="28.5" rx="29" ry="28.5" transform="translate(465 253)" fill="#56567c"/>
+      <ellipse id="Ellipse_6-2" data-name="Ellipse 6" cx="29" cy="28.5" rx="29" ry="28.5" transform="translate(505 272)" fill="#56567c"/>
+    </g>
+    <g id="moon" transform="translate(-222 58)">
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M75,194A75,75,0,1,1,75,44a75.9,75.9,0,0,1,11.308.847A74.455,74.455,0,0,0,80,75c0,36.785,27.382,68.664,63.692,74.154A75.022,75.022,0,0,1,75,194Z" transform="translate(978 199)" fill="#fff598"/>
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M75,162A74.938,74.938,0,0,1,0,87a75.035,75.035,0,0,1,30.994-60.74A75,75,0,0,0,132.005,135.74,75.259,75.259,0,0,1,106.9,154.9a74.6,74.6,0,0,1-15.3,5.26A75.434,75.434,0,0,1,75,162Z" transform="translate(978 231)" fill="#e3d873"/>
+    </g>
+    <path id="Intersection_2" data-name="Intersection 2" d="M52,164V39.241A41.536,41.536,0,0,1,87.555,69.606a41.54,41.54,0,0,1,55.476,22.451A36,36,0,0,1,141,164Z" transform="translate(626 295)" fill="#56567c"/>
+  </g>
+</svg>
