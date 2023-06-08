@@ -48,7 +48,7 @@ margin: 15px 29px;
     width: 1000vh;
     padding-top: 3px;
     padding-bottom: 3px;
-    background: linear-gradient(to right, #27374D, #526D82);
+    background: linear-gradient(360deg, #27374D, #526D82);
     /* background-color: #333; */
     overflow: hidden;
   }
