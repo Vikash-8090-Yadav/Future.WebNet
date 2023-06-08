@@ -14,30 +14,30 @@ html{
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
-    top: 0px;
-    bottom: 2px;
+    /* position: relative; */
     position: sticky;
+    top: 0px;
+    z-index: 999;
+    /* bottom: 0px; */
 
 }
 
-
 #navbar::before{
     content: "";
-    background-color: black;
+    background: linear-gradient(to right, #27374D, #526D82);
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.4;
+    /* opacity: 0.4; */
    
 }
 /* Navigation Bar:Logo and image */
 #logo{
-margin: 21px 45px;
+margin: 15px 29px;
 }
 #logo img{
-    height: 49px;
+    height: 59px;
     margin: -15px -29px;
 }
 
@@ -45,7 +45,11 @@ margin: 21px 45px;
 /* Navigation Bar:List styling */
 
 .topnav {
-    background-color: #333;
+    width: 1000vh;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: linear-gradient(to right, #27374D, #526D82);
+    /* background-color: #333; */
     overflow: hidden;
   }
   
@@ -67,10 +71,10 @@ margin: 21px 45px;
   }
   
   /* Add an active class to highlight the current page */
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+  } */
   
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
@@ -78,7 +82,10 @@ margin: 21px 45px;
   }
 
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child){
+      display: none;
+    }
+    
     .topnav a.icon {
       float: right;
       display: block;
@@ -99,13 +106,18 @@ margin: 21px 45px;
       text-align: left;
     }
   }
+
+
+
 /*slider*/
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    height: 200px;
   }
+  
   
   /* Hide the images by default */
   .mySlides {
@@ -171,9 +183,9 @@ margin: 21px 45px;
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
+  /* .active, .dot:hover {
     background-color: #717171;
-  }
+  } */
   
   /* Fading animation */
   .fade {
