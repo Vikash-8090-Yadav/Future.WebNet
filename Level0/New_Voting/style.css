@@ -10,6 +10,7 @@ html{
 :root{
     --navbar-height:59px;
 } */
+
 /* Navigation Bar */
 #navbar{
     display: flex;
@@ -116,6 +117,7 @@ margin: 15px 29px;
     position: relative;
     margin: auto;
     height: 200px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
   }
   
   
@@ -199,10 +201,11 @@ margin: 15px 29px;
   }
 /* Home section */
 #home{
+  background: linear-gradient(180deg, #545B77, #9DB2BF);
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 650px;
+    padding: 3px 100px;
+    height: 545px;
     justify-content: center;
     align-items: center;
     margin-bottom: 34px;
@@ -218,7 +221,6 @@ margin: 15px 29px;
 }
 #home h1{
     color: rgb(15, 14, 14);
-    
     text-align: left;
     font-family: 'Baloo Bhai 2', cursive;
 }
@@ -278,10 +280,12 @@ margin: 15px 29px;
 #services{
     margin: 34px;
     display: flex;
+    background: linear-gradient(180deg, #545B77, #9DB2BF);
+    border-radius: 20px;
 
 }
  #services .box{
-    border: 5px solid #feda0c;
+    border: 5px solid #526D82;
     padding: 31px;
     margin: 12px;
     border-radius: 17px;
