@@ -19,6 +19,7 @@ html{
     position: sticky;
     top: 0px;
     z-index: 999;
+    animation: scaleIn 0.8s ease-in-out;
     /* bottom: 0px; */
 
 }
@@ -117,12 +118,14 @@ margin: 15px 29px;
     position: relative;
     margin: auto;
     height: 200px;
+    animation: scaleIn 0.8s ease-in-out;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
   }
   
   
   /* Hide the images by default */
   .mySlides {
+    
     display: none;
   }
   
@@ -365,7 +368,7 @@ margin: 15px 29px;
 h1 {
   font-size: 50px;
   margin-bottom: 20px;
-  animation: scaleIn 0.8s ease-in-out;
+  animation: fadeIn 0.8s ease-in-out;
   text-align: center;
 }
 
