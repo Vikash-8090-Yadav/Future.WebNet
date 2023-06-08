@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathervio</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="stle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="title">Weathervio</h1>
+        <form class="search-location">
+            <input type="text" name="city" autocomplete="off" placeholder="Enter Your City" 
+            class="form-control text-muted form-rounded p-4 shadow-sm">
+        </form>
+
+        <div class="card rounded my-3 shadow-lg d-none back-card">
+            <div class="card-top text-center">
+                <div class="city-name my-3">
+                    <p>Mathura</p>
+                    <span>...</span>
+                </div>
+                <img src="Assets/night_image.svg" alt="" class="card-img-top time">
+            </div>
+
+            <div class="card-body">
+                <div class="card-mid row">
+                    <div class="col-8 text-center temp">
+                        <span>30&deg;C</span>
+                    </div>
+                    <div class="col-4 condition-temp">
+                        <p class="condition">Thunder Storm</p>
+                        <p class="high">30&deg;C</p>
+                        <p class="low">26&deg;C</p>
+                    </div>
+                </div>
+
+                <div class="icon-container card shadow mx-auto">
+                    <img src="Assets/cloud.svg" alt="">
+                </div>
+             <div class="card-bottom px-5 py-4 row">
+                <div class="col text-center">
+                    <p>27&deg;</p>
+                    <span>Feels Like</span>
+                </div>
+                <div class="col text-center">
+                    <p>48%</p>
+                    <span>Humidity</span>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="social">
+            <a href="https://instagram.com/_venerable_vivek_chaudhary_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@Coderbtechwala/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/venerablevivek" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/Venerablevintagevivek/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Vivek Chaudhary @2022
+        </p>
+    </section>
+    
+    <script src="request.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
