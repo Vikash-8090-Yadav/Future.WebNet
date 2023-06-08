@@ -158,18 +158,18 @@
         <button id="">Candidate 2  ✋ </button>
       </div>
       <div class="btn-group" style="opacity: 0.9;">
-        <button id="btn1">VOTE</button>
-        <button id="btn2">VOTE</button>
+        <button id="btn1" onclick="castVote(1)">VOTE</button>
+        <button id="btn2" onclick="castVote(2)">VOTE</button>
       </div>
       <div>
-        <button id="res">RESULT</button>
+        <button id="res" onclick="showWinner()">RESULT</button>
       </div>
 
       <!-- <button class="btn">Vote</button>
 		<button class="btn">Vote Now</button> -->
       <div class="Total-vote">
-        <button id="vote1">Total votes for 🙏 </button>
-        <button id="vote2">Total votes for ✋ </button>
+        <button id="vote1" onmouseover="showVoteCount(1)">Total votes for 🙏 </button>
+        <button id="vote2" onmouseover="showVoteCount(2)">Total votes for ✋ </button>
       </div>
     </section>
     <section

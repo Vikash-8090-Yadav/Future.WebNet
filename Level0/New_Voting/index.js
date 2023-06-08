@@ -1,3 +1,39 @@
+let voteCounts = [0, 0];
+
+  function castVote(voteIndex) {
+    voteCounts[voteIndex - 1]++;
+  }
+
+  function showVoteCount(voteIndex) {
+    const voteButton = document.getElementById(`vote${voteIndex}`);
+    voteButton.innerHTML = `Total votes for ${voteIndex === 1 ? '🙏' : '✋'}: ${voteCounts[voteIndex - 1]}`;
+  }
+
+  function showResults() {
+    const vote1Button = document.getElementById('vote1');
+    const vote2Button = document.getElementById('vote2');
+    vote1Button.innerHTML = `Total votes for 🙏: ${voteCounts[0]}`;
+    vote2Button.innerHTML = `Total votes for ✋: ${voteCounts[1]}`;
+  }
+
+  function showWinner() {
+    // Determine the winner based on the vote counts
+    let winner = voteCounts[0] > voteCounts[1] ? '🙏' : '✋';
+
+    // Redirect to result.html and pass the winner as a query parameter
+    let url = `result.html?winner=${encodeURIComponent(winner)}`;
+  window.location.href = url;
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const winner = urlParams.get('winner');
+
+  const winnerElement = document.getElementById('winner');
+  winnerElement.textContent = `The winner is: ${winner}`;
+});
+
+
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
