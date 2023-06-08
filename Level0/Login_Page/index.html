@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <script defer  src="mouse.js"></script>
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Login page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="index.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
-</head>
+  <body>
+    <div id="loader-img">
+      <img class="loader" src="./Images/MetaMask.gif" alt="" srcset="">
+    </div>
+    <div class="body__form" id="animation__body">
+      <div>
+        <h3 id="add">NO ACCOUNT SINGIN CURRENTLY...</h3>
+      </div>
+      <div class="log__in__page">
+        <div class="svg__img">
+          <!-- <img class="svg__size" src="./Images/metamask.png" alt="" srcset="" /> -->
+          <model-viewer
+            class="svg__size"
+            loading="lazy"
+            src="./Images/Fox Head.glb"
+            camera-controls
+            auto-rotate
+          ></model-viewer>
+        </div>
+        <div class="welcome__back">Welcome Back!</div>
+        <form action="" method="post" class="form__password">
+          <!-- <label for="password">Password</label> -->
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+            
+          />
+          <button class="button__wallet">Connect You Wallet</button>
+          
+          <a class="restore__link" href="http://">Restore account?</a>
+        </form>
+        <!-- <model-viewer src="./Images/Fox Head.glb" camera-controls auto-rotate></model-viewer> -->
 
-<body>
-  <div>
-    <h3 id="add">NO ACCOUNT SINGIN CURRENTLY...</h3>
-  </div>
-  <div>
-    <img id="meta-img" src="./Images/meta.gif" />
+        <!-- <img id="meta-img" src="./Images/meta.gif" />
     <button id="btn" class="btn btn-info">Connect Wallet</button>
-    <!-- <br /><br /><br /> -->
-    <h3 id="cnf"></h3>
-  </div>
-</body>
-
+    <br /><br /><br /> -->
+        <h3 id="cnf"></h3>
+      </div>
+    </div>
+  </body>
 </html>
