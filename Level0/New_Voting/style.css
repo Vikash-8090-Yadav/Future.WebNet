@@ -232,22 +232,44 @@ margin: 15px 29px;
     font-family: 'Baloo Bhai 2', cursive;
 } */
 
+.candid-name button {
+  width: 150px;
+  height: 80px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #E6FFFD, #AEE2FF);
+  color: #40128B;
+  font-size: 26px;
+  margin-right: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+
+
 .btn-group button {
-    background-color:tomato; 
+    background: linear-gradient(to right, #4942E4, #8696FE);
     border: 1px solid white; 
-    color: rgb(9, 9, 9); 
+    color: #fff; 
     padding: 10px 24px; 
     cursor: pointer; 
     float: left; /* Float the buttons side by side */
     padding: 4px 20px;
-    margin: 14px;
+    margin-top: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
     border-radius: 7px;
     font-size: 1.2rem;
     
   }
+  
   .btn-group button:hover {
-    background-color: aqua;
+    opacity: 1;
+    background: linear-gradient(to left, #4942E4, #8696FE);
+    color: #fff;
+    font-weight: bold;
   }
+  
 #res{
 	padding: 4px 20px;
     border: 2px solid white;
@@ -304,7 +326,7 @@ margin: 15px 29px;
 .center{
     text-align: center;
 }
-
+  
 
 /*Responsive*/
 
