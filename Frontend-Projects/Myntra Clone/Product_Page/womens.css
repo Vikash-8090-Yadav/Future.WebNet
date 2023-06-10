@@ -1,0 +1,118 @@
+#text {
+    /* border: 2px solid teal; */
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    color: #7e818c;
+    margin-top: 80px;
+  }
+  #text div> h4{
+    text-align: center;
+    color: #5e606c;
+    font-size: 16px;
+  }
+  #text >div p,li{
+    /* background-color: red; */
+    /* font-size: 13.5px; */
+  }
+  .heading{
+    font-size: 21px;
+    color: #7e818c;
+  }
+  #text div:first-child {
+    width: 90%;
+    margin: auto;
+    margin-right: 10px;
+  }
+  #text div:nth-child(2) {
+    margin-left: 10px;
+  }
+  td {
+    line-height: normal;
+    font-size: 13px;
+  
+  }
+  
+  #bottom {
+    /* border: 2px solid teal; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 75%;
+    margin: auto;
+    font-size: 15px;
+    color: #696b79;
+    gap: 0px 50px;
+    font-size: 14px;
+  }
+  #bottom div:nth-child(3) #store img {
+    
+    height: 42px;
+    cursor: pointer;
+  }
+  #bottom div:nth-child(4) div {
+    display: flex;
+  }
+  #bottom div:nth-child(3) #socialmedialogo img {
+    width: 28px;
+    height: 20px;
+    /* border: 1px solid black; */
+  }
+  #popularSearch {
+    width: 75%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 14px;
+    color: #696b79;
+  }
+  #last {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  #last span {
+    color: #526cd0;
+    font-size: 17px;
+    font-weight: 900;
+  }
+  
+  
+  
+  
+  #bottom{
+    cursor: pointer;
+  }
+  #bottom h5{
+    /* border: 2px solid teal; */
+    color: black;
+    margin-bottom: 40px;
+  }
+  #bottom >div:nth-child(4){
+    /* border: 2px solid teal; */
+    width: 24%;
+    margin-top: 20px;
+    color: black;
+  }
+  #bottom >div:nth-child(4) span{
+    /* border: 2px solid teal; */
+    font-size: 14px;
+  }
+  #bottom >div:nth-child(4) img{
+    /* border: 2px solid teal; */
+    width: 20%;
+    height: 20%;
+    margin-right: 10px;
+  }
+  #bottom >div:nth-child(4) p{
+     
+    margin: auto;
+  
+  }
+  #bottom p{
+    
+    margin-top: -12px;
+  }
+  #last p{
+    color:#94969f
+  }
