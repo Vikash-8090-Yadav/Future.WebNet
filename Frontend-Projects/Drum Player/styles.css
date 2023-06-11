@@ -7,15 +7,25 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  color: #fff;
+  font-family: cursive;
+  text-shadow: 3px 0 #313a57;
 
 }
 
 footer {
   color: #DBEDF3;
-  font-family: sans-serif;
+  font-family: cursive;
+}
+
+footer a {
+    color: #84e2ff; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bd8fff;
+    font-weight: bold;
 }
 
 /* method 1 */
@@ -70,12 +80,13 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 9px solid #404B69;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  /* color: #DA0463; */
+  color: #ff0071;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
