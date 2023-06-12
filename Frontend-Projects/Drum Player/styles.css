@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background: url(images/cover1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-family: cursive;
+  text-shadow: 3px 0 #dae1fa;
+  animation: scaleIn 0.8s ease-in-out;
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: cursive;
+}
+
+footer a {
+    color: #84e2ff; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bd8fff;
+    font-weight: bold;
+}
+
+/* method 1 */
+.w {
+  /* width: 780px; no change*/
+  /* margin: 0 auto; */
+  background-image: url(images/tom1.png);
+}
+
+/* method 2: BETTER */
+.a {
+  background: url(images/tom2.png) no-repeat center top;
+}
+
+.s {
+  background: url(images/tom3.png) no-repeat center top;
+}
+
+.d {
+  background: url(images/tom4.png) no-repeat center top;
+}
+
+.j {
+  background: url(images/snare.png) no-repeat center top;
+}
+
+.k {
+  background: url(images/crash.png) no-repeat center top;
+}
+
+.l {
+  background: url(images/kick.png) /*no-repeat center top*/;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+/* .game-over {
+  background-color: red;
+  opacity: 0.8;
+} */
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.7;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 9px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  /* color: #DA0463; */
+  color: #ff0071;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.drum:hover {
+    /* Apply a transform or any other animation property */
+    transform: scale(1.1);
+  }
