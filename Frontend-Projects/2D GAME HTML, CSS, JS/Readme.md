@@ -5,36 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>README - Amazon Clone</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 30px;
-        }
-
-        h1 {
-            font-size: 24px;
-        }
-
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-
-        ul {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        pre {
-            background-color: #f6f8fa;
-            padding: 10px;
-        }
-
-        code {
-            font-family: Consolas, monospace;
-        }
-    </style>
 </head>
 
 <body>
@@ -47,14 +17,13 @@
 
     <h2>Table of Contents</h2>
     <ul>
-        
         <li><a href="#tech-stack">Tech Stack</a></li>
         <li><a href="#setup">Setup</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#contributing">Contributing</a></li>
-        
+        <li><a href="#license">License</a></li>
+    </ul>
 
-    
     <h2 id="tech-stack">Tech Stack</h2>
     <p>The Amazon clone is built using the following tech stack:</p>
     <ul>
@@ -93,3 +62,8 @@
 
     <p>Please ensure that your contributions align with the project's coding style and follow best practices.</p>
 
+    <h2 id="license">License</h2>
+    <p>The Amazon clone is available under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. You can find the
+        full license text in the <code>LICENSE</code> file in the project repository.</p>
+
+    <p>Feel free to modify and use the code as per the license terms.</
