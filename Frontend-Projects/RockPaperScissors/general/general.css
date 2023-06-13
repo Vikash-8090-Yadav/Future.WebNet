@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 530px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style:initial;
+}
+
+.butt{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.full{
+    margin-top: 120px;
+}
