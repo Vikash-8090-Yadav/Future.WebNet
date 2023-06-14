@@ -6,7 +6,7 @@
 <h2>Game Overview</h2>
 <p>In this game, players will take control of a spaceship navigating through space. The objective is to survive as long as possible while shooting down enemy spacecraft and avoiding collisions with obstacles. The game features fast-paced action, dynamic movement, and challenging gameplay.</p>
 
-![IMG](https://github.com/TanishqSiva/Future.WebNet/assets/127381848/5b02d70b-6d5a-4e20-982a-e346e1e67d0d)
+![IMG]https://github.com/TanishqSiva/Future.WebNet/assets/127381848/5b02d70b-6d5a-4e20-982a-e346e1e67d0d
 
 <h2>Live link</h2> https://glowing-ganache-f14fbf.netlify.app/
 <br>
