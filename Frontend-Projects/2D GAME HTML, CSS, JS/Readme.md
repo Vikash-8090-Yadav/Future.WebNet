@@ -1,7 +1,7 @@
 <h1>2D Space Game Readme<h1>
 
   <h2>Description</h2>
-<p>This is a 2D space game where players can control a spaceship and engage in shooting gameplay. The game is accessible through the following live link: [https://glowing-ganache-f14fbf.netlify.app/](https://glowing-ganache-f14fbf.netlify.app/).</p>
+<p>This is a 2D space game where players can control a spaceship and engage in shooting gameplay.</p>
 
 <h2>Game Overview</h2>
 <p>In this game, players will take control of a spaceship navigating through space. The objective is to survive as long as possible while shooting down enemy spacecraft and avoiding collisions with obstacles. The game features fast-paced action, dynamic movement, and challenging gameplay.</p>
