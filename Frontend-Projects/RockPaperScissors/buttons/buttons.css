@@ -1,0 +1,28 @@
+.buttons{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 100px;
+    border-style: solid;
+    font-size: 20px;
+    transition: transform 0.7s ease-in-out;
+
+
+}
+
+.buttons:hover{
+    background-color: rgba(165, 42, 42, 0.431);
+    color: aliceblue;
+    transform: rotate(360deg);
+
+}
+
+.buttons:active{
+    background-color: rgba(165, 42, 42, 0.636);
+}
+
+.button-images{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
