@@ -1,21 +1,21 @@
 # Level 0
 
-Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subdivided into 4 more folders. These folders have different pages like a login page where user can login into the account, another is a folder where user can set and get the values,etc.
+Level 0 is mainly a sub-folder of the Future.WebNet. This folder is further subdivided into 4 more folders. These folders have different pages like a login page where user can login into the account, another is a folder where user can set and get the values,etc.
 
 ## Folder Name
 
 
 | Sr. No | Name     | Description                |
 | :-------- | :------- | :------------------------- |
-| 1. | [Login_Page](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level0/Login_Page) | Here you will find a login screen where user can sign in |
-| 2. | [Mood](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level0/Mood) | User can write their first contract |
-| 3. | [SendtoEther](https://github.com/kunal232i/Web3.0-World/tree/main/Level0/SendToEther) | User can send the amount to other person |
-| 4. | [Voting](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level0/Voting) | A simple voting place where the votes will be counted |
+| 1. | [Login_Page](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level0/Login_Page) | Here you will find a login screen where user can sign in |
+| 2. | [Mood](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level0/Mood) | User can write their first contract |
+| 3. | [SendtoEther](https://github.com/kunal232i/Future.WebNet/tree/main/Level0/SendToEther) | User can send the amount to other person |
+| 4. | [Voting](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level0/Voting) | A simple voting place where the votes will be counted |
 
 
 # Login_Page
 ## Introduction to Login_Page
-### Welcome to Login_Page , here one can find login screen  and sign in
+### Welcome to Login_Page , here one can find login screen and sign in
 
 ### this is the UI for Login_Page
 ![Screenshot (63)](https://user-images.githubusercontent.com/81668653/186226823-4cb2538e-ac94-4d0c-aae7-4a8e6c6812c6.png)
@@ -50,7 +50,7 @@ Level 0 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 # Voting
 ## Introduction to Voting
-### Welcome to Voting , it is  A simple voting place where the votes will be counted
+### Welcome to Voting , it is A simple voting place where the votes will be counted
 
 ### Voting
 ![Screenshot (67)](https://user-images.githubusercontent.com/85816852/181049228-c8dd2b9e-9f37-4466-aa03-9cbc898ca627.png)
