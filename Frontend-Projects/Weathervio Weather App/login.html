@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Weathervio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to Weathervio</h1>
+                <p>Login to use</p>
+            </div>
+            <form id="form" class="login-form" action="index.html">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" required onkeydown="validation()">
+                        <span id="text"></span>
+                    </div>
+                    <div class="form-item">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox" id="remembercheck" checked>
+                            <label for="remembercheck" class="checkboxLabel">Remember me</label>
+                        </div>
+                    </div>
+                    <button type="submit" onclick="location.href='index.html'" >Sign In</button>
+                </div>
+                <div class="login-form-footer">
+                    <a href="#">
+                        <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" alt="">
+                        Facebook Login
+                    </a>
+                    <a href="#">
+                        <img width="30" src="https://www.pngplay.com/wp-content/uploads/13/Google-Logo-PNG-HD-Quality.png" alt="This is a Image">
+                        Google Login
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="login-right">
+            <img width="100%" src="Assets/Img/cloudsmain.svg" alt="This is a Image">
+        </div>
+    </div>
+    <section class="footer">
+        <div class="social">
+            <a href="https://instagram.com/_venerable_vivek_chaudhary_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@Coderbtechwala/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/venerablevivek" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/Venerablevintagevivek/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Vivek Chaudhary @2022
+        </p>
+    </section>
+    <script type="text/javascript">
+        function validation(){
+            var form = document.getElementById("form");
+            var email = document.getElementById("email").value;
+            var text = document.getElementById("text");
+            var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+            if(email.match(pattern)){
+                form.classList.add("valid");
+                form.classList.remove("invalid");
+                text.innerHTML = "Your Email Address is Valid";
+                text.style.color = "#00ff00";
+            }else{
+                form.classList.remove("valid");
+                form.classList.add("invalid");
+                text.innerHTML = "Please Enter Valid Email Address";
+                text.style.color = "#ff0000";
+            }
+
+            if(email==""){
+                form.classList.remove("valid");
+                form.classList.remove("invalid");
+                text.innerHTML = "";
+                text.style.color = "#00ff00";
+            }
+        }
+    </script>
+</body>
+</html>
