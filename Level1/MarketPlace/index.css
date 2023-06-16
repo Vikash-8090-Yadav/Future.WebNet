@@ -1,61 +1,88 @@
 
-#btn{
-
-	border-radius: 12px ;
-	margin-top: 52px;
-	color: white;
-	background-color: blue;
-	margin-left: 70px ;
-}
-.id1{
+  
+  .id1 {
 	font-size: 30px;
-	border-radius: 12px ;
-color: black;
-}
-.frm{
-	/*border: 2px solid red;*/
+	border-radius: 12px;
+	color: black;
+  }
+  
+  .frm {
 	padding-left: 590px;
 	font-size: 30px;
 	color: blue;
-}
-#frt-id{
+  }
+  
+  #frt-id {
 	margin-left: 162px;
-}
-#frt-cost{
+  }
+  
+  #frt-cost {
 	margin-left: 128.7px;
-}
-
-#frt-name{
+  }
+  
+  #frt-name {
 	margin-top: 12px;
-margin-left: 40px;
-}
-
-#tb{
-font-size: 28px;
-}
-#tb thead th{
+	margin-left: 40px;
+  }
+  
+  #tb {
+	font-size: 28px;
+	background-color: white;
+  }
+  
+  #tb thead th {
 	padding-left: 10px;
-}
-#tb td{
+	text-align: center;
+	background-color: #ccc;
+  }
+  
+  #tb td {
 	padding-left: 10px;
 	color: red;
-
-}
-
-#byer{
+	text-align: center;
+  }
+  
+  #line {
+	margin-top: 50px;
+	text-align: center;
+  }
+  
+  #byer {
 	margin-top: 22px;
-}
-
-#spn{
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  #spn {
 	font-size: 30px;
-}
+  }
+  
+  
 
-#btn1 , #btn2{
-	font-size: 33px;
-	border-radius: 12px ;
-	margin-top: 52px;
-	color: white;
-	background-color: blue;
-	margin-left: 700px ;
-}
+  body {
+	background-color: darkgray;
+  }
+  
+		#btn1,
+		#btn2 {
+			display: block;
+			margin: 0 auto;
+			border-radius: 12px;
+			font-size: 20px;
+			color: white;
+			background-color: blue;
+			width: 150px;
+			margin-top: 20px;
+		}
 
+		#btn{
+			display: block;
+			border-radius: 12px;
+			font-size: 20px;
+			color: white;
+			background-color: blue;
+			width: 150px;
+			margin-top: 20px;
+			margin-left: 100px;
+		}
