@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,500;0,700;1,500;1,600;1,700&display=swap');
+
+.title{
+    text-align: center;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background:linear-gradient(90deg, rgba(25,255,183,1) 0%, rgba(81,178,255,1) 54%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 0;
+    color: #2255a4;
+}
+.container {
+    max-width: 400px;
+    min-width: 400px;
+}
+.title{
+    font-weight: 700;
+    font-size: 60px;
+}
+.form-rounded{
+    border-radius: 2em;
+}
+.back-card{
+    border-radius: 40px !important;
+    background-color: white;
+}
+.city-name{
+    position: absolute;
+    width: 100%;
+}
+
+.city-name p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.city-name span{
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -60px;
+}
+
+.temp span {
+    font-weight: 100;
+    font-size: 85px;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.card-mid{
+    line-height: 0.5;
+}
+.condition{
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.high::before{
+    content: "";
+    background: url('up.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.low::before{
+    content: "";
+    background: url('Assets/down.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.icon-container {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #84e4f7;
+}
+.icon-container img{
+    margin: auto;
+}
+
+.card-bottom {
+    line-height: 0.5;
+}
+
+.card-bottom span{
+    font-size: 12px;
+}
+
+.card-bottom p{
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 40px 0;
+    background-color: none;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #2255a4;
+}
+
+.footer .social a{
+    font-size: 40px;
+    color: inherit;
+    border-radius: 90%;
+    margin: 0 8px;
+    opacity: 0.75;
+    border: none;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+}
+.footer .social a:hover{
+    opacity: 1.0;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    color: black;
+}
+
+.footer .copyright{
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #2255a4;
+}

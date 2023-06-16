@@ -24,4 +24,3 @@ As an online game, there is no installation required.
 
   <h2>Compatibility</h2>
 The game is developed using JavaScript and should be compatible with most modern web browsers. It is recommended to use the latest version of browsers such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge for the best gaming experience.
-
