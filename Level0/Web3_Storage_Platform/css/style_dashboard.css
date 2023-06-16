@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: AudioWide;
+  src: url("/Fonts/Audiowide-Regular.ttf");
+}
+
+@font-face {
+  font-family: Bolgart;
+  src: url("/Fonts/Bolgart.ttf");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: #ffffff;
+
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: #ffffff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "AudioWide";
+  gap: 1rem;
+}
+
+.main h1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 3.4rem;
+  z-index: 15;
+}
+
+.main h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 5px;
+  color: #f8f8f8;
+}
+
+.main #button_flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main button {
+  width: 125px;
+  height: 35px;
+  margin-top: 20px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #001b6a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main button:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+
+.dashboard {
+  height: 37rem;
+  width: 75rem;
+  align-items: center;
+  background: -webkit-linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(05px);
+  backdrop-filter: blur(05px);
+  margin-top: 05%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  border: 0.1rem solid #f8f8f8;
+}
+
+.Cid,
+.view,
+.upload {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 18rem;
+  align-items: center;
+  background-color: #37349c34;
+  -webkit-backdrop-filter: blur(05px);
+  backdrop-filter: blur(05px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  gap: 2rem;
+
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+  font-family: sans-serif;
+}
+
+.Cid:hover,
+.view:hover,
+.upload:hover {
+  box-shadow: 0 0 05px #ffffff93, 0 0 2px #ffffff8e, 0 0 3px #0f0303,
+    0 0 4px #00bfff, 0 0 7px #1900ff98, 0 0 8px #0044ff, 0 0 10px #0004ff,
+    0 0 15px #0400ff;
+  scale: 1.1;
+  border: 2px solid black;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 14rem;
+  align-items: center;
+  background-color: #05050fcc;
+  -webkit-backdrop-filter: blur(05px);
+  backdrop-filter: blur(05px);
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px #00bfff42);
+
+
+  flex-direction: column;
+}
+
+#DataKey {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}

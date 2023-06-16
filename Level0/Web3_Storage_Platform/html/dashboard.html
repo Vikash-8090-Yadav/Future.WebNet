@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dashboard</title>
+    <link href="/css/style_dashboard.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body id="DASH">
+
+    <!-- Metamask Authentication -->
+    <script type="text/javascript">
+        //checking for metamask
+        var account = null;
+        (async() => {
+            if(window.ethereum) {
+                await window.ethereum.send('eth_requestAccounts');
+                window.web3 = new Web3(window.ethereum);
+
+                var accounts = await web3.eth.getAccounts();
+                account = accounts[0];
+                console.log("Active");
+            }
+
+            else
+            {
+                window.alert("Please install MetaMask to login!")
+                window.location.replace("/html/login.html");
+            }
+        })();
+    </script>
+<!-- Metamask Authentication -->
+
+
+<!-- Section  -->
+    <div class="main">
+        <h1>Dashboard</h1>
+        
+        <div class="dashboard">
+            <div class="upload">
+                <section class="inner">
+                    <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_ilv5gvml.json"  background="transparent"  speed="1"  style="width: 220px; height: 300px;"  loop  autoplay></lottie-player>
+                </section>
+            <article>
+                <div id="DataKey">
+                    <h5>Upload the Files</h1>
+                </div>
+                <div id="button_flex">
+                    <a href="/html/upload.html"><button>Upload</button></a>
+                </div>
+            </article>
+            </div>
+
+            <div class="view">
+                <section class="inner">
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_lDoXN9kQbu.json"  background="transparent"  speed="1"  style="width: 220px; height: 300px;"  loop  autoplay></lottie-player>
+                </section>
+            <article>
+                <div id="DataKey">
+                    <h5>View Shared Files </h1>
+                </div>
+                <div id="button_flex">
+                    <a href="/html/view.html"><button> Files</button></a>
+                </div>
+            </article>
+            </div>
+
+
+            <div class="Cid">
+                <section class="inner">
+                    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_96cnyxkh.json"  background="transparent"  speed="1"  style="width: 220px; height: 300px;"  loop  autoplay></lottie-player>   
+
+                </section>
+            <article>
+                <div id="DataKey">
+                    <h5>Your Files</h1>
+                </div>
+                <div id="button_flex">
+                    <a href="./Cid.html"><button>View Files</button></a>
+                </div>
+            </article>
+            </div>
+        
+           
+        
+            
+        </div>
+</div>
+ <!-- Section  -->
+
+ 
+  
+  <!-- Vanta Animations -->
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#DASH",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xa2,
+      backgroundColor: 0x0
+    })
+    </script>
+    <!-- Vanta Animations -->
+
+</body>
+
+</html>

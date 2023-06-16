@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: AudioWide;
+  src: url("/Fonts/Audiowide-Regular.ttf");
+}
+
+@font-face {
+  font-family: Bolgart;
+  src: url("/Fonts/Bolgart.ttf");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: #ffffff;
+
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: #ffffff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+/* Main  */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "AudioWide";
+ 
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  /* margin-top: 10%; */
+}
+
+.main h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: 5px;
+  color: #f8f8f8;
+  text-align: center;
+}
+.main .newuser {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+.main .newuser span {
+  font-size: 1rem;
+  font-weight: 50;
+  margin-top: 5px;
+  color: #f8f8f8;
+  text-align: center;
+  padding-right: 0.2%;
+}
+
+.main .newuser a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: bolder;
+    color: #001b6a;
+    padding-left:0.2%;
+    opacity: 98%;
+}
+
+
+.files{
+  height: 50%;
+  width: 55rem;
+  align-items: center;
+  /* background: -webkit-linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
+   */
+   background-color: #37349c34;
+  
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(05px);
+  backdrop-filter: blur(05px);
+  margin-top: 3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+/* border: .1rem solid #F8f8f8 ; */
+}
+
+
+.main .newuser a:hover{
+    text-decoration: underline;
+    opacity: 100%;
+    color: #032dab;
+}
+.main button {
+  width: 125px;
+  height: 35px;
+  margin: 0.5%;
+  padding: 5px 20px;
+  border: none;
+  background-color: #001b6a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.main button:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+

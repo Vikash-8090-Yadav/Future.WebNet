@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* GENERAL */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: AudioWide;
+    src: url('/Fonts/Audiowide-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: Bolgart;
+    src: url('/Fonts/Bolgart.ttf');
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+    background-color: black;
+	color: #FFFFFF;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+	color: #FFFFFF;
+	font-weight: 900;
+    text-decoration: none;
+}
+
+
+.main form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main form label {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.main form button {
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+
+.main form input {
+    width: 500px;
+    height: 35px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #38349c;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+
+#name{
+    margin-bottom: 1rem;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+.glass{
+    height: 50%;
+    width: 45rem;
+    
+    background: -webkit-linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(05px);
+    transition: all 1s ease-out;   
+
+    backdrop-filter: blur(05px);
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    /* margin-top: 2%; */
+    background-color: #37349c34;
+
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: .1rem solid #F8f8f8 ; */
+  }
+  
+
+
+.main h1{
+       
+        font-size: 2.5rem;
+}
+
+.main h2 {
+    font-size:1.2rem;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #F8f8f8;
+    
+}
+
+.main h3 {
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #F8f8f8;
+}
+
+
+
+
+.main h4 {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #F8f8f8;
+    text-align: justify;
+}
+
+.main span#button_flex {
+    display: flex;
+   
+    align-items: center;
+    flex-direction: row;
+    margin-left: 7rem;
+}
+
+.main button {
+    width: 125px;
+    height: 35px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #001b6a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main button:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    cursor: pointer;
+}

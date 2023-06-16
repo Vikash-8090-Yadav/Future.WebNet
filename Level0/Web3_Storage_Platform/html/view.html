@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+    <link href="/css/style_view.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script type="module" src="/retrive.js"></script>
+  </head>
+
+  <body id="CIDVIEW">
+   
+    <script type="text/javascript">
+      //checking for metamask
+      var account = null;
+      (async () => {
+        if (window.ethereum) {
+          await window.ethereum.send("eth_requestAccounts");
+          window.web3 = new Web3(window.ethereum);
+
+          var accounts = await web3.eth.getAccounts();
+          account = accounts[0];
+          console.log("Active");
+        } else {
+          window.alert("Please install MetaMask to login!");
+          window.location.replace("/html/login.html");
+        }
+      })();
+    </script>
+   
+
+    <div class="main">
+      <h1>View a File</h1>
+      <DIV class="files">
+      <h2>View shared file </h2>
+      <br />
+      <div class="input">
+        <label class="label">Enter CID: </label>
+        <input type="text" id="cid" class="enter" placeholder="Enter CID" />
+      </div>
+      <div class="check">
+        <button type="button" id="submit">Check</button>
+      </div>
+      
+      <br />
+      <h4 class="note">
+        <b>Note: </b>After a successful ping, the link will automatically open
+        in a new tab.
+      </h4>
+      </DIV>
+    </div>
+
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#CIDVIEW",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xa2,
+      backgroundColor: 0x0
+    })
+    </script>
+
+
+  </body>
+</html>

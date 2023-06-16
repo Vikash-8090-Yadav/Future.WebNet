@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+    &::-webkit-scrollbar {display: none};
+
+}
+
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: AudioWide;
+    src: url('/Fonts/Audiowide-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: Bolgart;
+    src: url('/Fonts/Bolgart.ttf');
+
+}
+
+
+
+
+.sect1{
+    width: 100vw;
+    height: 95vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+.sect1_01{
+    width: 60vw;
+    gap: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sect1_01 h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 6rem;
+    font-family: 'AudioWide';
+    margin-right: 20%;
+
+
+}
+
+.sect1_01 p{
+    width: 50vw;
+    font-size: 1.3rem;
+    margin-right: 01rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    
+
+}
+
+.sect1 .btn1{
+    width: 10rem;
+    height: 2.6rem;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+    border: 2px solid  white;
+    outline: 2px solid rgb(183, 0, 255);
+
+   transition: all 2s ease-in-out;
+ 
+background-image: linear-gradient(to right, #f32951d3, #2246f7);
+ 
+}
+
+.sect1 .btn1:hover{
+    background-image:none;
+}
+
+.sect1 .btn2:hover{
+background-image: linear-gradient(to right, #f32951d3, #2246f7);
+       
+}
+
+.sect1_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-right: 28rem;
+    margin-top: 1rem;
+    
+    
+}
+
+.sect1 .btn2{
+    width: 9rem;
+    height: 2.6rem;
+    border: 2px solid  white;
+    outline: 2px solid rgb(183, 0, 255);
+
+    border-radius: 2rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+
+
+}
+
+
+.lottie{
+    width: 36rem;
+    height: 35rem;
+
+}
+
