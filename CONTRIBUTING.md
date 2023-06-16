@@ -21,9 +21,9 @@ Here are the steps you should follow to contribute to this repo.
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in `upstream` remote.
 
 ```
-$ git clone https://github.com/<your_user_name>/Web3.0-World.git
-$ cd Web3.0-World
-$ git remote add upstream https://github.com/Vikash-8090-Yadav/Web3.0-World.git 
+$ git clone https://github.com/<your_user_name>/Future.WebNet.git
+$ cd Future.WebNet
+$ git remote add upstream https://github.com/Vikash-8090-Yadav/Future.WebNet.git 
 ```
 
 - If you have already forked the project, update your copy before working.
@@ -77,7 +77,7 @@ $ git push -u origin Branch_Name
 
 Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
 
- **Woohoo!** You have made a PR to the Web3.0-World Repo :boom: . Wait for your submission to be accepted and your PR to be merged.
+ **Woohoo!** You have made a PR to the Future.WebNet Repo :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 ## Need more help?🤔
 
