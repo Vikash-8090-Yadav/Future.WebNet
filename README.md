@@ -50,12 +50,11 @@
 
 
 ##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
-This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
+The single destination where Web3 developers can present their ideas and code. In this context, web3 essentially refers to Web2 incorporating the blockchain concept, i.e., (Web2 + Smart Contract) equals Web3. This repository will contain web3 projects comprising the (backend)smart contracts and the frontend section. When it comes to the backend, smart contracts are utilized, while we have the freedom to utilize any tech stack for the blockchain frontend.
 
 
 ##  Blog 
-<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Click here to reach Blog 🔗</a>
+<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Tap this link to access the Blog 🔗</a>
 
 
   
@@ -165,7 +164,7 @@ npm install node
 ## **4.** Web3 Tutorial -> https://www.youtube.com/watch?v=pZjQxs1piEk&list=PLgPmWS2dQHW9F8fRXzrFBtcrwE-uS8Qa5
 
 
-## **5.** Congratulations 🙌🏼 , You have setup the Blockchain project in your PC, It's time to check the code and Raise a PR 
+## **5.** Congratulations 🙌🏼 , You have successfully setup the Blockchain project in your System, It's time to check the code and Raise a PR 
 
 </br>
 <p align = "center">
