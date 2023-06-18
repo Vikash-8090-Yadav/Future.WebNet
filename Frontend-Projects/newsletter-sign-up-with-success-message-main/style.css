@@ -58,12 +58,13 @@ html,body{
         margin-left: -3rem;
         font-family: var(--font-family);
         font-weight: var(--font-400);
+        padding: 2rem;
 
     }
     .img__icons__last{
         width: 1.6rem;
         max-height: 2rem;
-        margin-left: -1.5rem;
+        margin-left: -1.52rem;
 
     }
     .flex__body__last{
@@ -99,10 +100,11 @@ html,body{
         font-size: var(--font-size);
         margin-left: 2rem;
         padding-right:1rem ;
+        margin-bottom: 2rem;
     }
-    .form__body{
+    /* .form__body{
         margin-left: 2rem;
-    }
+    } */
     label{
         font-size: var(--font-size);
         font-family: var(--font-family);
