@@ -1,4 +1,5 @@
 import { createContext,useState } from "react";
+import PropTypes from 'prop-types';
 
 export const DataContext = createContext()
 
@@ -18,5 +19,8 @@ const DataProvider = ({children}) =>{
             {children}
         </DataContext.Provider>
     )
+}
+DataProvider.propTypes = {
+    children: PropTypes.node.isRequired
 }
 export default DataProvider

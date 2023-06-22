@@ -20,9 +20,9 @@ const Result = () => {
   useEffect(()=>{
     const timeout = setTimeout(() => {
       setSrc(srcCode)
-    }, 2000);
+    }, 1500);
     return () => clearTimeout(timeout)
-  },[html, css, js])
+  },[html, css, js, srcCode])
 
   return (
     <Container>
@@ -31,7 +31,7 @@ const Result = () => {
         title='Output'
         sandbox='allow-script'
         width="100%"
-        height="100%"
+        height="370px"
         frameBorder={0}
       />
     </Container>
