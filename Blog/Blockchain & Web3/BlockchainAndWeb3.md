@@ -1,4 +1,4 @@
-<img src="../blockchain.jpg" alt="Blockchain"/>
+<img src="./blockchain.jpg" alt="Blockchain"/>
 
 # What are Blockchain and Web3?
 
