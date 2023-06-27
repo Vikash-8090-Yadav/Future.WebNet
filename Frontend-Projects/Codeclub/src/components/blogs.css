@@ -1,0 +1,319 @@
+.b {
+    height: 150vh;
+    background-color: rgb(236, 236, 255);
+}
+
+.b-title {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(25, 23, 37);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.b-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-items {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px 30px;
+    color: rgb(36, 36, 67);
+    background-color: rgb(198, 228, 249);
+    border: none;
+    transition: box-shadow 0.3s ease;
+    font-weight: 500;
+}
+
+.button-items:nth-child(1) {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+    background-color: rgb(36, 36, 67);
+    border: none;
+    transition: box-shadow 0.3s ease;
+    font-weight: 500;
+}
+
+.button-items:hover {
+    cursor: pointer;
+}
+
+.b-blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card {
+    width: 490px;
+    height: 260px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: rgba(223, 223, 254, 0.4);
+    cursor: pointer;
+}
+
+.card-front {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-img {
+    height: 50px;
+    width: 60px;
+    margin: 10px 20px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.name-title {
+    font-size: 12px;
+    color: grey;
+}
+
+.person {
+    margin: 5px 0px;
+}
+
+.read {
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0px;
+    margin-left: 60px;
+}
+
+.read:hover {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.desc,
+.items {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(78, 75, 75);
+}
+
+.content-list {
+    line-height: 15px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.dotted {
+    border-top: 1px solid grey;
+    width: 350px;
+    margin: 0px 15px
+}
+
+.new-title {
+    font-size: 25px;
+}
+
+.blog-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-left {
+    flex: 0.8;
+}
+
+.b-right {
+    flex: 1;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.full-name,
+.email,
+.message {
+    border: 1px solid black;
+    margin: 20px 0px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.message {
+    width: 580px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid grey;
+}
+
+.full-name,
+.email {
+    width: 350px;
+    border: 1px solid grey;
+}
+
+.blog-icon {
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width:780px) {
+    .b {
+        height: 170vh;
+        width: 100%;
+    }
+
+    .b-title {
+        font-size: 28px;
+    }
+
+    .b-blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 300px;
+        height: 250px;
+    }
+
+    .b-img {
+        height: 30px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    .name {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .read {
+        height: 25px;
+        width: 80px;
+        border-radius: 5px;
+        border: 1px solid black;
+        color: grey;
+        font-size: 8px;
+        font-weight: 600;
+        margin: 10px 0px;
+        margin-right: 10px;
+    }
+
+    .desc,
+    .items {
+        margin-left: 70px;
+        margin-right: 30px;
+        margin-top: 10px;
+        font-size: 11px;
+        color: rgb(78, 75, 75);
+    }
+
+    .name-title {
+        font-size: 10px;
+    }
+
+    .card:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .button-items,
+    .button-items:nth-child(1) {
+        height: 25px;
+        width: 80px;
+        font-size: 10px;
+        margin: 0px 5px;
+    }
+
+    .full-name,
+    .email,
+    .message {
+        border: 1px solid black;
+        margin: 20px 0px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .message {
+        width: 350px;
+        height: 170px;
+        padding-left: 10px;
+        padding-top: 10px;
+        border: 1px solid grey;
+        margin-right: 20px;
+    }
+
+    .full-name,
+    .email {
+        width: 250px;
+        border: 1px solid grey;
+    }
+
+    .dotted {
+        border-top: 1px solid grey;
+        width: 200px;
+        margin: 0px 0px;
+    }
+
+    .new-title {
+        width: 50%;
+        font-size: 13px;
+        margin: 0px 20px;
+    }
+
+    .blog-icon {
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+        top: 0;
+    }
+
+    .full-name,
+    .email{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .message{
+        margin-top: 20px;
+        width: 270px;
+    }
+
+
+}
