@@ -1,26 +1,25 @@
 # Level 2
 
-Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subdivided into 6 more folders
+Level 1 is mainly a sub-folder of the Future.WebNet. This folder is further subdivided into 6 more folders
 
 ## Folder Name
 
 
 | Sr. No | Name     | 
 | :-------- | :------- | 
-| 1. | [Blogchain](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/Blogchain)
-| 2. | [DDrive](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/DDrive) 
-| 3. | [Echai_funding](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/Echai_funding) 
-| 4. | [MetaNft_Minting](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/MetaNft_Minting) 
-| 5. | [NFT-MARKET-PLACE](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/NFT-MARKET-PLACE)
-| 6. | [web3Fy-Market domain](https://github.com/Bharadwajshivam28/Web3.0-World/tree/main/Level2/Web3Fy-Market%20domain)
+| 1. | [Blogchain](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/Blogchain)
+| 2. | [DDrive](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/DDrive) 
+| 3. | [Echai_funding](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/Echai_funding) 
+| 4. | [MetaNft_Minting](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/MetaNft_Minting) 
+| 5. | [NFT-MARKET-PLACE](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/NFT-MARKET-PLACE)
+| 6. | [web3Fy-Market domain](https://github.com/Bharadwajshivam28/Future.WebNet/tree/main/Level2/Web3Fy-Market%20domain)
 
 # Blogchain
 ## Introduction to Blogchain
 ### The decentralized blogging platform is built on a blockchain-based system that allows users to create, publish and share their content without the need for a central authority. The platform offers a secure and transparent way to store and share content, making it a highly attractive option for bloggers who are looking for more privacy and control over their content.
 
 ### Wallet Connect
-![Wallet Connect
-](https://github.com/AyushPathak3011/Web3.0-World/blob/blogchain/Level2/Blogchain/src/images/Wallet%20Connect.png)
+![Wallet Connect](https://github.com/Vikash-8090-Yadav/Future.WebNet/blob/main/Level2/Blogchain/src/images/Wallet%20Connect.png?raw=true)
 
 ---
 

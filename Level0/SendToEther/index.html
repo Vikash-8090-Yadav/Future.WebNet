@@ -3,21 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Send Eth</title>
+	<title>Send to Ether</title>
 	<link rel="stylesheet" type='text/css' href="./index.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
-	<main id="main">	
+	<div class="navbar">
+		<a class="brand" href="#">Future.WebNet</a>
+		<div class="right-links">
+		  <a href="#">Home</a>
+		  <a href="#">About</a>
+		</div>
+	  </div>
+	<div class="main">	
 	<center>
 
-		<h1 id ="header" style="font-size: 50px; color: whitesmoke;text-shadow: 3px 3px red;">Transfer Ether </h1>
+		<h1 class ="header"> Transfer Ether </h1>
 
 		<form action="" method="post" id="form">
+			<!-- <div class="form-heading">Kindly fill out form </div> -->
 			<div id="send-Ads" class="input-container">
-				<label for="address">Send-to</label>
+				<label for="address">Send-to:</label>
 				<input id = "address" 
 					type="text" 
 					name="address" 
@@ -26,7 +34,7 @@
 					required>
 			</div>
 			<div class="input-container">
-				<label for="amount">Amount</label>
+				<label for="amount">Amount:</label>
 				<input id="amount" 
 					type="number" 
 					name="amount" 
@@ -43,6 +51,6 @@
 		</form>
 	<h1 id = "sh"></h1>
 </script>
-</main>
+</div>
 </body>
 </html>

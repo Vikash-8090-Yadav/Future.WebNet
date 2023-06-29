@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: first-deployment
+  labels:
+    app: first
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: first
+  template:
+    metadata:
+      labels:
+        app: first
+    spec:
+      containers:
+      - name: first
+        image: docker.io/vikash98yadav/githubtwin:latest
+        imagePullPolicy: "Always"
+        ports:
+        - containerPort: 8000

@@ -1,0 +1,467 @@
+/* payment nevbar */
+body {
+    font-family: Whitney, Helvetica, Arial, sans-serif !important;
+    color: #424553;
+    line-height: 2.428571;
+}
+
+div {
+    display: block;
+}
+
+#headerUnderline {
+    width: 100%;
+    border-bottom: 1px solid #F5F5F6;
+    margin-bottom: 30px;
+}
+
+#header {
+    display: flex;
+    width: 92%;
+    color: rgb(105, 107, 121);
+    font-size: 10px;
+    margin: 20px auto 10px;
+    justify-content: space-between;
+}
+
+.navbarMiddle {
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.navbarMiddlePayment {
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+}
+
+#paymentNavSecure {
+    display: flex;
+    align-items: center;
+}
+
+#paymentNavSecure img {
+    margin-right: 5px;
+}
+
+/* bag nev line  */
+.cart-page{
+    text-decoration: none;
+    color: #696B79;
+}
+/* link change in address nav  */
+.address-middle{
+    text-decoration: none;
+    color: #696B79;
+}
+
+
+
+
+
+
+/* middle content */
+
+#paymentContent {
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    margin: auto;
+    max-width: 987px;
+    margin: 0 auto;
+}
+
+
+/* middle content left */
+
+#paymentContent-left {
+    /* border: 1px solid teal; */
+    width: 67.5%;
+    border-right: 1px solid #eaeaec;
+    margin: auto;
+    padding-right: 35px;
+}
+
+/* bank offer  */
+
+.offersV2-base-container {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 16px 18px 12px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    font-size: 13px;
+    position: relative;
+}
+
+.offersV2-base-title {
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: -5px;
+    /* margin-bottom: 10px; */
+}
+
+/* svg:not(:root) {
+    overflow: hidden;
+} */
+.offersV2-base-discountIcon {
+    position: absolute;
+}
+
+.offersV2-base-message {
+    padding-left: 15px;
+    text-indent: -15px;
+    list-style: none;
+    white-space: normal;
+    /* margin-bottom: 8px; */
+    color: gray;
+}
+
+.offersV2-base-more {
+    padding-left: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ff3f6c;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.offersV2-base-arrowIcon {
+    vertical-align: middle;
+    width: 5px;
+    margin-left: 4px;
+    fill: #ff3f6c;
+}
+
+/* svg:not(:root) {
+    overflow: hidden;
+} */
+li.offersV2-base-message:before {
+    content: "\2022";
+    color: #d4d5d9;
+    padding-right: 8px;
+}
+
+
+/* payment mode  */
+
+.pay-mode-headline {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 35px 0 26px 12px;
+}
+
+.pay-mode-option {
+    display: flex;
+    border: 1px solid #eaeaec;
+    /* padding: 10px; */
+    /* margin-top: 15px; */
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.pay-mode-option-left-content {
+    display: flex;
+}
+
+.pay-mode-option-right {
+    padding: 5px 30px;
+}
+
+.card-base-heading {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* pay-mode-option-left */
+.tabBar-base-tabsBlock {
+    display: table-cell;
+    width: 35%;
+    line-height: 1.42857143;
+    background-color: #f4f4f5;
+    ;
+}
+
+.tabBar-base-selected {
+    background-color: #fff;
+    border-left-color: #ff3f6c;
+    border-right: 0;
+    color: #ff3f6c;
+}
+
+.tabBar-base-tab {
+    border-bottom: 1px solid #eaeaec;
+    border-right: 1px solid #eaeaec;
+    border-left: 5px solid #f4f4f5;
+    border-top: 0;
+    font-size: 14px;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    padding-left: 8px;
+}
+
+.tabBar-base-tabLabel {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.paymentOptions-base-tabDisplayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.paymentOptions-base-tabDisplayIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* form input  */
+
+.pay-mode-option-right {
+    vertical-align: top;
+    display: table-cell;
+    width: 65%;
+    padding: 24px 32px;
+    background: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+.text {
+    width: 90%;
+    font-weight: 300;
+    border-radius: 4px;
+    line-height: 14px;
+    padding: 12px;
+    border: 1px solid #d4d5d9;
+    margin: 10px auto;
+}
+
+.exp-date {
+    font-weight: 300;
+    border-radius: 4px;
+    line-height: 14px;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #d4d5d9;
+    margin: 10px auto;
+}
+
+.cvv {
+    font-weight: 300;
+    border-radius: 4px;
+    line-height: 14px;
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #d4d5d9;
+    margin: 10px auto;
+}
+
+/* pay now button  */
+.payNowAjax-base-actionButton {
+    width: 100%;
+    text-align: center;
+    background: #ff3f6c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 48px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    margin-top: 50px;
+}
+
+.codCardUI-base-helpText {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #282c3f;
+    line-height: 1.42857143;
+}
+
+
+
+/* gift div  */
+
+.gift-div {
+    padding: 22px 36px 22px 44px;
+    border: 1px solid #eaeaec;
+    font-weight: 600;
+    position: relative;
+    line-height: 16px;
+    background: #fff;
+    margin-bottom: 32px;
+}
+
+.giftcard-base-giftIcon {
+    position: absolute;
+    top: 22px;
+    left: 15px;
+    width: 18px;
+    height: 17px;
+}
+
+.giftcard-base-title {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.giftcard-base-apply {
+    color: #ff3f6c;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+/* middle content right */
+
+/* #paymentContent-right {
+    width: 32.5%;
+    margin: auto;
+    vertical-align: top;
+    padding: 35px 0 0 35px;
+    vertical-align: top;
+} */
+
+.paymentDesktop-base-right {
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+    padding: 35px 0 0 35px;
+}
+
+.priceBlockCommon-base-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.priceBlockCommon-base-items {
+    line-height: 15px;
+    color: #535766;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.priceBlockCommon-base-detailBody {
+    padding-top: 16px;
+}
+
+.priceBreakUp-base-orderSummary {
+    font-size: 14px;
+}
+
+.priceDetail-base-row {
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+
+.priceDetail-base-total {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+
+.priceDetail-base-value {
+    float: right;
+}
+
+.priceDetail-base-icon {
+    height: 9px;
+}
+
+.priceDetail-base-discount {
+    color: #03a685;
+}
+
+.priceDetail-base-discount .priceDetail-base-icon {
+    fill: #03a685;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.priceDetail-base-total .priceDetail-base-icon {
+    height: 10px;
+}
+
+.priceDetail-base-infoTextContainer {
+    display: inline-block;
+}
+
+.css-xjhrni {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+
+.css-lnv4zc {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    background-color: transparent;
+    color: rgb(255, 63, 108);
+    padding: 0px;
+    cursor: pointer;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+#convenienceFee{
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+
+
+
+/* footer part */
+
+#footer {
+    border-top: 1px solid #F5F5F6;
+    margin: 0 0 10px 0;
+}
+
+#footer #footerContent {
+    display: flex;
+    max-width: 980px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer #footerContentImg img {
+    /* display: inline-block; */
+    width: 70px;
+    height: 37px;
+}
+
+#footerContent>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    /* float: right; */
+    padding: 10px 0;
+}

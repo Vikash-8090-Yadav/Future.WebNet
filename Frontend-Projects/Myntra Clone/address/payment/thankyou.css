@@ -1,0 +1,225 @@
+/* payment nevbar */
+body {
+    font-family: Whitney, Helvetica, Arial, sans-serif !important;
+    color: #424553;
+    line-height: 2.428571;
+}
+
+div {
+    display: block;
+}
+
+#headerUnderline {
+    width: 100%;
+    /* border-bottom: 1px solid #F5F5F6; */
+    margin-bottom: 30px;
+}
+
+#header {
+    display: flex;
+    width: 92%;
+    color: rgb(105, 107, 121);
+    font-size: 10px;
+    margin: 20px auto 10px;
+    justify-content: space-between;
+}
+
+.navbarMiddle {
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+/* 
+.navbarMiddlePayment {
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+} */
+
+#paymentNavSecure {
+    display: flex;
+    align-items: center;
+}
+
+#paymentNavSecure img {
+    margin-right: 5px;
+}
+
+
+/* middle  */
+
+.thankyou{
+    background: #f4f4f5;
+    min-height: 600px;
+}
+.desktop-base-cardLayout {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.desktop-base-cardContainer {
+    width: 100%;
+    margin: 70px auto;
+    display: inline-block;
+    border: 1px solid #d4d5d9;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+.confirmationScreen-base-confirmationComp {
+    overflow-x: hidden;
+}
+.confirmationScreen-base-invisible {
+    display: none;
+}
+.desktop-base-confirmationCardContainer {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.desktop-base-confirmationCard {
+    max-width: 60%;
+    margin-bottom: 16px;
+    border: 1px solid #e9e9eb;
+    border-radius: 4px;
+}
+
+.cardComponents-base-desktopStatusCardContainer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.cardComponents-base-statusCardContainer {
+    /* padding: 16px; */
+    text-align: center;
+}
+.desktop-base-confirmationCard {
+    max-width: 60%;
+    margin-bottom: 16px;
+    border: 1px solid #e9e9eb;
+    border-radius: 4px;
+}
+
+.cardComponents-base-deliveryContainer {
+    padding: 16px;
+}
+.cardComponents-base-confirmTick {
+    fill: #03a685;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 16px;
+}
+
+.cardComponents-base-statusCardHeading {
+    font-size: 30px;
+    font-weight: 600;
+    /* margin-bottom: 12px; */
+}
+.cardComponents-base-statusSuccessHeading {
+    color: #03a685;
+}
+.cardComponents-base-desktopStatusCardDesc {
+    font-size: 18px;
+}
+.cardComponents-base-statusCardDesc {
+    font-size: 17px;
+    font-weight: 300;
+    color: #282c3f;
+    line-height: 1.8;
+    padding: 15px;
+}
+.cardComponents-base-deliveryTopSection {
+    display: flex;
+}
+
+.cardComponents-base-deliveryFooter {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 12px;
+    font-size: 12px;
+    display: flex;
+}
+.cardComponents-base-deliveryInfo {
+    width: calc(100% - 99px);
+    text-align: left;
+}
+.cardComponents-base-orderDetailsIcon {
+    height: 78px;
+}
+.cardComponents-base-wand {
+    margin-right: 12px;
+}
+.cardComponents-base-successCTAContainerDesktop {
+    margin-top: 32px;
+    justify-content: space-between;
+    max-width: 60%;
+}
+.inlineButtonV3-base-container {
+    display: flex;
+    justify-content: space-between;
+}
+.inlineButtonV3-base-secondary {
+    background-color: #fff;
+    color: #282c3f;
+    border-color: #d4d5d9;
+}
+
+.inlineButtonV3-base-button {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 12px 14px;
+    min-width: 48%;
+}
+.button-base-button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: #ff3f6c;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: auto;
+}
+.cardComponents-base-primaryCTAButton {
+    width: 45%;
+}
+
+.continueBtnUnderLine{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* footer part */
+
+#footer {
+    border-top: 1px solid #F5F5F6;
+    margin: 0 0 10px 0;
+}
+
+#footer #footerContent {
+    display: flex;
+    max-width: 980px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer #footerContentImg img {
+    /* display: inline-block; */
+    width: 70px;
+    height: 37px;
+}
+
+#footerContent>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    /* float: right; */
+    padding: 10px 0;
+}

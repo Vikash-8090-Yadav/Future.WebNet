@@ -7,11 +7,11 @@ Level 1 is mainly a sub-folder of the Web 3.0 world. This folder is further subd
 
 | Sr. No | Name     | 
 | :-------- | :------- | 
-| 1. | [DataFeed](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/DataFeed)
-| 2. | [MarketPlace](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/MarketPlace) 
-| 3. | [Twitter_Dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/Twitter_Dapp) 
-| 4. | [staking-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/staking-dapp) 
-| 5. | [todo-dapp](https://github.com/Vikash-8090-Yadav/Web3.0-World/tree/main/Level1/todo-dapp) 
+| 1. | [DataFeed](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level1/DataFeed)
+| 2. | [MarketPlace](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level1/MarketPlace) 
+| 3. | [Twitter_Dapp](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level1/Twitter_Dapp) 
+| 4. | [staking-dapp](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level1/staking-dapp) 
+| 5. | [todo-dapp](https://github.com/Vikash-8090-Yadav/Future.WebNet/tree/main/Level1/todo-dapp) 
 
 # DataFeed
 ## Introduction to DataFeed
