@@ -14,4 +14,4 @@ This project is built using:-
 
 ## Demo Video 
 
-https://www.loom.com/share/f9432fdd57ad48d694e5dfa7e64a47da?sid=c3845bf7-4eb8-4407-96bb-d48144b6cdff
+<video src="Library%20_%20Loom%20-%2029%20June%202023.mp4" controls title="DEMO VIDEO"></video>
