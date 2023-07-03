@@ -22,6 +22,13 @@ Requirements:-
 2. Open the car.html file in a web browser.
 3. Click on the start screen to begin the game.
 
+!!Live Demo!!
+
+https://github.com/NupurHardiya/Future.WebNet/assets/113535580/3dd1d596-0e39-4b03-879a-22bb2ef1d7dd
+
+![car racing game ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/8c3a3f67-9da1-419e-aa96-4f6eb717992d)
+
+
 This README file provides a brief overview of the game, how to play it, and its features. It also includes the requirements to run the game and how to contribute to the project.
 
 I hope this README file is helpful!
