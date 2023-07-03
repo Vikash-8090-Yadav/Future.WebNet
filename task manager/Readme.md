@@ -1,4 +1,4 @@
-Task Manager:-
+TASK MANAGER:-
 
 Implemented Task Manager web application with HTML, CSS, and JavaScript, enabling users to create, organize, and prioritize tasks.
 The application includes features such as task categorization, due date reminders, and a user-friendly interface for seamless task management.
@@ -24,5 +24,9 @@ To run the project:-
 3. You can start adding tasks by entering the information in the form.
 4. Click the "Add Task" button to add the task to the list.
 5. You can edit or delete tasks by clicking the corresponding button.
+
+!!LIVE DEMO!!
+
+https://github.com/NupurHardiya/Future.WebNet/assets/113535580/f4e2e09a-7349-41f9-a94c-0bf8eb099d10
 
 I hope this README file is more helpful!
