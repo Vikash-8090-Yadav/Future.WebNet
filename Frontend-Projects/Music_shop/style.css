@@ -4,6 +4,11 @@ body {
   margin: 0%;
   overflow-x: hidden;
 }
+.flex__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (min-width: 220px) and (max-width: 1780px) {
   html,
