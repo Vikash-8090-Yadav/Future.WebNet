@@ -4,8 +4,8 @@
 
 ## **Description **
 
-- developed usin HTML, CSS and javascript.
-- it is a beginner friendly project developed to track your daily expenses.
+- developed using HTML, CSS, and javascript.
+- it is a beginner-friendly project developed to track your daily expenses.
 
 <br>
 
@@ -20,7 +20,7 @@
 ## **Functionalities **
 
 - it allows user to track their daily expenses
-- it calculates total earnings, expenses, and current balance of the user.
+- it calculates the user's total earnings, expenses, and current balance.
 
 <br>
 
