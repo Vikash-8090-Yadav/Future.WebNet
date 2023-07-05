@@ -21,11 +21,16 @@ To set up the Music Shop Landing Page locally on your machine, follow the steps 
 
 # Image
 
-![Alt text](<public/Screenshot from 2023-07-04 20-42-46.png>)
+![Screenshot from 2023-07-04 20-42-46](https://github.com/Shu12388y/Future.WebNet/assets/91714143/e862d069-bf34-424f-822f-ae24fd0d82db)
+
+
+
+
+
 
 # Video
 
-[label](<public/Screencast from 04-07-23 08:50:38 PM IST.webm>)
+[Screencast from 04-07-23 08:50:38 PM IST.webm](https://github.com/Shu12388y/Future.WebNet/assets/91714143/33f5e610-fd41-4fcc-9315-8dd82e487fd3)
 
 # License
 
@@ -33,4 +38,4 @@ The Music Shop Landing Page is released under the MIT License. You are free to u
 
 # Author
 
-Shubham Paul
+[@shubham paul](https://github.com/Shu12388y)
