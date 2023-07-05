@@ -25,8 +25,7 @@ This is a simple car game made with HTML, CSS, and JavaScript. The goal of the g
 
 https://github.com/NupurHardiya/Future.WebNet/assets/113535580/0d19a324-6d52-4ceb-9aee-582032dbab96
 
-(https://github.com/NupurHardiya/Future.WebNet/assets/113535580/8c3a3f67-9da1-419e-aa96-4f6eb717992d)
-
+![car racing game ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/75bc3ab8-39df-4f8c-b083-3a6c70a792fe)
 
 This README file provides a brief overview of the game, how to play it, and its features. It also includes the requirements to run the game and how to contribute to the project.
 
