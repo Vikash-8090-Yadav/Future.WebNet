@@ -26,11 +26,17 @@ The Buy Me Coffee website offers the following key features:
 
 # Image
 
+![Screenshot from 2023-07-04 21-26-36](https://github.com/Shu12388y/Future.WebNet/assets/91714143/36901e43-bb4a-4524-a59d-7278de508c39)
+
+
 
 
 
 
 # Video
+
+[Screencast from 04-07-23 09:37:48 PM IST.webm](https://github.com/Shu12388y/Future.WebNet/assets/91714143/c4809651-15f2-4529-9ac0-4e4a31db8f7e)
+
 
 
 
