@@ -24,14 +24,17 @@ The website aims to assist people in accessing relevant programs, services, and 
 The code snippet consists of the following files:
 
 **pwd.html**: The main HTML file that contains the structure of the website.
+
 **style.css**: The CSS file that defines the styles and layout of the website.
+
 **script.js**: The JavaScript file that includes functions for showing/hiding additional content.
 
 **Features:-**
 
 The PWD Help Website offers the following features:
 
-**Opportunities and Schemes**: Provides links to government schemes for people with disabilities in India, World Bank programs, and UNICEF programs.
+**Opportunities and Schemes**: Provides links to government schemes for people with disabilities in India,
+ World Bank programs, and UNICEF programs.
 **Facilities**: Offers a list of government-run disability facilities, disability-friendly hotels, and disability-friendly restaurants in India.
 **Schools**: Presents a collection of special schools for people with disabilities, including government-run, top-rated, and private institutions.
 **Contact Us**: Provides contact information for any questions or feedback related to the website.
