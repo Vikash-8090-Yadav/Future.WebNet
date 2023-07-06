@@ -33,10 +33,12 @@ The code snippet consists of the following files:
 
 The PWD Help Website offers the following features:
 
-**Opportunities and Schemes**: Provides links to government schemes for people with disabilities in India,
- World Bank programs, and UNICEF programs.
+**Opportunities and Schemes**: Provides links to government schemes for people with disabilities in India,World Bank programs, and UNICEF programs.
+
 **Facilities**: Offers a list of government-run disability facilities, disability-friendly hotels, and disability-friendly restaurants in India.
+
 **Schools**: Presents a collection of special schools for people with disabilities, including government-run, top-rated, and private institutions.
+
 **Contact Us**: Provides contact information for any questions or feedback related to the website.
 
 ![pwd ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/1ddfe5f5-159c-4bcb-a269-498f14eedac8)
