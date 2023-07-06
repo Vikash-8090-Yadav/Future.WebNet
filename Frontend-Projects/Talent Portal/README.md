@@ -27,13 +27,11 @@ Screenshot
 
 <br>
 Working Video 
-https://user-images.githubusercontent.com/132590302/251191707-6a496ebb-b0b0-4e51-bba3-f1f1222f42e3.mp4
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/132590302/5d83f3eb-b47d-4371-b270-a2f317a3c1f4
+
 
 <br>
 
 Creator
 [Mohd Sultan](https://github.com/MohdSultanGit)
 
-
-
-![Screenshot from 2022-06-05 10-23-35](https://user-images.githubusercontent.com/91714143/243335188-ac638297-2f40-4959-8d88-90101d95a706.PNG).
