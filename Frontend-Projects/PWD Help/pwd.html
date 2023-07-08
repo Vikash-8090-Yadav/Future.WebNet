@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PWD Help Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<header>
+<h1>PWD Help Website</h1>
+</header>
+<main>
+<section>
+<h2>Opportunities and Schemes</h2>
+<ul>
+<li><a href="https://www.india.gov.in/schemes/schemes-for-persons-with-disabilities">Government of India schemes for people with disabilities</a></li>
+<li><a href="https://www.worldbank.org/en/topic/disability/overview">World Bank programs for people with disabilities</a></li>
+<li><a href="https://www.unicef.org/india/stories/disability-inclusive-education-india">UNICEF programs for people with disabilities</a></li>
+</ul>
+<button id="more-opportunities">Show more opportunities</button>
+</section>
+<section>
+<h2>Facilities</h2>
+<ul>
+<li><a href="https://www.ndtv.com/india-news/india-has-over-6-crore-people-with-disabilities-govt-data-2129554">List of government-run disability facilities in India</a></li>
+<li><a href="https://www.disabledgo.com/india/disability-friendly-hotels/">List of disability-friendly hotels in India</a></li>
+<li><a href="https://www.disabilityrightsindia.org/disability-friendly-restaurants-india/">List of disability-friendly restaurants in India</a></li>
+</ul>
+<button id="more-facilities">Show more facilities</button>
+</section>
+<section>
+<h2>Schools</h2>
+<ul>
+<li><a href="https://www.education.gov.in/academics/schooleducation/samagrashiksha/schooleducation/differentlyabled">List of government-run special schools for people with disabilities in India</a></li>
+<li><a href="https://www.indiatoday.in/education/story/list-of-top-special-schools-for-children-with-disabilities-in-india-1412138-2019-03-18">List of top special schools for children with disabilities in India</a></li>
+<li><a href="https://www.specialeducation.com/india/schools/">List of private special schools for people with disabilities in India</a></li>
+</ul>
+<button id="more-schools">Show more schools</button>
+</section>
+<section>
+<h2>Contact Us</h2>
+<p>If you have any questions or feedback, please contact us at <a href="mailto:pwdhelp@example.com">pwdhelp@example.com</a>.</p>
+</section>
+</main>
+<footer>
+<p>Copyright © 2023 PWD Help Website</p>
+</footer>
+<script>
+// This function shows more opportunities when the button is clicked
+function showMoreOpportunities() {
+  var opportunities = document.getElementById("opportunities");
+  var moreOpportunities = document.getElementById("more-opportunities");
+
+  if (opportunities.style.display === "none") {
+    opportunities.style.display = "block";
+    moreOpportunities.textContent = "Show less opportunities";
+  } else {
+    opportunities.style.display = "none";
+    moreOpportunities.textContent = "Show more opportunities";
+  }
+}
+
+// This function shows more facilities when the button is clicked
+function showMoreFacilities() {
+  var facilities = document.getElementById("facilities");
+  var moreFacilities = document.getElementById("more-facilities");
+
+  if (facilities.style.display === "none") {
+    facilities.style.display = "block";
+    moreFacilities.textContent = "Show less facilities";
+  } else {
+   
