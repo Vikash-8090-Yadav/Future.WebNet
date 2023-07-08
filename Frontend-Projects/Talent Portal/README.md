@@ -2,38 +2,59 @@
 
 ### I have created this Website using Front-end which includes only HTML and CSS.
 
-Talent Web Portal
----
 
-Description 
-developed using HTML, CSS, and javascript.
-it is a beginner-friendly project developed for Talent Web Portal.
+
+# Talent Hiring Portal
+
+The Talent Hiring Portal is a web-based application designed to streamline the process of recruiting and hiring talented individuals for organizations. It provides a platform for employers to manage job postings, evaluate candidates, and facilitate the hiring process efficiently. This README file provides an overview of the features and functionality of the Talent Hiring Portal.
+
+# Features:
+
+1. User Registration and Authentication:
+
+    1.1. Employers can create accounts and authenticate themselves to access the portal.
+
+    1.2. User credentials will be securely stored to ensure privacy and data protection.
+
+   1.3. Job Postings:
+
+2. Employers can create and manage job postings, including job descriptions, requirements, and desired qualifications.  
+
+    2.1. The portal allows for categorizing and organizing job postings based on departments, locations, or other relevant criteria.
+
+   2.2. Candidate Management:
+
+4. The portal provides tools for managing candidate applications and resumes.
+Employers can review and evaluate candidate profiles, track their progress in the hiring process, and communicate with them.
+Application and Resume Submission:
+
+5. Candidates can submit their applications and upload their resumes through the portal.
+Employers can access and review submitted applications and resumes conveniently in one place.
+
+
+
+
+# Tech Stack
+1. HTML
+2. CSS
+
+
 
 <br>
 
-Tech Stack 
-HTML
-CSS
-
-<br>
-
-Functionalities 
-it allows user to view a different user experience
-
-<br>
-
-Screenshot 
+# Image
 ![image](https://user-images.githubusercontent.com/91714143/243335188-ac638297-2f40-4959-8d88-90101d95a706.PNG)
 
 <br>
-Working Video 
-https://user-images.githubusercontent.com/132590302/251191707-6a496ebb-b0b0-4e51-bba3-f1f1222f42e3.mp4
+
+# Worling Video 
+
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/67328331/198b6178-f59f-4198-8229-083e75724628
+
+
 
 <br>
 
 Creator
 [Mohd Sultan](https://github.com/MohdSultanGit)
 
-
-
-![Screenshot from 2022-06-05 10-23-35](https://user-images.githubusercontent.com/91714143/243335188-ac638297-2f40-4959-8d88-90101d95a706.PNG).
