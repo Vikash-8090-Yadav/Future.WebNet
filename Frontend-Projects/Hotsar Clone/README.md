@@ -1,5 +1,5 @@
 <h1 align="center"> Hotstar Clone </h1>
-<h2 align="center">Issue No. #436 </h2>
+<h2 align="center">Issue No. #430 </h2>
 <div align="center">
 <br>
 <h2 align="center">Hello Sir/Ma'am 👋, Here is the description of my Project of Hotstar Clone </h2>
