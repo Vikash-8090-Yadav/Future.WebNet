@@ -6,7 +6,7 @@
 
 # Maths for kids
 
-Maths for kids is an online App where kids can do operations like Addition, Subtraction, Multiplication and Division very easily and in a fun way that they like the most. You just have to click which operation you want to do like Addition or Subtraction that's it. Then you'll see 2 numbers where you have to do that operation. 
+Maths for kids is an online App where kids can do operations like Addition, Subtraction, Multiplication and Division very easily and in a fun way that they like the most. You just have to click which operation you want to do like Addition or Subtraction that's it. Then you'll see 2 numbers where you have to do that operation. If someone marks a wrong answer, then a beep sound will sound to indicate that the answer is wrong.
 
 # Features:
 
@@ -31,7 +31,7 @@ Maths for kids is an online App where kids can do operations like Addition, Subt
 <br>
 
 # Image
-![image]![image](https://github.com/MohdSultanGit/Future.WebNet/assets/132590302/1362c6e2-0e8f-44e4-8db9-7f67bacf6660)
+![image](https://github.com/MohdSultanGit/Future.WebNet/assets/132590302/1362c6e2-0e8f-44e4-8db9-7f67bacf6660)
 
 
 <br>
@@ -44,9 +44,7 @@ Maths for kids is an online App where kids can do operations like Addition, Subt
 https://github.com/MohdSultanGit/Future.WebNet/assets/132590302/dcf0d634-a682-4c76-ac3e-989718c05bd0
 
 
-![Video]
-<video src="Maths%20for%20kids-2.mp4" controls title="Title"></video>
-https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/132590302/4a566122-4af3-4f09-90fd-023e116e26c3
+
 
 
 
