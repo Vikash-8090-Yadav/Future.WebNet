@@ -31,13 +31,15 @@ Maths for kids is an online App where kids can do operations like Addition, Subt
 <br>
 
 # Image
-![image]
+![image]![image](https://github.com/MohdSultanGit/Future.WebNet/assets/132590302/1362c6e2-0e8f-44e4-8db9-7f67bacf6660)
+
 
 <br>
 
 
 # Working Video 
 ![Video]
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/132590302/4a566122-4af3-4f09-90fd-023e116e26c3
 
 
 
