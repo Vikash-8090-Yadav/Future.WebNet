@@ -43,7 +43,7 @@ A web browser that supports HTML, CSS, and JavaScript to run the game.
 
 ![TheGuessingGame ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/4ac46787-4fb4-4263-8e97-663ab4317e57)
 
-![TheGuessingGame ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/34d7dc5f-2111-46cc-94a9-e824cd1be8b0)
+https://github.com/NupurHardiya/Future.WebNet/assets/113535580/cbf0f34a-4913-4a7e-9894-ec5eabc615dc
 
 This README file provides a brief overview of the game, how to play it, and its features. It also includes the requirements to run the game.
 
