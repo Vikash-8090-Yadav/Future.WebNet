@@ -37,9 +37,11 @@ A static webpage showcasing the features of Netflix and its streaming services.
 2. The "Sign In" button does not have an actual sign-in functionality implemented.
    
 **!LIVE DEMO!!**
-![netflix clone ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/9e59ed7e-c2e8-4db8-ae88-5ebf85c1ceab)
+![netflix clone ss](https://github.com/NupurHardiya/Future.WebNet/assets/113535580/832858cd-9060-4355-abf5-99d481079ca7)
 
-https://github.com/NupurHardiya/Future.WebNet/assets/113535580/2884cc04-67f5-4edc-b0eb-b7fe34bc5b10
+
+https://github.com/NupurHardiya/Future.WebNet/assets/113535580/2cb1f388-99a6-41c8-9c4b-39d6992be9cb
+
 
 **Acknowledgments:-**
 
