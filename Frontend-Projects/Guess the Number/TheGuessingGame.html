@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Guessing Game</title>
+<style>
+body {
+  background-color: #22ac69;
+  color: #000000;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0f0d0d;
+  color: #1205d2;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.hint {
+  font-size: 0.8em;
+  color: #b50f0f;
+}
+
+.error {
+  color: #ff0000;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>The Guessing Game</h1>
+  <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+  <input type="text" id="guess" placeholder="Your guess">
+  <button id="submit">Submit</button>
+</div>
+<script>
+const guessInput = document.getElementById("guess");
+const submitButton = document.getElementById("submit");
+
+const difficultyLevels = ["Easy", "Medium", "Hard"];
+const currentDifficulty = difficultyLevels[0];
+
+submitButton.addEventListener("click", () => {
+  const guess = guessInput.value;
+  const randomNumber = Math.floor(Math.random() * 100) + 1;
+
+  if (guess === randomNumber) {
+    alert("You guessed correctly!");
+  } else {
+    const difference = Math.abs(guess - randomNumber);
+    const feedback = `Incorrect! The correct number was ${randomNumber}. Your guess was ${guess} which is ${difference} away.`;
+    alert(feedback);
+  }
+});
+
+const changeDifficulty = (newDifficulty) => {
+  currentDifficulty = newDifficulty;
+};
+
+const getDifficulty = () => {
+  return currentDifficulty;
+};
+
+const getHints = () => {
+  switch (currentDifficulty) {
+    case "Easy":
+      return [];
+    case "Medium":
+      return ["The number is less than 50.", "The number is more than 25."];
+    case "Hard":
+      return ["The number is less than 75.", "The number is more than 50."];
+  }
+};
+</script>
+</body>
+</html>
