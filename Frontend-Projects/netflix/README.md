@@ -7,7 +7,13 @@ This project is a Netflix landing page clone created using React.js and SASS for
 
 <div align=center>
 Here is the live video.
-<video src="../../../../Major%20Projects/netflix/React%20App%20and%2012%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202023-07-15%2018-14-25.mp4" controls title="Netflix-page"></video>
+
+
+
+https://github.com/dontwike/Future.WebNet/assets/100211916/0d2d9f46-455e-43a2-bf21-80304595fa3b
+
+
+
 </div>
 
 Demo<br>
