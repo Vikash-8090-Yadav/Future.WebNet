@@ -1,0 +1,81 @@
+.banner {
+    height: 400px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    // >img {
+    //     height: 400px;
+    //     width: -webkit-fill-available;
+    // }
+
+    h1, p{
+        
+        font-size: 2rem;
+        width: 50%;
+        z-index: 10;
+    }
+    p{
+        font-size: 1.3rem;
+        // letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
+    button {
+        color: white;
+        background-color: rgb(225,7,21);
+        width: 170px;
+        border: none;
+        margin-left: 50px;
+        margin-bottom: 1rem;
+        outline: none;
+        z-index: 10;
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+    }   
+}
+
+.btn:hover {
+    box-shadow: inset 0 0 20px rgba(255, 166, 170, .5), 0 0 20px rgba(255, 126, 133, .2);
+    outline-color: rgba(255, 166, 170, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    opacity: 0.6;
+  }
+
+.card {
+    width: 150px;
+    cursor: pointer;
+    transform: 0.5s;
+    margin: 1rem;
+}
+
+.card:hover {
+    transform: translate(-10px) scale(1.05);
+}
+
+.row {
+    
+     padding: 1rem;
+    background-color: black;
+    
+    >div {
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x: auto;
+        justify-content: left
+    }
+
+    >h2 {
+       color: white; 
+       font-weight: 400;
+       font-size: large;
+    }
+}
