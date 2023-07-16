@@ -9,3 +9,6 @@ The archery game is a simple game where the player shoots arrows at a moving tar
 ## Tech Stack
 
 html,css , js
+
+## video
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/111994644/674e8a93-bfd4-43a5-a054-7359c725aac7
