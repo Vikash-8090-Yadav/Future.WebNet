@@ -25,7 +25,7 @@ To set up the Music Shop Landing Page locally on your machine, follow the steps 
 
 # Video
 
-[label](<public/Screencast from 04-07-23 08:50:38 PM IST.webm>)
+[Screencast from 04-07-23 08:50:38 PM IST.webm](https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/91714143/21e540b8-802b-4aa3-b0ff-09a8c441a729)
 
 # License
 
