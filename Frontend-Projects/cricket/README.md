@@ -5,6 +5,9 @@ A website designed using HTML and CSS to deliver cricket news, scores, records a
 
 
 ## Screenshots
-![website](screenshot.png)
+
+Click the following image to see the working video:
+
+[![website](screenshot.png)](https://drive.google.com/file/d/1juqLgBKcsGEDY8854N-TL-oYBujuFZ7a/view?usp=sharing)
 
 ![website](screenshot1.png)
