@@ -110,157 +110,278 @@ section {
   display: block;
 }
 
-* {
-  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+    font-family: "Eudoxus Sans", "san-serif";
+  }
+
+  body {
+    font-family: "Raleway", "Sora", "Segoe UI Variable", -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+      Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-osx-font-smoothing: grayscale;
+    /* font-size: 16px; */
+    background: rgba(241, 241, 241, 0.432);
+  }
+
+  /* Navbar */
+  .navbar {
+    /* background-color: #222; */
+    background: linear-gradient(to right, #3a0259, #19002c);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .navbar a:hover {
+    color: #01ffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .navbar .brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar .right-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .navbar .right-links a:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    border-color: #fff;
+    color: #212529;
+  }
+
+  .navbar-toggler:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  blockquote,
+  q {
+    quotes: none;
+  }
+
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #ov {
+    color: #1ed760;
+  }
+
+  #mn {
+    display: flex;
+    flex-direction: column;
+  }
+  #img-met {
+    padding-right: 592px;
+    margin-top: 42px;
+    margin-left: 606px;
+  }
+
+  #btn-login {
+    color: darkred;
+    padding-right: 22px;
+    margin-right: 22px;
+    padding-left: 22px;
+    font-size: 70px;
+    line-height: 1.3;
+    letter-spacing: 0.112em;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .main {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background-image: url(https://thumbs.dreamstime.com/b/money-exchange-dollar-sign-icon-isolated-abstract-blue-background-illustration-design-money-exchange-dollar-sign-icon-abstract-167323838.jpg); */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slideIn 1s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-body {
-  font-family: "Raleway", "Sora", "Segoe UI Variable", -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -webkit-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  background: rgba(241, 241, 241, 0.432);
+  /* .main h1,
+  .main label {
+    font-weight: 600;
+  } */
+
+
+  .header {
+    padding: 1em;
+    font-size: 30px;
+    font-weight: 900;
+    /* background-color: #222; */
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: scaleIn 0.8s ease-in-out;
+  }
+
+  @keyframes scaleIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
-ol,
-ul {
-  list-style: none;
-}
 
-blockquote,
-q {
-  quotes: none;
-}
+  #form {
+    min-height: 65vh;
+    margin: 10px auto;
+    width: 100%;
+    min-width: 240px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4em 1em;
+    background: #fffcff;
+    box-shadow: 0px 0px 20px #eee5e7;
+    border-radius: 40px;
+  }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+  .form-heading{
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #360153;
+    padding-bottom: 10px;
+  }
 
-a {
-  text-decoration: none;
-}
+  .main label {
+    font-weight: 700;
+    font-size: 20px;
+    color: #360153;
+    padding-bottom: 10px;
+  }
+  .input-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    gap: 0.5em;
+  }
 
-#ov {
-  color: #1ed760;
-}
+  .input {
+    width: 100%;
+    padding: 1em 0.5em;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid grey;
 
-#mn {
-  display: flex;
-  flex-direction: column;
-}
-#img-met {
-  padding-right: 592px;
-  margin-top: 42px;
-  margin-left: 606px;
-}
+    /* border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px; */
+  }
 
-#btn-login {
-  color: darkred;
-  padding-right: 22px;
-  margin-right: 22px;
-  padding-left: 22px;
-  font-size: 70px;
-  line-height: 1.3;
-  letter-spacing: 0.112em;
-  font-style: normal;
-  font-weight: 500;
-}
 
-#main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  position: relative;
-  background-image: url(https://thumbs.dreamstime.com/b/money-exchange-dollar-sign-icon-isolated-abstract-blue-background-illustration-design-money-exchange-dollar-sign-icon-abstract-167323838.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#main h1,
-#main label {
-  font-weight: 600;
-}
-#header {
-  padding: 1em;
-  font-weight: 900;
-}
-#form {
-  min-height: 70vh;
-  margin: 10px auto;
-  width: 100%;
-  min-width: 240px;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 4em 1em;
-  background: #fff;
-  box-shadow: 0px 0px 20px #0c5a28;
-}
 
-.input-container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1em;
-  gap: 0.5em;
-}
+  /* .input:focus, */
+  .input:hover {
+    border: 2px solid #3a0259;
+    border-left: 4px solid black;
+  }
 
-.input {
-  width: 100%;
-  padding: 1em 0.5em;
-  font-size: 100%;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid grey;
+  .input:active,
+  .input:focus {
+    border-left: 4px solid black;
+    outline: none;
+  }
 
-  /* border-bottom-left-radius: 0px;
-	border-top-left-radius: 0px; */
-}
+  .button-group {
+    display: flex;
+    gap: 2.8em;
+    justify-self: flex-end;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-top: 2em;
+  }
 
-.input:active,
-.input:focus {
-  border-left: 2px solid black;
-  outline: none;
-}
+  .button-group #send{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
-.button-group {
-  padding: 1em;
-  display: flex;
-  gap: 0.8em;
-  justify-self: flex-end;
-}
+  .button-group > .button {
+    border: none;
+    padding: 1em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    width: fit-content;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(to right,#750cad, #2d064b);
+    color: #fff;
+    transition: transform 0.2s linear;
+  }
 
-.button-group > .button {
-  border: none;
-  padding: 1em 2em;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 2px solid rgb(0, 0, 0);
-  width: fit-content;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  background: none;
-  transition: transform 0.2s linear;
-}
+  .button:hover {
+    transform: scale(1.04);
+    border-color: rgba(0, 128, 0, 0.205);
+    background: linear-gradient(to right,#2d064b, #750cad);
+  }
 
-.button:hover {
-  transform: scale(1.04);
-  border-color: rgba(0, 128, 0, 0.205);
-  background: rgba(0, 128, 0, 0.205);
-}
+
+  /* responsiveness */

@@ -1,3 +1,10 @@
+$(document).ready(function() {
+  $('#send').click(function(e) {
+    e.preventDefault();
+    window.location.href = "success.html";
+  });
+});
+
 if(typeof window.ethereum =="undefined"){
 		console.log("PLease install the metamask");
 	}
@@ -56,29 +63,28 @@ if(typeof window.ethereum =="undefined"){
 
    let amount,add;
 
-   $(document).ready(function(){
-   	$("#send").click(function (){
-   		add = $("#in").val();
-      amount = $("#am").val();
+  //  $(document).ready(function(){
+  //  	$("#send").click(function (){
+  //  		add = $("#in").val();
+  //     amount = $("#am").val();
 
-      contract.methods.send(String(add)).send({from:String(accounts),gas : 210000, value  :web3.utils.toWei(amount,'ether')},
+  //     contract.methods.send(String(add)).send({from:String(accounts),gas : 210000, value  :web3.utils.toWei(amount,'ether')},
 
-        function(error,result){
-          if(error){
-            console.log("error"+error);
-          }
-          else{
-            document.getElementById('h').innerHTML="<h1 >SUcESS</h1>"
-          }
-        }
+  //       function(error,result){
+  //         if(error){
+  //           console.log("error"+error);
+  //         }
+  //         else{
+  //           document.getElementById('h').innerHTML="<h1 >SUcESS</h1>"
+  //         }
+  //       }
 
-      );
+  //     );
+   	// });
 
+    // $("#acc-btn").click(function(){
 
-   	});
-    $("#acc-btn").click(function(){
-
-      $("#sh").html("accounts")
+    //   $("#sh").html("accounts")
 
     //   web3.eth.getBalance(accounts,
     //   function(err,result){
@@ -91,9 +97,9 @@ if(typeof window.ethereum =="undefined"){
     //     }
     //   });
 
-    });
+  //   });
 
-  });
+  // });
 
 
    // async function all_methods(){

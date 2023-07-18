@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head >
-
-    <title>Records</title>
+<head>
+    <title>Champions</title>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
     <style>
-       nav{
+        nav {
             border-style: solid;
             border-radius: 2em;
-            font-family:'Merriweather', serif ;
+            font-family: 'Merriweather', serif;
             border-width: 0.15em;
             padding: 1em;
-          }  
-    nav a{
-             padding-right: 2em;
-             padding-left: 2em;
-             color: red;  
-           }
-        .row{
+        }
+
+        nav a {
+            padding-right: 2em;
+            padding-left: 2em;
+            color: red;
+        }
+
+        .row {
             display: flex;
             margin-top: 2em;
         }
-        .left-column{
-           background-image: url('cricket records.jpg');
-           background-position: center;
-           background-size: cover;
-           background-repeat: no-repeat;
-           flex: 40%;
-           height: 60vh; 
+
+        .left-column {
+            background-image: url('cricket records.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            flex: 40%;
+            height: 60vh;
         }
-        .right-column{
-            background-color:rgb(0, 0, 0) ;
+
+        .right-column {
+            background-color: rgb(0, 0, 0);
             flex: 60%;
             height: 60vh;
-            padding-left:80px;
+            padding-left: 80px;
         }
-        .main-heading{
+
+        .main-heading {
             color: rgb(255, 255, 255);
             font-size: 4em;
-            font-family:'Merriweather', serif ; 
-        }
-        #content-area{
             font-family: 'Merriweather', serif;
-            color:blue ;
+        }
+
+        #content-area {
+            font-family: 'Merriweather', serif;
+            color: blue;
             font-size: 1.3em;
         }
-        #layout-container{
+
+        #layout-container {
             width: 80%;
             margin-right: auto;
             margin-left: auto;
@@ -54,45 +60,48 @@
 </head>
 
 <body style="background-color:rgb(247, 252, 241);">
-    <div id="layout-container">
+<div id="layout-container">
     <nav>
-           <snap style="padding-left: 2em;" >RECORDS</snap> 
-        
-    
-    <a href="index.html">Cricket</a>
-    <a href="Champions(2000-2021) in ICC tours.html" >Champions</a>
+        <snap style="padding-left: 2em;">Champions</snap>
+        <a href="index.html">Cricket</a>
+        <a href="Records.html">Records</a>
     </nav>
-    <div  class="row" >
+    <div class="row">
         <div class="left-column">
-      </div>
+        </div>
+        <div class="right-column">
+            <h1 class="main-heading">Champions of the 21st Century</h1>
+        </div>
+    </div>
+    <div id="content-area">
+        <h2>ODI World Cup Winners</h2>
+        <ul>
+            <li>2000: Australia</li>
+            <li>2003: Australia</li>
+            <li>2007: Australia</li>
+            <li>2011: India</li>
+            <li>2015: Australia</li>
+            <li>2019: England</li>
+        </ul>
 
-    <div  class ="right-column">
-    <h1 class="main-heading" >Records-Made to Break!</h1>
-   </div >
-  
-   </div>
-   <div  id ="content-area">
-      <p>
-       ODI records:<br>
-       Most runs-Sachin Tendulkar(18,426 runs)<br>Most Wickets-Muttiah Murali(534 wickets)<br>
-       Most Catches-Mahela Jayawardane<br>Highest Score(team)-481(England)
-       </p>
-       <p>
-       Test Records:<br>
-       Most runs-Sachin Tendulkar(15,921 runs)<br>Most Wickets-Muttiah Murali(800 wickets)<br>
-       Highest Avg-Don Bradman(99.94)<br>Highest individual score-Brian Lara(400 not out)
-    </p>
-       <p>
-       T20:
-       Highest score(team):278/3 AFG Vs IRE<br>Highest individual
-       score:Aaron Finch(172)<br>
-         Most Runs-Rohit Sharma(3313 runs)<br>
-       Most wickets-Shakib Al Hasan(119 wickets)<br>
-      </p>
+        <h2>World Test Championship Winners</h2>
+        <ul>
+            <li> 2021: New Zealand</li>
+            <!-- Add more years and winners as needed -->
+        </ul>
+
+        <h2>T20 World Cup Winners</h2>
+        <ul>
+            <li>2007: India</li>
+            <li>2009: Pakistan</li>
+            <li>2010: England</li>
+            <li>2012: West Indies</li>
+            <li>2014: Sri Lanka</li>
+            <li>2016: West Indies</li>
+            <li>2020: Australia</li>
+            <li>2022: England</li>
+        </ul>
     </div>
-    </div>
-   
-    
+</div>
 </body>
-
 </html>

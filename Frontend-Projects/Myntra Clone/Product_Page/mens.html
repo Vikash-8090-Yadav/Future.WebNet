@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra | Mens Section</title>
+
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./mens.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ================================================================================================================ -->
+
+    <script
+      src="https://kit.fontawesome.com/f1ce217c17.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- ================================================================================================================ -->
+  </head>
+  <body>
+    <!-- =========================================================================================================================== -->
+    <div id="navbar">
+      <div class="menu-bar">
+        <ul>
+
+          <a href="../Index.html">
+
+            <img
+            style="
+              height: 60px;
+              width: 60px;
+              margin-top: 11px;
+              margin-left: 15px;
+            "
+            src="data:image/png;base64,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"
+            alt="MyntraLogo"
+          />
+
+
+          </a>
+
+
+
+          <!-- <img
+            style="
+              height: 60px;
+              width: 60px;
+              margin-top: 11px;
+              margin-left: 15px;
+            "
+            src="data:image/png;base64,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"
+            alt="MyntraLogo"
+          /> -->
+
+
+
+          <div id="nav-titles">
+          <li >
+            <span style="padding:26px 0px;" class="menHover" >MEN</span>
+            <div class="bcg"></div>
+            <!-- <div class="menHover" style=" height: 100%; border: 1px solid #000;">Men</div> -->
+            
+            <div class="sub-menu-1">
+              
+              <div style="margin-top:-40px ;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Topwear</h4></a>
+                  </li>
+                  <li><a href="./mens.html">T-Shirts</a></li>
+                  <li><a href="./mens.html">Casual Shirts</a></li>
+                  <li><a href="./mens.html">Sweatshirts</a></li>
+                  <li><a href="./mens.html">Jackets</a></li>
+                  <li><a href="./mens.html">Blazers & Coats</a></li>
+                  <li><a href="./mens.html">Suits</a></li>
+                  <li><a href="./mens.html">Rain Jackets</a></li>
+                </ul>
+              </div>
+            
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Bottomwear</h4></a>
+                  </li>
+  
+                  <li><a href="#"> Jeans</a></li>
+                  <li><a href="#">Casual Trousers</a></li>
+                  <li><a href="#"> Formal Trousers</a></li>
+                  <li><a href="#"> Shortsr</a></li>
+                  <li><a href="#"> Track Pants & Joggers</a></li>
+                </ul>
+              </div>
+             
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Footwear</h4></a>
+                  </li>
+                  <li><a href="#"> Casual Shoes</a></li>
+                  <li><a href="#"> Sports Shoes</a></li>
+                  <li><a href="#"> Formal Shoes</a></li>
+                  <li><a href="#"> Sneakers</a></li>
+                  <li><a href="#"> Sandals & Floaters</a></li>
+                  <li><a href="#"> Flip Flops</a></li>
+                  <li><a href="#"> Socks</a></li>
+                </ul>
+              </div>
+  
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Sports & Active Wear</h4></a>
+                  </li>
+                  <li><a href="#">Sports Shoes</a></li>
+                  <li><a href="#"> Sports Sandals</a></li>
+                  <li><a href="#"> Active T-Shirts</a></li>
+                  <li><a href="#">Track Pants & Shorts</a></li>
+                  <li><a href="#"> Tracksuits</a></li>
+                  <li><a href="#"> Jackets & Sweatshirts</a></li>
+                  <li><a href="#"> Sports Accessories</a></li>
+                  <li><a href="#"> Swimwear</a></li>
+                </ul>
+              </div>
+  
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Fashion Accessories</h4></a>
+                  </li>
+                  <li><a href="#"> Wallets</a></li>
+                  <li><a href="#"> Belts</a></li>
+                  <li><a href="#"> Perfumes & Body Mists</a></li>
+                  <li><a href="#"> Trimmers</a></li>
+                  <li><a href="#">Ties, Cufflinks & Pocket Squares</a></li>
+                  <li><a href="#"> Accessory Gift Sets</a></li>
+                  <li><a href="#"> Caps & Hats</a></li>
+                  <li><a href="#"> Mufflers, Scarves & Gloves</a></li>
+                  <li><a href="#"> Rings & Wristwear</a></li>
+                  <li><a href="#"> Helmets</a></li>
+                </ul>
+              </div>
+
+              <div class="bcg"></div>
+             
+
+            </div>
+
+            
+          </li>
+         
+          <li>
+            <span style="padding:26px 0px;" id="wm">WOMEN</span>
+            <div class="bcg"></div>
+            
+            <div id="sb1" class="sub-menu-1" style="margin-left:-135px ;">
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Indian & Fusion Wear</h4></a>
+                  </li>
+                  <li><a href="./womens.html"> Kurtas & Suits</a></li>
+                  <li><a href="./womens.html"> Kurtis, Tunics & Tops</a></li>
+                  <li><a href="./womens.html"> Sarees</a></li>
+                  <li><a href="./womens.html"> Ethnic Wear</a></li>
+                  <li><a href="./womens.html"> Leggings, Salwars & Churidars</a></li>
+  
+                  <li><a href="#"> Skirts & Palazzos</a></li>
+                  <li><a href="#"> Dress Materials</a></li>
+                  <li><a href="#"> Lehenga Cholis</a></li>
+                  <li><a href="#"> Dupattas & Shawls</a></li>
+  
+                  <li><a href="#"> Jackets </a></li>
+                </ul>
+              </div>
+              <div  style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Western Wear</h4></a>
+                  </li>
+                  <li><a href="#"> Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#"> Jeans</a></li>
+                  <li><a href="#"> Trousers & Capris</a></li>
+  
+                  <li><a href="#"> Co-ords</a></li>
+                  <li><a href="#"> Playsuits</a></li>
+                  <li><a href="#"> Jumpsuits</a></li>
+                  <li><a href="#"> Shrugs</a></li>
+                  <li><a href="#"> Sweaters & Sweatshirts</a></li>
+                  <li><a href="#">Jackets & Coats</a></li>
+                  <li><a href="#"> Blazers & Waistcoats</a></li>
+                </ul>
+              </div>
+              <div  style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Maternity</h4></a>
+                  </li>
+                  <br />
+                  <li>
+                    <a href="#"><h4>Sunglasses & Frames</h4></a>
+                  </li>
+                  <br />
+                  <li>
+                    <a href="#"><h4>Footwear</h4></a>
+                  </li>
+                  <li><a href="#"> Flats</a></li>
+                  <li><a href="#"> Casual Shoes</a></li>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#"> Heels</a></li>
+                  <li><a href="#"> Boots</a></li>
+  
+                  <!-- <li><a href="#"> Sports Shoes & Floaters</a></li> -->
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Lingerie & Sleepwear</h4></a>
+                  </li>
+                  <li><a href="#">Bra</a></li>
+                  <li><a href="#"> Briefs</a></li>
+                  <li><a href="#"> Shapewear</a></li>
+                  <li><a href="#"> Sleepwear & Loungewear</a></li>
+                  <li><a href="#"> Swimwear</a></li>
+  
+                  <li><a href="#"> Camisoles & Thermals</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Gadgets</h4></a>
+                  </li>
+                  <li><a href="#">Smart Wearables</a></li>
+                  <li><a href="#"> Fitness Gadgets</a></li>
+                  <li><a href="#"> Headphones</a></li>
+                  <li><a href="#"> Speakers</a></li>
+                </ul>
+              </div>
+
+
+
+              <div class="bcg"></div>
+
+
+
+
+
+            </div>
+          </li>
+          <li>
+            <span style="padding:26px 0px;" id="kd">KIDS</span>
+            <div class="bcg"></div>
+            
+            <div id="sb2" class="sub-menu-1" style="margin-left:-228px ;">
+              <div class="bcg"></div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Boys Clothing</h4></a>
+                  </li>
+                  <li><a href="#"> T-Shirts</a></li>
+                  <li><a href="#"> Shirts</a></li>
+                  <li><a href="#"> Shorts</a></li>
+                  <li><a href="#"> Jeans</a></li>
+                  <li><a href="#"> Trousers</a></li>
+  
+                  <li><a href="#"> Clothing Sets</a></li>
+                  <li><a href="#"> Ethnic Wear</a></li>
+                  <li><a href="#"> Track Pants & Pyjamas</a></li>
+                  <li><a href="#"> Jacket, Sweater & Sweatshirts</a></li>
+  
+                  <li><a href="#"> Party Wear </a></li>
+                  <li><a href="#"> Innerwear & Thermals </a></li>
+                  <!-- <li><a href="#"> Nightwear & Loungewear </a></li> -->
+                  <li><a href="#"> Value Packs </a></li>
+                </ul>
+              </div>
+  
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Girls Clothing</h4></a>
+                  </li>
+                  <li><a href="#"> Dresses</a></li>
+                  <li><a href="#"> Tops</a></li>
+                  <li><a href="#"> Tshirts</a></li>
+                  <li><a href="#"> Clothing Sets</a></li>
+                  <li><a href="#"> Lehenga choli</a></li>
+  
+                  <li><a href="#"> Kurta Sets</a></li>
+                  <li><a href="#">Party wear</a></li>
+                  <li><a href="#"> Dungarees & Jumpsuits</a></li>
+                  <li><a href="#"> Skirts & shorts</a></li>
+  
+                  <li><a href="#"> Tights & Leggings </a></li>
+                  <li><a href="#">Jeans, Trousers & Capris </a></li>
+                  <li><a href="#">Jacket, Sweater & Sweatshirts</a></li>
+                  <!-- <li><a href="#">  </a></li> -->
+                  
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Footwear</h4></a>
+                  </li>
+                  <li><a href="#"> Casual Shoes</a></li>
+                  <li><a href="#"> Flipflops</a></li>
+                  <li><a href="#"> Sports Shoes</a></li>
+                  <li><a href="#"> Flats</a></li>
+                  <li><a href="#"> Sandals</a></li>
+  
+                  <li><a href="#"> Heels</a></li>
+                  <li><a href="#"> School Shoes</a></li>
+                  <li><a href="#"> Socks</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Infants</h4></a>
+                  </li>
+                  <li><a href="#"> Bodysuits</a></li>
+                  <li><a href="#"> Rompers & Sleepsuits</a></li>
+                  <li><a href="#"> Clothing Sets</a></li>
+                  <li><a href="#"> Tshirts & Tops</a></li>
+                  <li><a href="#"> Dresses</a></li>
+  
+                  <li><a href="#"> Bottom wear</a></li>
+                  <li><a href="#"> Winter Wear</a></li>
+                  <li><a href="#"> Innerwear & Sleepwear</a></li>
+                  <li><a href="#"> Infant Care</a></li>
+                </ul>
+              </div>
+  
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Kids Accessories</h4></a>
+                  </li>
+                  <li><a href="#"> Bags & Backpacks</a></li>
+                  <li><a href="#"> Jewellery & Hair accessory</a></li>
+                  <li><a href="#"> Sunglasses</a></li>
+                  <li><a href="#"> Masks & Protective Gears</a></li>
+                  <li><a href="#"> Caps & Hats</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span style="padding:26px 0px;" id="hl">HOME & LIVING</span>
+            <div class="bcg"></div>
+            <div id="sb3" class="sub-menu-1" style="margin-left:-295px;">
+              <div class="bcg"></div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Bed Linen & Furnishing</h4></a>
+                  </li>
+                  <li><a href="#"> Bed Runners</a></li>
+                  <li><a href="#"> Mattress Protectors</a></li>
+                  <li><a href="#"> Bedsheets</a></li>
+                  <li><a href="#"> Bedding Sets</a></li>
+                  <li><a href="#"> Blankets, Quilts & Dohars</a></li>
+  
+                  <li><a href="#"> Pillows & Pillow Covers</a></li>
+                  <li><a href="#"> Bed Covers</a></li>
+                  <li><a href="#">Diwan Sets</a></li>
+                  <li><a href="#">Chair Pads & Covers</a></li>
+                  <li><a href="#"> Sofa Covers</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Bath</h4></a>
+                  </li>
+                  <li><a href="#">Bath Towels</a></li>
+                  <li><a href="#">Hand & Face Towels</a></li>
+                  <li><a href="#"> Beach Towels</a></li>
+                  <li><a href="#"> Towels Set</a></li>
+                  <li><a href="#"> Bath Rugs</a></li>
+  
+                  <li><a href="#"> Bathroom Accessories </a></li>
+                  <li><a href="#"> Shower Curtains</a></li>
+                  <li><a href="#"> Bath Robes</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Home Décor</h4></a>
+                  </li>
+                  <li><a href="#"> Plants & Planters</a></li>
+                  <li><a href="#"> Aromas & Candles</a></li>
+                  <li><a href="#"> Clocks</a></li>
+                  <li><a href="#"> Mirrors</a></li>
+                  <li><a href="#"> Wall Décor</a></li>
+  
+                  <li><a href="#"> Festive Decor</a></li>
+                  <li><a href="#"> Pooja Essentials</a></li>
+                  <li><a href="#"> Wall Shelves</a></li>
+                  <li><a href="#"> Fountains</a></li>
+                  <li><a href="#"> Showpieces & Vases</a></li>
+                  <li><a href="#"> Ottoman</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Home Gift Sets</h4></a>
+                  </li>
+                  <br />
+                  <li>
+                    <a href="#"><h4>Kitchen & Table</h4></a>
+                  </li>
+                  <li><a href="#"> Table Runners</a></li>
+                  <li><a href="#"> Dinnerware & Serveware</a></li>
+                  <li><a href="#"> Cups and Mugs</a></li>
+                  <li><a href="#"> Bakeware & Cookware</a></li>
+                  <li><a href="#"> Kitchen Storage & Tools</a></li>
+  
+                  <li><a href="#"> Bar & Drinkware</a></li>
+                  <li><a href="#"> Table Covers & Furnishings</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Brands</h4></a>
+                  </li>
+                  <li><a href="#"> H&M</a></li>
+                  <li><a href="#"> Marks & Spencer</a></li>
+                  <li><a href="#"> Home Centre</a></li>
+                  <li><a href="#">Spaces</a></li>
+                  <li><a href="#">D'Decor</a></li>
+  
+                  <li><a href="#">Story@Home</a></li>
+                  <li><a href="#"> Raymond Home</a></li>
+                  <li><a href="#"> Trident</a></li>
+                  <li><a href="#"> Cortina</a></li>
+                  <li><a href="#"> Random</a></li>
+                  <li><a href="#"> Ellementry</a></li>
+                  <li><a href="#"> ROMEE</a></li>
+                  <li><a href="#"> SEJ by Nisha Gupta</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+           <span style="padding:26px 0px;" id="beauty-tag">BEAUTY</span> 
+           <div class="bcg"></div>
+            <div id="sb4" class="sub-menu-1" style="margin-left:-448px ;">
+              <div class="bcg"></div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Makeup</h4></a>
+                  </li>
+                  <li><a href="#">Lipstick</a></li>
+                  <li><a href="#"> Lip Gloss</a></li>
+                  <li><a href="#"> Lip Liner</a></li>
+                  <li><a href="#"> Mascara</a></li>
+  
+                  <li><a href="#"> Eyeliner</a></li>
+                  <li><a href="#"> Kajal</a></li>
+                  <li><a href="#"> Eyeshadow</a></li>
+                  <li><a href="#"> Foundation</a></li>
+                  <li><a href="#"> Primer</a></li>
+                  <li><a href="#"> Concealer</a></li>
+                  <li><a href="#"> Compact</a></li>
+                  <li><a href="#"> Nail Polish</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Skincare, Bath & Body</h4></a>
+                  </li>
+                  <li><a href="#"> Face Moisturiser</a></li>
+                  <li><a href="#"> Cleanser</a></li>
+                  <li><a href="#"> Masks & Peel</a></li>
+                  <li><a href="#"> Sunscreen</a></li>
+  
+                  <li><a href="#"> Serum</a></li>
+                  <li><a href="#"> Face Wash</a></li>
+                  <li><a href="#"> Eye Cream</a></li>
+                  <li><a href="#"> Lip Balm</a></li>
+                  <li><a href="#"> Body Lotion</a></li>
+                  <li><a href="#"> Body Wash</a></li>
+                  <li><a href="#"> Body Scrub</a></li>
+                  <li><a href="#"> Hand Cream</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Haircare</h4></a>
+                  </li>
+                  <li><a href="#"> Shampoo</a></li>
+                  <li><a href="#"> Conditioner</a></li>
+                  <li><a href="#"> Hair Cream</a></li>
+                  <li><a href="#"> Hair Oil</a></li>
+  
+                  <li><a href="#"> Hair Gel</a></li>
+                  <li><a href="#"> Hair Color</a></li>
+                  <li><a href="#"> Hair Serum</a></li>
+                  <li><a href="#"> Hair Accessory</a></li>
+                </ul>
+              </div>
+              <div style="margin-top: -40px;">
+                <ul>
+                  <li>
+                    <a href="#"><h4>Appliances</h4></a>
+                  </li>
+                  <li><a href="#"> Hair Straightener</a></li>
+                  <li><a href="#"> Hair Dryer</a></li>
+                  <li><a href="#"> Epilator</a></li>
+  
+                  <li><a href="#"> Mascara</a></li>
+  
+                  <li><a href="#"> Eyeliner</a></li>
+                  <li><a href="#"> Kajal</a></li>
+                  <li><a href="#"> Eyeshadow</a></li>
+                  <li><a href="#"> Foundation</a></li>
+                  <li><a href="#"> Primer</a></li>
+                  <li><a href="#"> Concealer</a></li>
+                  <li><a href="#"> Compact</a></li>
+                  <li><a href="#"> Nail Polish</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+           <span style="padding:26px 0px;" id="studio-tag">STUDIO</span> <span class="studio-new" >NEW</span>
+           <div class="bcg"></div>
+            <div class="sub-menu-5" style="width: 500px; margin-left: -300px; background-color: white;">
+              
+              <ul>
+                <li>
+                  <a href="#"></a>
+                </li>
+                
+                <li id="studio-logo-for"><a href="#"> <img src="https://constant.myntassets.com/web/assets/img/studio-logo-new.svg" alt=""> </a></li>
+                <li id="text-for-studio"><a href="">Your daily inspiration for everything fashion</a></li>
+                <li id="start-img"><a href="#"><img src="https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png" alt=""></a></li>
+                <li><a href=""><button>Explore Studio</button></a></li>
+                
+              </ul>
+            </div>
+          </li>
+        </div>
+
+
+
+
+
+          <input
+            class="icon"
+            type="text"
+            placeholder="Search for products, brands and more"
+          />
+          <div id="Profile-Div">
+            <li>
+              <a href=""
+                ><div class="pro">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/747/747376.png"
+                    alt=""
+                  />
+                  <span id="profile-tag">Profile</span>
+                </div>
+  
+                <div id="profile-dropdown" class="sub-menu-1" style="width: 300px; height: 316px; margin-left: -130px;">
+
+                
+           <ul id="profile-dropdown-hover">
+            <div>
+              <h3>Welcome</h3>
+              <p style="margin-top:-15px ;">To access account and manage orders</p>
+              <a href="../LOGIN/Signup.html">
+                <button id="logbtn">LOGIN / SIGNUP</button>
+              </a>
+              
+            </div>
+            <div style="color: #3e4152c5;">
+              <li >Order</li>
+              <li>Whishlist</li>
+              <li>Gift Card</li>
+              <li>Contact US</li>
+              <li>Myntra Insider</li>
+              
+            </div >
+            <div style="color: #3e4152c5;">
+              <li>Myntra Credit</li>
+              <li>Coupons</li>
+              <li>Saved Cards</li>
+              <li>Saved Addresses</li>
+              
+            </div>
+          </ul>
+
+
+                </div>
+  
+  
+                </a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><div class="pro">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png"
+                    alt=""
+                  />
+                  <span style="margin-left: -2px;">Wishlist</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href="../cart/cartPage.html"
+                ><div id="last-bag-box" class="pro">
+                  <img 
+                    src="https://cdn-icons-png.flaticon.com/512/1656/1656850.png"
+                    alt=""
+                  />
+                  <span id="cartCurrentItemShow" data-reactid="901" style="font-size: 11px; margin-left: 10px;"></span>
+                  <span style="margin-left: -4px; margin-top: -3px;">Bag</span>
+                </div></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div id="path">Home / Clothing / <b>Mens</b></div>
+    <div id="itemName">
+      <p>Mens Clothes <span>-50 items</span></p>
+    </div>
+
+    <div id="filterBar">
+      <div><h3>FILTERS</h3></div>
+      <div id="filter-tag">
+        <select name="" id="">
+          <option value="">Add Ones</option>
+        </select>
+        <select name="" id="">
+          <option value="">Bundle</option>
+        </select>
+        <select name="" id="">
+          <option value="">Character</option>
+        </select>
+        <select name="" id="">
+          <option value="">Collar</option>
+        </select>
+        <select name="" id="">
+          <option value="">Country of Origin</option>
+        </select>
+        <select name="" id="">
+          <option value="">Fabric</option>
+        </select>
+        <select name="" id="">
+          <option value="">Fabric 2</option>
+        </select>
+        <p><b>+17 more</b></p>
+      </div>
+      <div>
+        <label for="">Sort by :</label>
+        <select name="" id="chooseItem" onchange="sort()">
+          <option value="Recommended">Recommended</option>
+          <option value="new">What's New</option>
+          <option value="popular">Popularity</option>
+          <option value="discount">Better Discount</option>
+          <option value="hlt">Price High to Low</option>
+          <option value="lth">Price Low to High</option>
+          <option value="rating">Customer Rating</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="parent">
+      <div id="filter">
+        <div>
+          <h3>Brand</h3>
+          <label class="checkbox-container"
+            >Allen Soley
+            <input type="checkbox" class="checkbox" id="brand-filter1" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Roadster
+            <input type="checkbox" class="checkbox" id="brand-filter2" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Louis Philippe Sport
+            <input type="checkbox" class="checkbox" id="brand-filter3" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >HIGHLANDER
+            <input type="checkbox" class="checkbox" id="brand-filter4"/>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            Blackberry
+            <input type="checkbox"  class="checkbox" id="brand-filter5" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            Flying Machine
+            <input type="checkbox" class="checkbox" id="brand-filter6" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            U S Polo Assn.
+            <input type="checkbox" class="checkbox" id="brand-filter7"  />
+            <span class="checkmark"></span>
+          </label>
+
+          <p>+402 more</p>
+        </div>
+        <div>
+          <h3>PRICE</h3>
+          <label class="checkbox-container"
+            >Rs. 279 to Rs. 5385
+            <input type="checkbox" class="checkbox" id="brand-filter8" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Rs. 5385 to Rs. 10491
+            <input type="checkbox" class="checkbox" id="brand-filter9"/>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Rs. 10491 to Rs. 15597
+            <input type="checkbox" class="checkbox" id="brand-filter10"/>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Rs. 15597 to Rs. 20703
+            <input type="checkbox" class="checkbox" id="brand-filter11"/>
+            <span class="checkmark"></span> </label
+          ><br />
+        </div>
+        <div>
+          <h3>COLOR</h3>
+          <label class="checkbox-container"
+            >Blue
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >White
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Navy Blue
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container"
+            >Green
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            Black
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            Grey
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">
+            Red
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <p>+38 more</p>
+          <br />
+        </div>
+
+        <div id="input-select-tags">
+          <h3>DISCOUNT RANGE</h3>
+          <input type="radio" value="" name="discount" />
+          <label for="">10% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">20% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">30% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">40% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">50% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">60% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">70% and above</label> <br />
+          <input type="radio" value="" name="discount" />
+          <label for="">80% and above</label> <br /><br />
+        </div>
+      </div>
+      <div id="product"></div>
+    </div>
+
+    <div id="text" style="font-size: 13.5px;">
+      <div>
+        <h4>BUY CASUAL SHIRTS FOR MEN</h4>
+        <p
+          style="font-size: 12px; color: rgba(0, 0, 0, 0.616); font-weight: 700"
+        >
+          LOOK DAPPER AND STAY RELAXED WITH CASUAL SHIRTS FOR MEN
+        </p>
+
+        <p>
+          Almost all men own a set of shirts – right from students to working
+          professionals. These garments are comfortable and versatile.
+          Modern-day casual shirts for men have evolved from inner garments of
+          medieval times. They were originally made of un-dyed, plain fabrics.
+          Coloured shirts made an appearance around the 19th century. And by the
+          20th century, shirts became mainstream and accepted as outerwear of
+          class. At Myntra we are proud to host some of the best casual shirts
+          for men online. You can choose from a wide range of options in
+          fabrics, patterns, collar-type, sleeves and more.
+        </p>
+        <p
+          style="font-size: 12px; color: rgba(0, 0, 0, 0.616); font-weight: 700"
+        >
+          MEN’S CASUAL SHIRTS AT MYNTRA: AN OPTION FOR EVERY OCCASION
+        </p>
+        <p>
+          Look dapper and feel comfortable from within with our collection of
+          the best men’s casual shirt brands. You can access the latest
+          varieties and new casual shirts for men fresh from the fashion houses
+          right here at Myntra. Here is a look at a few types of casual shirts
+          for men and how to create the perfect outfit for every occasion:
+        </p>
+        <ol>
+          <li>
+            Checked casual shirts for men are great for an outdoor adventure.
+            Get yourself a buffalo-checked slim-fit shirt in the quintessential
+            red and black combination. Wear it unbuttoned over a white
+            round-neck T-shirt along with charcoal grey trousers. Wear a brown
+            jacket and a pair of rugged brown boots before you take a walk in
+            the woods.
+          </li>
+          <li>
+            If you are planning to head to a beach-side resort, replace your
+            T-shirts with casual shirts for men. Choose a cool blue shirt in
+            solid and pair it up with red chino shorts. Go sock-free with a pair
+            of beige lace-up shoes. Wear wayfarers and a gold cap for added
+            style.
+          </li>
+          <li>
+            It is time to head for a night of weekend clubbing with striped
+            casual shirts for men. Put on a black vertical-striped shirt with
+            the sleeves folded at the elbows. Team it up with light blue
+            distressed jeans. Brown leather shoes and a brown strap watch would
+            complete the look.
+          </li>
+          <li>
+            For a dinner date, express your love and commitment with a crisp
+            white shirt. Wear it with dark blue trousers with a striped pattern.
+            Brown leather slip-on shoes would add more class to your outfit.
+            Accessorise with a smart metallic watch and carry your cash or cards
+            in a smooth wallet.
+          </li>
+          <li>
+            Shine on like a diamond dressed in silk shirts. Pick up a silk shirt
+            in green, or off-white and wear it with our dhotis for your local
+            festivals. Alternatively, pick up a red or maroon shirt, and wear it
+            inserted with trousers for parties.
+          </li>
+          <p>
+            Check out other variations in casual shirts for men such as
+            colour-blocked, micro-checks gingham checks, polka dots, horizontal
+            stripes and more such patterns.
+          </p>
+          <h4>BUY CASUAL SHIRTS FOR MEN WITH EASE</h4>
+          <p>
+            If you would like to buy the best price casual shirt for men online
+            shopping at Myntra is the way to go. We bring you very simplified
+            browsing, selection and payment processes so that you can shop
+            online without any hassles.
+          </p>
+        </ol>
+        <br />
+        <h4>
+          VIDEO: How To Wear A Shirt In Different Ways | Fit Like A Model |
+          Myntra
+        </h4>
+        <iframe
+          width="500"
+          height="300"
+          src="https://www.youtube.com/embed/ITtTScTBak4"
+          title="How To Wear A Shirt In Different Ways | Fit Like A Model | Myntra"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>
+          In this episode of ‘Fit Like A Model’ our style mentor will guide you
+          on how to wear a shirt in different styles.
+        </p>
+      </div>
+      <div>
+        <h4>CASUAL SHIRTS FOR MEN PRICE LIST</h4>
+        <table>
+          <tr>
+            <th>Casual Shirts for Men</th>
+            <th>PRICE (RS)</th>
+          </tr>
+          <tr>
+            <td>Roadster Men Black & Grey Checked Pure Cotton Casual Shirt</td>
+            <td>Rs. 524</td>
+          </tr>
+          <tr>
+            <td>
+              The Indian Garage Co Men White & Teal Blue Slim Fit Striped Casual
+              Shirt
+            </td>
+            <td>Rs. 626</td>
+          </tr>
+          <tr>
+            <td>Dennis Lingo Men Pink Slim Fit Casual Shirt</td>
+            <td>Rs. 699</td>
+          </tr>
+          <tr>
+            <td>
+              Mast & Harbour Men Blue & White Regular Fit Checked Casual Shirt
+            </td>
+            <td>Rs. 911</td>
+          </tr>
+          <tr>
+            <td>Roadster Men Blue Printed Casual Sustainable Shirt</td>
+            <td>Rs. 659</td>
+          </tr>
+          <tr>
+            <td>Dennis Lingo Men Olive Green Slim Fit Casual Shirt</td>
+            <td>Rs. 699</td>
+          </tr>
+          <tr>
+            <td>
+              Calvin Klein Jeans Men Black Solid Slim Fit Satin Casual Shirt
+            </td>
+            <td>Rs. 3999</td>
+          </tr>
+          <tr>
+            <td>Campus Sutra Men White & Blue Striped Casual Shirt</td>
+            <td>Rs. 899</td>
+          </tr>
+          <tr>
+            <td>
+              HIGHLANDER Men White & Sea Green Slim Fit Striped Casual Shirt
+            </td>
+            <td>Rs. 574</td>
+          </tr>
+          <tr>
+            <td>WILD WEST Men Black Slim Fit Casual Shirt</td>
+            <td>Rs. 593</td>
+          </tr>
+        </table>
+        <p>Data last updated on 01/08/2022</p>
+      </div>
+    </div>
+    <div id="bottom">
+      <div>
+        <h5>ONLINE SHOPINT</h5>
+        <p>Mens</p>
+        <p>Womens</p>
+        <p>Kids</p>
+        <p>Home & Living</p>
+        <p>Beauty</p>
+        <p>Gift Card</p>
+        <p>Myntra Insider</p>
+        <br /><br />
+        <h5>USEFUL LINKS</h5>
+        <p>Blogs</p>
+        <p>Careers</p>
+        <p>Site Map</p>
+        <p>Corporate Information</p>
+        <p>Whitehat</p>
+      </div>
+      <div>
+        <h5>CUSTOMER POLICIES</h5>
+        <p>Contact Us</p>
+        <p>FAQ</p>
+        <p>T&C</p>
+        <p>Term Of Use</p>
+        <p>Track Order</p>
+        <p>Shiping</p>
+        <p>Cancellation</p>
+        <p>Return</p>
+        <p>Privacy policy</p>
+        <p>Grievance Officer</p>
+      </div>
+      <div>
+        <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+        <div id="store">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+            alt=""
+          />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+            alt=""
+          />
+        </div>
+
+        <h5>KEEP ON TOUCH</h5>
+        <div id="socialmedialogo">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png"
+            alt=""
+          />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png"
+            alt=""
+          />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png"
+            alt=""
+          />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+            alt=""
+          />
+          <p>
+            <b>100% ORIGINAL</b>
+            <span>guaranteed for all products at myntra.com</span>
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
+            alt=""
+          />
+          <p>
+            <b>Return within 30 Days</b> <span>of receiving your order</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="popularSearch">
+      <p>
+        Apaar | Sharma | Adidas | Arrow | Fila | Online Shopping | Nike | Pepe
+        Jeans | Puma | United Colors Of Benetton | Fastrack | Shorts | Being
+        Human | Skirts | Woodland | Supra | Dresses | Winter Wear | Sweatshirts
+        For Men | Winter Jackets For Men | Chinos | Shoes | Men Blue & Grey
+        Checked Casual Shir | Shirts For Men | Arbaaz | Clothing | Jewellery | T
+        Shirts | Bags | Watches | Caps | Shirts | Backpacks | Flip Flops |
+        Shirts | Dresses | Party Dresses | Puma Tshirts | Woodland Shoes | Titan
+        Watches | Fastrack Watches | Wrangler Shirts | Adidas Tshirts | Nike
+        Shoes | Roadster Shirts | Casual Shoes | Running Shoes | Nike Sports
+        Shoes | Jeans | Being Human Tshirts
+      </p>
+    </div>
+    <div id="last">
+      <p>In case of any concern ,<span>Contact Us</span></p>
+      <p>© 2022 www.myntra.com. All rights reserved</p>
+    </div>
+  </body>
+</html>
+<script>
+   var CustomerData =JSON.parse(localStorage.getItem("arraylist"));
+  document.getElementById("logbtn").innerText=CustomerData[CustomerData.length-1].Name1;
+  console.log(CustomerData);
+</script>
+<script src="mens.js"></script>
