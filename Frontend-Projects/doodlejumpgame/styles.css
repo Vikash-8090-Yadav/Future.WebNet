@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+}
+
+#board {
+  /* background-color: green; */
+  background-image: url("https://github.com/GameSphere-MultiPlayer/GameSphere/assets/56786344/689882e5-c4a6-4f89-897d-45530bb8ee52");
+}
