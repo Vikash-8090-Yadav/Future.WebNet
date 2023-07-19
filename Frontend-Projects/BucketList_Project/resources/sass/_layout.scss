@@ -1,0 +1,142 @@
+
+.header{
+	width:100%;
+	height:90vh;
+	background-image:linear-gradient(to right bottom,rgba($primary-light,0.3),rgba($primary,0.3)),url(img/headerpic2.jpg);
+	background-size:cover;
+	position:relative;
+
+
+	&__bar{
+		display: flex;
+		justify-content: space-between;
+		margin:2rem 2rem;
+		flex-wrap: wrap
+
+	}
+
+	&__logo{
+		height:5rem;
+		width:auto;
+		margin:2rem 1rem;
+		align-self:flex-start;
+	   
+	}
+
+	&__main-nav{
+		display:flex;
+		list-style:none;
+		align-self:flex-end;
+
+
+		& a:link,
+		& a:visited{
+			text-decoration:none;
+			color:var(--color-white);
+			font-weight:500;
+			text-transform:uppercase;
+			display:block;
+			margin:2rem 2rem 0 0;
+			border-bottom:1px solid transparent;
+			transition:all .1s;
+
+
+		}
+
+		& a:hover,
+		& a:active{
+			border-bottom:1px solid var(--color-primary-light);
+		}
+	}
+
+	&__box {
+		position:absolute;
+		top: 40%;
+		left: 50%;
+		text-align:center;
+		-webkit-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	}
+
+	    &__heading{
+	    	color:var(--color-white);
+
+			margin-top:5rem;
+	    	margin-bottom:3rem;
+	    	letter-spacing:normal;
+
+	    	h1{
+			font-size:6rem;
+			text-transform:uppercase;
+			font-weight:500;
+			
+			}
+			h2{
+				font-size:4rem;
+				text-transform:capitalize;
+				font-family:"Satisfy",serif;
+				font-weight:400;
+			}
+	    }
+}
+
+.choices{
+	height:82rem;
+	width:100%;
+	background-color:var(--color-primary-light-2);
+	position:relative;
+	
+}
+
+.headings{
+	color:var(--color-primary);
+	text-align:center;
+	position:relative;
+	padding:2rem;
+
+	&__first{
+		background-image:linear-gradient(to right,yellow,blue);
+		-webkit-background-clip:text;
+		color:transparent;
+		font-size:5rem;
+		//margin-top:2rem;
+		font-weight:550;
+	}
+	&__second{
+		font-size:2.6rem;
+		margin:1rem 2rem;
+		font-weight:400;
+		font-family:"Satisfy",serif;
+	}
+	
+}
+
+.memories{
+	height:87rem;
+	width:100%;
+	background-color:var(--color-lightgrey-2);
+	position:relative;
+
+}
+
+.TestimonialSection{
+	height:48rem;
+	width:100%;
+	background-image:-webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img/testimonial_bg.jpeg);
+	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img/testimonial_bg.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.contact__section{
+	height:60rem;
+	width:100%;
+	background-color:var(--color-lightgrey);
+}
+
+.footer{
+	width:100%;
+	height:25rem;
+	background-color:var(--color-black);
+
+}

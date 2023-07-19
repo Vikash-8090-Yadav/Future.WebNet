@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing:border-box;
+}
+
+html {
+  font-size:62.5%;
+}
+
+/*COLORS
+ color-primary:#CE93D8;
+ color-primary-light:#E1BEE7;
+ color-primary-dark:#BA68C8;
+ color-primary-light-2:#FCE4EC;
+ color-seconadry:#3DD1E6;
+ color-seconadry-dark:#326DE2;
+ color-black:#000;
+ color-white:#fff;
+ color-lightgrey:#DCDCDC;
+ color-lightgrey-2:#f2f2f2;
+ color-darkgrey:#808080;
+ color-darkgrey-2:#191919;
+ color-yellow:#f2cf0d;
+*/
+
+:root {
+    --color-primary:#CE93D8;
+    --color-primary-light:#E1BEE7;
+    --color-primary-dark:#BA68C8;
+    --color-primary-light-2:#FCE4EC;
+    --color-seconadry:#3DD1E6;
+    --color-seconadry-dark:#326DE2;
+    --color-black:#000;
+    --color-white:#fff;
+    --color-lightgrey:#DCDCDC;
+    --color-lightgrey-2:#f2f2f2;
+    --color-darkgrey:#808080;
+    --color-darkgrey-2:#191919;
+    --color-yellow:#f2cf0d;
+    --color-primary-btn:#ce367c;
+    --color-grey-dark:#777;
+
+}
+
+$primary:#CE93D8;
+$primary-light:#E1BEE7;
+$primary-btn:#ce367c;
+
+
+body{
+    font-family:'work Sans',sans-serif;
+    font-weight:300;
+    font-size:1.6rem;
+    line-height:1.3;
+}
