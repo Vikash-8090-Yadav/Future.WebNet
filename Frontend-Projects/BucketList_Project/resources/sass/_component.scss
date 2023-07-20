@@ -29,7 +29,8 @@
 
 .choices__box{
 	display:flex;
-	justify-content: space-between;
+	flex-wrap:wrap;
+	justify-content:space-around;
 
 	&__choicebtn{
 
@@ -40,26 +41,24 @@
 				background-color:var(--color-lightgrey);
 				width:20rem;
 				height:4rem;
-				margin-top:1rem;
-				margin-left:43%;
+				margin-top:1rem;				
 				text-align:center;
-				padding:1rem;
-				
+				padding:1rem;				
 			}
 			&:hover,
-	&:active{
-		color:var(--color-white);
-		background-position:100%;
-		transform:translateX(1rem);
-	}
+			&:active{
+				color:var(--color-white);
+				background-position:100%;
+				transform:translateX(1rem);
+			}
 			
 		}
 	}
 }
 
 .choices__content-1{
-	margin:1rem 15rem;
-	height:55rem;
+	margin:2rem;
+	height:35em;
 	width:40rem;
 	background-color:var(--color-lightgrey-2);
 	position:relative;
@@ -180,6 +179,8 @@
 
 .Testimonials{
 	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
 }
 
 .Testimonials__1{
@@ -221,9 +222,19 @@
 
 
 .form{
-	margin-top:1rem;
+	text-align:center;
 	decoration:none;
 	padding-top:0.005rem;
+	width:50em;
+	height:40rem;
+	background-image:url(img/bgimage.webp);	
+	border-radius:5rem;
+	margin-left:20em;
+	text-align:center;
+
+	&__btn{
+		padding-bottom:3rem;
+	}
 
 	&_name{
 		margin:3rem;
@@ -231,10 +242,9 @@
 	&_msg{
 		margin:3rem;
 		display:flex;
-
-		&__lab{
-			margin-top:1.5rem;
-		}
+	}
+	&__inputmsg{
+		margin-left:5rem;
 	}
 
 	&__input,&__inputmsg
@@ -267,23 +277,12 @@
 	}
 
 }
-.contact_box{
-	width:80rem;
-	height:40rem;
-	background-image:url(img/bgimage.webp);	
-	margin-left:25%;
-	margin-bottom:4rem;
-	border-radius:5rem;
-
-	&__btn{
-		padding-bottom:3rem;
-	}	
-}
 
 
 .footimg{
-	padding:2rem 50%;
-	margin-bottom:2rem;
+	padding:2rem 0;
+	//margin-bottom:2rem;
+	text-align:center;
 
 	& img{
 		width:5rem;
@@ -292,18 +291,18 @@
 }
 .container{
 	display:flex;
-	//flex-wrap:wrap;
+	flex-wrap:wrap;
 	justify-content:space-between;
-
 	
 	&__1{
-		align-self: flex-start;
 
+		padding:2rem;
 
 		& ul{
 			display:flex;
 			padding-right:2rem;
 			font-size:1.8rem;
+			flex-wrap:wrap;
 
 			& li{
 				list-style:none;
@@ -321,12 +320,11 @@
 	}
 
 	&__3{
-		padding:2rem;
+		
 		font-size:2rem;
 		font-weight:200;
 		color:var(--color-white);
-		align-self: flex-end;
-		margin-left:30%;
+		padding:2rem;
 
 		&__maker{
 			text-decoration:none;
