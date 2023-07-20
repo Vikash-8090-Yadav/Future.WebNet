@@ -174,14 +174,14 @@ body {
 
 .choices__box {
   display: flex;
-  justify-content: space-between; }
+  flex-wrap: wrap;
+  justify-content: space-around; }
   .choices__box__choicebtn__btn2:link, .choices__box__choicebtn__btn2:visited {
     color: var(--color-primary-btn);
     background-color: var(--color-lightgrey);
     width: 20rem;
     height: 4rem;
     margin-top: 1rem;
-    margin-left: 43%;
     text-align: center;
     padding: 1rem; }
   .choices__box__choicebtn__btn2:hover, .choices__box__choicebtn__btn2:active {
@@ -190,8 +190,8 @@ body {
     transform: translateX(1rem); }
 
 .choices__content-1 {
-  margin: 1rem 15rem;
-  height: 55rem;
+  margin: 2rem;
+  height: 35em;
   width: 40rem;
   background-color: var(--color-lightgrey-2);
   position: relative;
@@ -271,7 +271,9 @@ body {
         transform: scale(1.25); }
 
 .Testimonials {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 .Testimonials__1 {
   background-color: var(--color-lightgrey);
@@ -297,16 +299,24 @@ body {
     border: 3px solid var(--color-primary-dark); }
 
 .form {
-  margin-top: 1rem;
+  text-align: center;
   decoration: none;
-  padding-top: 0.005rem; }
+  padding-top: 0.005rem;
+  width: 50em;
+  height: 40rem;
+  background-image: url(img/bgimage.webp);
+  border-radius: 5rem;
+  margin-left: 20em;
+  text-align: center; }
+  .form__btn {
+    padding-bottom: 3rem; }
   .form_name {
     margin: 3rem; }
   .form_msg {
     margin: 3rem;
     display: flex; }
-    .form_msg__lab {
-      margin-top: 1.5rem; }
+  .form__inputmsg {
+    margin-left: 5rem; }
   .form__input, .form__inputmsg {
     width: 60%;
     height: 4rem;
@@ -327,32 +337,24 @@ body {
     font-weight: 400;
     font-size: 1.8rem; }
 
-.contact_box {
-  width: 80rem;
-  height: 40rem;
-  background-image: url(img/bgimage.webp);
-  margin-left: 25%;
-  margin-bottom: 4rem;
-  border-radius: 5rem; }
-  .contact_box__btn {
-    padding-bottom: 3rem; }
-
 .footimg {
-  padding: 2rem 50%;
-  margin-bottom: 2rem; }
+  padding: 2rem 0;
+  text-align: center; }
   .footimg img {
     width: 5rem;
     height: auto; }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
   .container__1 {
-    align-self: flex-start; }
+    padding: 2rem; }
     .container__1 ul {
       display: flex;
       padding-right: 2rem;
-      font-size: 1.8rem; }
+      font-size: 1.8rem;
+      flex-wrap: wrap; }
       .container__1 ul li {
         list-style: none;
         color: var(--color-white);
@@ -363,12 +365,10 @@ body {
           border-bottom: 2px solid var(--color-primary-light);
           color: var(--color-primary-light); }
   .container__3 {
-    padding: 2rem;
     font-size: 2rem;
     font-weight: 200;
     color: var(--color-white);
-    align-self: flex-end;
-    margin-left: 30%; }
+    padding: 2rem; }
     .container__3__maker {
       text-decoration: none;
       color: var(--color-primary-light);
