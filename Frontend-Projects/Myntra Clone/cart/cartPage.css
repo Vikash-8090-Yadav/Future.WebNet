@@ -1,0 +1,560 @@
+#parent{
+    display: grid;
+    grid-template-columns: 64% 35%;
+    gap: 10px;
+    max-width: 980px;
+    margin: auto;
+    padding: 0 25px 16px;
+    /* min-height: 320px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+#leftBlock{
+    padding-right: 20px;
+    border-right: 1px solid #eaeaec;
+    padding-top: 32px;
+   
+}
+#addstrip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #eaeaec;
+    
+}
+#addstrip>div{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#addstrip>button{
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 63, 108);
+    border-color: rgb(255, 63, 108);
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+#offer{
+    display: block;
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 16px 16px 12px 8px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    font-size: 13px;
+    position: relative;
+    
+}
+#offer>div{
+    display: flex;
+}
+#offer>div:last-child{
+    display: block;
+    text-align:justify;
+}
+#offer>div:last-child>div{
+
+    padding-left: 20px;
+
+}
+#offer>div:last-child>div>p{
+    margin-top:0;
+    margin-bottom: 0;
+}
+#offer>div:last-child>div>p:last-child{
+    margin-left: 2px;
+}
+#offer>div:last-child>p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff3f6c;
+    cursor: pointer;
+    font-weight: 500;
+}
+#offer svg{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+#svg>svg{
+    fill: #ff3f6c;
+    width: 7px;
+    height: 10px
+}
+svg+p{
+    margin-top: 8px;
+    font-weight:600;
+    font-size: 14px;
+   
+}
+#offer>div{
+    padding-left: 15px;
+    text-indent: -15px;
+    list-style: none;
+    white-space: normal;
+    margin-bottom: 8px;
+}   
+#offer+div{
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+   
+}
+
+#offer+div>p{
+    display: inline-block;
+    margin:0;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+    vertical-align:top;
+}
+#bulkAction{
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    padding: 0 12px 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #282c3f;
+}
+#bulkAction button{
+    border: none;
+    color: #535766;
+    padding: 6px 24px 6px 0;
+    height: 32px;
+    background: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fff;
+}
+#bulkAction button:first-child{
+    border-right: 2px solid #eaeaec;
+    margin-right: 15px;
+}
+.cartitemparent{
+    width: 600px;
+    
+}
+#cartitemparent>div{
+    border: 1px solid #eaeaec;
+    padding: 8px;
+    margin-top: 10px;
+}
+#rightBlock{
+    vertical-align: top;
+    padding: 24px 0 0 16px;
+ 
+}
+#coupons{
+    display: block;
+}
+#coupons>div>p{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px 0;
+}
+#coupons>div>button{
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 63, 108);
+    border-color: rgb(255, 63, 108);
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+#priceContainer{
+    margin-bottom: 16px;
+}
+#priceContainer>p{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 24px 0 16px;
+    color: #535766;
+}
+#priceBreakup>div{
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+.cartItemsList{
+    display: grid;
+    grid-template-columns: 20% 70% 5% ;
+    
+    padding: 12px 12px 0;
+}
+.leftchild{
+    height: 150px;
+    width: 112px;
+   
+}
+.leftchild>Img{
+    height: 150px;
+    width: 111px;
+   
+}
+.rightchild{
+    position: relative;
+    padding-left: 12px;
+    margin-top: -10px;
+    height: 150px;
+    align-items: center;
+    font-size: 14px;
+
+}
+.rightchild>div{
+    margin: 7px;
+}
+.rightchild>div:nth-child(1){
+    font-size: 17px;
+    font-weight: 600;
+}
+.rightchild p{
+    margin-top: -5px;
+    margin-left: 7px;
+    padding: 0;
+    
+}
+.rightchild>div:nth-child(3)>button{
+    cursor: pointer;
+
+}
+.rightchild>div:nth-child(4){
+    display: flex;
+    margin-left: 0;
+
+    
+}
+.rightchild>div:nth-child(4)>p{
+    margin-top: 5px;
+}
+.rightchild>div:last-child{
+    margin-top: -10px;
+}
+.rightchild button{
+    border: none;
+    height: 20px;
+    width: 75px;
+    font-weight: 600;
+    margin-right: 12px;
+    background: #f5f5f6;
+    color: #282c3f;
+    
+}
+.crossdiv{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+.crossdiv>img{
+    position: relative;
+    top: 2px;
+    right: 2px;
+    height: 17px;
+    width: 17px;
+}
+
+#coupons p{
+    font-size: 12px;
+    font-weight: 600;
+}
+#coupons>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+#coupons>div:nth-child(3){
+    padding-bottom: 10px;
+    border-bottom:1px solid #eaeaec;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#priceContainer{
+    color: #282c3f;
+    padding-top: 15px;
+}
+#priceContainer>div:first-child{
+    font-weight: 600;
+    font-size: 12px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#priceBreakup{
+    padding-top: 20px;
+}
+#priceBreakup>div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #282c3f;
+}
+#priceBreakup>div:nth-child(3)>div:last-child{
+    color: #ff3f6c;
+    cursor: pointer;
+}
+#priceBreakup>div:nth-child(2)>div:last-child{
+    color: #03a685;
+}
+#priceBreakup>div:nth-child(5){
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid #eaeaec;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#priceBreakup>button{
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(233, 61, 103); */
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    
+}
+
+
+/* 
+.popupdiv{
+    width: 306px;
+    padding: 0 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    border: 1px solid #d4d5d9;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 4px;
+    visibility: hidden;
+} */
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15000px;
+   background-color: rgba(0,0,0,.6);
+    z-index: 4;
+    visibility: hidden;
+
+}
+.popupdiv{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 306px;
+    padding: 0 16px;
+    visibility: hidden;
+    background: white;
+    /* transform: translateY(-50%); */
+}
+#crossselect{
+    padding: 19px 0 18px 8px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 1px solid #f5f5f6;
+    display: flex;
+    justify-content: space-between;
+}
+#crossselect img{
+    height: 20px;
+    width: 20px;
+}
+
+#numdiv{
+    max-height: 200px;
+    padding:8px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#numdiv>div{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+    padding: 9px 4px 0px 4px;
+    margin-top: 8px;
+    text-align:center;
+    align-content: space-around;
+     cursor: pointer;
+}
+#done{
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.openpopup{
+    visibility: visible;
+}
+
+
+
+
+
+/* navbar */
+
+body{
+    font-family: Whitney, Helvetica, Arial, sans-serif !important;
+    color: #424553;
+}
+
+
+#headerUnderline {
+    line-height: 2.428571;
+    width: 100%;
+    border-bottom: 1px solid #F5F5F6;
+    margin-bottom: 30px;
+}
+
+#header {
+    display: flex;
+    width: 92%;
+    color: rgb(105, 107, 121);
+    font-size: 10px;
+    margin: 20px auto 10px;
+    justify-content: space-between;
+}
+
+.navbarMiddle {
+
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+
+
+#paymentNavSecure {
+    display: flex;
+    align-items: center;
+}
+#bag{
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+    padding-left: 4px;
+}
+
+#paymentNavSecure img {
+    margin-right: 5px;
+}
+
+
+/* footer */
+#footer {
+    border-top: 1px solid #F5F5F6;
+    align-items: flex-end;
+}
+
+#footer #footerContent {
+    display: flex;
+    max-width: 980px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+#footer #footerContentImg img {
+    /* display: inline-block; */
+    width: 70px;
+    height: 37px;
+}
+
+#footerContent>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    /* float: right; */
+    padding: 10px 0;
+}
+#inputdiv{
+    display: flex;
+    justify-content: space-between;
+}
+#inputdiv>input{
+    width: 120%;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    text-align:start;
+}
+#coupon-form-input{
+    border: 1px solid #535766;
+}
+#inputdiv>input+div{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+#couponform{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+#couponform>button{
+    color: #ff3f6c;
+    border: 1px dashed #ff3f6c;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    
+    padding: 8px 12px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    font-weight: 600;
+}
+#saving>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding-right:12px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#saving>div:nth-child(2){
+    padding-bottom: 20px;
+}

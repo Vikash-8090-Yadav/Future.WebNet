@@ -1,0 +1,255 @@
+/* payment nevbar */
+body {
+    font-family: Whitney, Helvetica, Arial, sans-serif !important;
+    color: #424553;
+    line-height: 2.428571;
+}
+
+div {
+    display: block;
+}
+
+#headerUnderline {
+    width: 100%;
+    border-bottom: 1px solid #F5F5F6;
+    margin-bottom: 30px;
+}
+
+#header {
+    display: flex;
+    width: 92%;
+    color: rgb(105, 107, 121);
+    font-size: 10px;
+    margin: 20px auto 10px;
+    justify-content: space-between;
+}
+
+.navbarMiddle {
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.navbarMiddlePayment {
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+}
+
+#paymentNavSecure {
+    display: flex;
+    align-items: center;
+}
+
+#paymentNavSecure img {
+    margin-right: 5px;
+}
+
+/* bag nev line  */
+.cart-page{
+    text-decoration: none;
+    color: #696B79;
+}
+
+
+
+/* middle  */
+
+.addressDesktop-base-addressLayout {
+    max-width: 1000px;
+    margin: 0 auto 24px;
+    display: flex;
+}
+.addressDesktop-base-left {
+    width: 67.5%;
+    vertical-align: top;
+    padding-right: 35px;
+    padding-top: 12px;
+}
+.addressDesktop-base-addAddressContainer {
+    width: 450px;
+    margin: auto;
+    border: 1px solid #eaeaec;
+    margin-top: 20px;
+    /* position: relative; */
+}
+.addressFormUI-base-container {
+    /* padding-bottom: 50px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.button-base-button {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: #ff3f6c;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form{
+    padding: 20px 35px 20px 20px;
+    justify-content: center;
+}
+input[type="text"],
+input[type="number"],button{
+    width: 100%;
+    margin:10px auto;
+    padding: 12px;
+    padding-right: 0;
+    border: 1px solid #d4d5d9;
+    color: #94969f;
+    border-radius: 4px;
+    line-height: 14px;
+    font-weight: 300;
+    font-size: 14px;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+label{
+    font-weight: 600;
+    font-size: 12px;
+    color: #282c3f;
+    padding: 16px 1px 0;
+}
+
+
+
+/* right side total div  */
+
+.addressDesktop-base-right {
+    width: 32.5%;
+    vertical-align: top;
+    padding-top: 8px;
+}
+.priceBlockCommon-base-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.priceBlockCommon-base-items {
+    line-height: 15px;
+    color: #535766;
+    font-size: 12px;
+    font-weight: 600;
+}
+.priceBlockCommon-base-detailBody {
+    padding-top: 16px;
+}
+.priceBreakUp-base-orderSummary {
+    font-size: 14px;
+}
+.priceDetail-base-row {
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+.priceDetail-base-value {
+    float: right;
+}
+.priceDetail-base-total .priceDetail-base-icon {
+    height: 10px;
+}
+.priceDetail-base-icon {
+    height: 9px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.priceDetail-base-infoTextContainer {
+    display: inline-block;
+}
+.css-lnv4zc {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    background-color: transparent;
+    color: rgb(255, 63, 108);
+    padding: 0px;
+    cursor: pointer;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: 0;
+}
+.css-xjhrni {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.priceDetail-base-total {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+#convenienceFee{
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+
+#totaldisc{
+    color: #03a685;
+}
+.priceDetail-base-discount {
+    color: #03a685;
+}
+.priceDetail-base-discount .priceDetail-base-icon {
+    fill: #03a685;
+}
+
+.convienceFee {
+    margin-top: 10px;
+}
+
+
+
+/* footer part */
+
+#footer {
+    border-top: 1px solid #F5F5F6;
+    margin: 0 0 10px 0;
+}
+
+#footer #footerContent {
+    display: flex;
+    max-width: 980px;
+    padding-top: 10px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer #footerContentImg img {
+    /* display: inline-block; */
+    width: 70px;
+    height: 37px;
+}
+
+#footerContent>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    /* float: right; */
+    padding: 10px 0;
+}

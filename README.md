@@ -1,4 +1,4 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Vikash-8090-Yadav/Web3.0-World)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Vikash-8090-Yadav/Future.WebNet)
 
 # <p align = "center"> Web3.O.World </p>
 ![Raise PR  Contribute](https://user-images.githubusercontent.com/70209862/184164195-f43e5065-0e8f-40a1-b07d-3b42f590f9f8.png)
@@ -9,18 +9,18 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=Vikash-8090-Yadav%2FWeb3.0-World%20&countColor=%23263759&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Web3.0-World)
-![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Web3.0-World)
-![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Web3.0-World)
-![GitHub last commit](https://img.shields.io/github/last-commit/Vikash-8090-Yadav/Web3.0-World)
+![GitHub forks](https://img.shields.io/github/forks/Vikash-8090-Yadav/Future.WebNet)
+![GitHub Repo stars](https://img.shields.io/github/stars/Vikash-8090-Yadav/Future.WebNet)
+![GitHub contributors](https://img.shields.io/github/contributors/Vikash-8090-Yadav/Future.WebNet)
+![GitHub last commit](https://img.shields.io/github/last-commit/Vikash-8090-Yadav/Future.WebNet)
   
-![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Web3.0-World)
+![GitHub repo size](https://img.shields.io/github/repo-size/Vikash-8090-Yadav/Future.WebNet)
 
-![Github](https://img.shields.io/github/license/Vikash-8090-Yadav/Web3.0-World)
-![GitHub issues](https://img.shields.io/github/issues/Vikash-8090-Yadav/Web3.0-World)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Vikash-8090-Yadav/Web3.0-World)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Web3.0-World)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Web3.0-World)
+![Github](https://img.shields.io/github/license/Vikash-8090-Yadav/Future.WebNet)
+![GitHub issues](https://img.shields.io/github/issues/Vikash-8090-Yadav/Future.WebNet)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Vikash-8090-Yadav/Future.WebNet)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Vikash-8090-Yadav/Future.WebNet)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Vikash-8090-Yadav/Future.WebNet)
  </p>
  </div>
  <br>
@@ -50,42 +50,41 @@
 
 
 ##  About Web3.O.World
-The one place for the Web3  developer to showcase their ideas and code. Here web3 basically means the Web2 which uses the concept of the blockchain i.e. (Web2 + Smart Contract) == Web3. 
-This repo will have web3 project which consist of the smart contract (backend) and frontend part. For the backend part there is smart contract and we can use any tech stack for the frontend in blockchain.
+The single destination where Web3 developers can present their ideas and code. In this context, web3 essentially refers to Web2 incorporating the blockchain concept, i.e., (Web2 + Smart Contract) equals Web3. This repository will contain web3 projects comprising the (backend)smart contracts and the frontend section. When it comes to the backend, smart contracts are utilized, while we have the freedom to utilize any tech stack for the blockchain frontend.
 
 
 ##  Blog 
-<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Click here to reach Blog 🔗</a>
+<a href="https://codeshivam28.hashnode.dev/a-complete-blog-on-web30-world">Tap this link to access the Blog 🔗</a>
 
 
   
 ## How to Contribute?
 
-- Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Web3.0-World/issues). 
+- Take a look at the existing [Issues](https://github.com/Vikash-8090-Yadav/Future.WebNet/issues). 
 - Fork the Repo create a branch for any issue that you are working on and commit your work.
-- Create a [**Pull Request**](https://github.com/Vikash-8090-Yadav/Web3.0-World/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
+- Create a [**Pull Request**](https://github.com/Vikash-8090-Yadav/Future.WebNet/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
 
 ## How to make a Pull Request?
 
-**1.** Start by forking the [**Web3.O.World**](https://github.com/Vikash-8090-Yadav/Web3.0-World) repository. Click on the <a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by forking the [**Future.WebNet**](https://github.com/Vikash-8090-Yadav/Future.WebNet) repository. Click on the <a href="https://github.com/Vikash-8090-Yadav/Future.WebNet/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
 **2.** Clone your forked repository:
 
 ```bash
-git clone https://github.com/<your-github-username>/Web3.0-World
+git clone https://github.com/<your-github-username>/Future.WebNet
 ```
 
 **3.** Navigate to the new project directory:
 
 ```bash
-cd Web3.O.World
+cd Future.WebNet
 ```
 
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/Vikash-8090-Yadav/Web3.0-World
+git remote add upstream https://github.com/Vikash-8090-Yadav/Future.WebNet
 ```
 
 **5.** Create a new branch:
@@ -144,7 +143,7 @@ git push origin YourBranchName
 
 # How to Setup Locally 
 
-## **1.** Follow the [PR STEPS](https://github.com/Vikash-8090-Yadav/Web3.0-World/edit/main/README.md#how-to-make-a-pull-request) , after   cloning repo in your local system 
+## **1.** Follow the [PR STEPS](https://github.com/Vikash-8090-Yadav/Future.WebNet/edit/main/README.md#how-to-make-a-pull-request) , after   cloning repo in your local system 
 
 
 ## **2.**  Install Dependencies !!
@@ -165,7 +164,7 @@ npm install node
 ## **4.** Web3 Tutorial -> https://www.youtube.com/watch?v=pZjQxs1piEk&list=PLgPmWS2dQHW9F8fRXzrFBtcrwE-uS8Qa5
 
 
-## **5.** Congratulations 🙌🏼 , You have setup the Blockchain project in your PC, It's time to check the code and Raise a PR 
+## **5.** Congratulations 🙌🏼 , You have successfully setup the Blockchain project in your System, It's time to check the code and Raise a PR 
 
 </br>
 <p align = "center">
@@ -175,8 +174,8 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
 
 ## Project Contributors
 
-<a href="https://github.com/Vikash-8090-Yadav/Web3.0-World/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Vikash-8090-Yadav/Web3.0-World" />
+<a href="https://github.com/Vikash-8090-Yadav/Future.WebNet/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Vikash-8090-Yadav/Future.WebNet" />
 </a>
 
 ## Project Admin
