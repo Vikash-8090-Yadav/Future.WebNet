@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <form id="task-form">
+      <div class="form-group">
+        <label for="title-input">Task Title</label>
+        <input type="text" id="title-input" placeholder="Enter task title" required>
+      </div>
+      <div class="form-group">
+        <label for="description-input">Task Description</label>
+        <textarea id="description-input" placeholder="Enter task description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="due-date-input">Due Date</label>
+        <input type="date" id="due-date-input" required>
+      </div>
+      <div class="form-group">
+        <label for="priority-select">Priority Level</label>
+        <select id="priority-select" required>
+          <option value="high">High Priority</option>
+          <option value="medium">Medium Priority</option>
+          <option value="low">Low Priority</option>
+        </select>
+      </div>
+      <button type="submit">Add Task</button>
+    </form>
+    <div id="task-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <form id="task-form">
+      <div class="form-group">
+        <label for="title-input">Task Title</label>
+        <input type="text" id="title-input" placeholder="Enter task title" required>
+      </div>
+      <div class="form-group">
+        <label for="description-input">Task Description</label>
+        <textarea id="description-input" placeholder="Enter task description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="due-date-input">Due Date</label>
+        <input type="date" id="due-date-input" required>
+      </div>
+      <div class="form-group">
+        <label for="priority-select">Priority Level</label>
+        <select id="priority-select" required>
+          <option value="high">High Priority</option>
+          <option value="medium">Medium Priority</option>
+          <option value="low">Low Priority</option>
+        </select>
+      </div>
+      <button type="submit">Add Task</button>
+    </form>
+    <div id="task-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

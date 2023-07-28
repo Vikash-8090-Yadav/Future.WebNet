@@ -1,0 +1,69 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="date"],
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task p {
+    margin: 0;
+  }
+  
+  .high-priority {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .medium-priority {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .low-priority {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
