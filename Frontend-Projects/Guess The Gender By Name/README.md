@@ -4,7 +4,7 @@
 
 ## **Description 📃** 
 - This project made by using HTML, CSS and JS.
-- This project a api url to fetch the probability of that person is male or female.
+- This project has an api url to fetch the probability of that person is male or female.
 - After converting that probability into percentage, data is shown to the user.
 - Attractive and smooth user interface with fast functioning will provide a best user experience.
 
@@ -21,21 +21,11 @@
 
 ## **Screenshot 📸**
 
-![Guess The Gender](https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/114330097/6cb9dc6e-94c6-43ee-ac84-4b935ead80b9)
 
-<br>
+![Guess The Gender](update.png)
 
-
-## **Working Video 📹**
-
-https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/114330097/e2bcf2b4-a466-46c5-a407-593d06e2a346
-
-<br>
-
-
-## **Created By 👦**
-
-[Avdhesh Varshney](https://github.com/Avdhesh-Varshney)
+## **Working Video** 
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/125059410/d0b1cd88-12f9-42ac-a1ee-5b38d0652f58
 
 <br>
 
