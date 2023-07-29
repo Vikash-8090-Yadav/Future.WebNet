@@ -1,0 +1,1 @@
+cmd_Release/obj.target/keccak.a := rm -f Release/obj.target/keccak.a && ar crs Release/obj.target/keccak.a Release/obj.target/keccak/src/libkeccak-64/KeccakSpongeWidth1600.o Release/obj.target/keccak/src/libkeccak-64/KeccakP-1600-opt64.o
