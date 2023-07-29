@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    padding-top: 40px;
+    margin-top: auto;
+    color: #fff;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a i {
+    font-size: 1.7rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-twitter:hover {
+    color: rgb(36, 186, 255);
+}
+
+.fa-linkedin-square:hover {
+    color: rgb(0, 119, 181);
+}

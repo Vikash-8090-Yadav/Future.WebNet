@@ -1,0 +1,140 @@
+@media (min-width: 450px) {
+    .clients-item {
+        min-width: calc(33.33% - 10px);
+    }
+
+    .project-img,
+    .blog-banner-box {
+        height: auto;
+    }
+}
+
+@media (min-width: 580px) {
+    main {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    article {
+        width: 700px;
+    }
+
+    .has-scrollbar::-webkit-scrollbar-button {
+        width: 100px;
+    }
+
+    .filter-select-box {
+        display: none;
+    }
+
+    .filter-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        padding-left: 5px;
+        margin-bottom: 30px;
+    }
+
+    .filter-item button {
+        color: var(--light-gray);
+        font-size: var(--fs-5);
+        transition: var(--transition-1);
+    }
+
+    .filter-item button:hover {
+        color: var(--light-gray-70);
+    }
+
+    .filter-item button.active {
+        color: var(--orange-yellow-crayola);
+    }
+
+    .project-list,
+    .blog-posts-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .input-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-btn {
+        width: max-content;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+        --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+        --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+    }
+
+    article {
+        width: 950px;
+        box-shadow: var(--shadow-5);
+    }
+
+    main {
+        margin-bottom: 0px;
+    }
+
+    .main-content {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .project-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1250px) {
+    body::-webkit-scrollbar {
+        width: 20px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: var(--smoky-black);
+    }
+
+    body::-webkit-scrollbar-thumb {
+        border: 5px solid var(--smoky-black);
+        background: hsla(0, 0%, 100%, 0.1);
+        border-radius: 20px;
+        box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+            inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+        background: hsla(0, 0%, 100%, 0.15);
+    }
+
+    body::-webkit-scrollbar-button {
+        height: 60px;
+    }
+
+    main {
+        max-width: 2000px;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 25px;
+    }
+
+    .main-content {
+        min-width: 75%;
+        width: 75%;
+        margin: 0;
+    }
+
+    .avatar-box img {
+        width: 150px;
+    }
+}
