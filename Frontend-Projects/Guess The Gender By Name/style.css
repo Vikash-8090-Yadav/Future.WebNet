@@ -26,21 +26,21 @@ body {
 
 /* Logo of the website */
 .app-logo {
-	width: 10%;
-	height: 10%;
+	width: 25%;
+	height: 15%;
 	position: inherit;
 }
 
 /* Title of the website */
 .app-title {
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	width: 80%;
+	width: 70%;
 	position: relative;
 	margin: auto;
-	color: #020332;
-	letter-spacing: 0.2em;
+	color: #4b3897;
+	letter-spacing: 0.1 em;
 }
 
 /* Styling of the creator heading of the website */
@@ -74,8 +74,8 @@ a:hover {
 
 #name {
 	padding: 0.8em 0.5em;
-	border: 1px solid #020332;
-	border-radius: 0.5em;
+	border: 2px solid #020332;
+	border-radius: 1.5rem;
 }
 
 /* Submit button styling */
@@ -83,7 +83,11 @@ a:hover {
 	background-color: #7e5eff;
 	color: #ffffff;
 	border: none;
-	border-radius: 0.5em;
+	border-radius: 1.5rem;
+	cursor: pointer;
+}
+#submit:active{
+	transform: scale(0.95);
 }
 
 .female {
