@@ -5,14 +5,8 @@ import { TaskContractAddress } from '../config.js'
 import TaskAbi from  '../../backend/build/contracts/TaskContract.json'
 import {ethers} from 'ethers'
 import {useState} from 'react'
+import { useEffect } from 'react'
 
-/* 
-const tasks = [
-  { id: 0, taskText: 'clean', isDeleted: false }, 
-  { id: 1, taskText: 'food', isDeleted: false }, 
-  { id: 2, taskText: 'water', isDeleted: true }
-]
-*/
 
 export default function Home() {
   const [correctNetwork,setCorrectNetwork]= useState(false)
@@ -20,6 +14,11 @@ export default function Home() {
   const [currentAccount, setCurrentAccount]= useState('')
   const [input,setInput]=useState('')
   const [tasks,setTasks]=useState([])
+
+  useEffect(() => {
+    connectWallet()
+    getAllTasks()
+  },[])
 
   const connectWallet = async () => {
     try {
@@ -53,6 +52,25 @@ export default function Home() {
 
   }
   const getAllTasks = async () => {
+    try{
+      const {ethereum}=window
+      if (ethereum) {
+        const provider=new ethers.providers.Web3Provider(ethereum)
+        const signer=provider.getSigner()
+        const TaskContract = new ethers.Contract(
+          TaskContractAddress,
+          TaskAbi.abi,
+          signer
+        )
+        let allTasks=await TaskContract.getMyTasks()
+        setTasks(allTasks)
+        }
+        else {
+          console.log('ethereum object does not exist')
+        }
+    } catch (error){
+      console.log(error)
+    }
   
   }
   const addTask = async e => {
@@ -88,18 +106,38 @@ export default function Home() {
     } catch (error){
       console.log(error)
     }
+    setInput(' ')
   }
 
   const deleteTask = key => async () => {
+    try{
+      const {ethereum}=window
+      if (ethereum) {
+        const provider=new ethers.providers.Web3Provider(ethereum)
+        const signer=provider.getSigner()
+        const TaskContract = new ethers.Contract(
+          TaskContractAddress,
+          TaskAbi.abi,
+          signer
+        )
+        const deleteTaskTx=await TaskContract.deleteTask(key, true)
+        console.log('successfully deleted: 🎉', deleteTaskTx)
+        let allTasks=await TaskContract.getMyTasks()
+        setTasks(allTasks)
+       }else{
+      console.log('ethereum object does not exist')
+    }
 
+  } catch (error){
+    console.log(error)
   }
-
+}
   return (
-    <div className='bg-[#FFF0D6] h-screen w-screen flex justify-center py-6'>
+    <div className='bg-[#7DCFB6] h-[] flex justify-center py-6'>
       {!isUserLoggedIn ? (
         <ConnectWalletButton connectWallet={connectWallet} />
       ) : correctNetwork ? (
-        <TodoList input={input} setInput={setInput} addTask={addTask} />
+        <TodoList input={input} tasks={tasks} setInput={setInput} addTask={addTask} deleteTask={deleteTask}/>
       ) : (
         <WrongNetworkMessage />
       )}
@@ -107,4 +145,5 @@ export default function Home() {
   );
   
 }
+
 

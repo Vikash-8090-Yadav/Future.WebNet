@@ -1,0 +1,3 @@
+import type { ApolloConfig, ApolloConfigInput } from 'apollo-server-types';
+export declare function determineApolloConfig(input: ApolloConfigInput | undefined): ApolloConfig;
+//# sourceMappingURL=determineApolloConfig.d.ts.map
