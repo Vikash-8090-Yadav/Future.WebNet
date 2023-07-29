@@ -22,7 +22,8 @@
 ## **Screenshot 📸**
 
 
-![Guess The Gender](update.png)
+
+![Guess The Gender](https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/125059410/d10aea84-97b8-48a4-8da0-9d4990f11dfa)
 
 ## **Working Video** 
 https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/125059410/d0b1cd88-12f9-42ac-a1ee-5b38d0652f58
