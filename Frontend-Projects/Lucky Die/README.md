@@ -29,4 +29,7 @@ Concepts :
 ---
 
 ### Demo Video:
-<video src="Frontend-Projects\Lucky Die\assets\Library _ Loom - 3 July 2023.mp4" controls title="Title"></video>
+
+https://github.com/ayan-joshi/Future.WebNet/assets/96243602/68176ddc-abc1-4ffa-a5ed-9593d0f76b5c
+
+
