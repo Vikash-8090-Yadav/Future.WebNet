@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+@import url(./style.css);
+@media screen and (min-width:275px) and (max-width:780px){
+
+.message{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+
+
+}
+.sucess__body,.img__success,.success__header{
+    padding: 0.7rem 2rem;
+}
+.message__body{
+   margin-top: 7rem;
+    /* pointer-events: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18rem;
+}
+#button{
+width: 20rem;
+padding: 1rem;
+margin-bottom: 2rem;
+border: none;
+color: var(--White);
+background-color: var(--Charcoal-Grey);
+font-weight: var(--font-700);
+border-radius:0.5rem ;
+font-family: var(--font-family);
+
+
+}
+}
+@media screen and (min-width:781px) {
+    .message{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        font-family: var(--font-family);
+        margin-top: 2rem;
+    
+    
+    }
+    body{
+        background-color: var(--Dark-Slate-Grey);
+    }
+    .sucess__body,.img__success,.success__header{
+        padding: 0.7rem 2rem;
+    }
+    .message__body{
+       margin-top: 7rem;
+        /* pointer-events: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+        width: 30vw;
+        border-radius:1rem ;
+        background-color: var(--White);
+    }
+    #button{
+    width: 20rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    color: var(--White);
+    background-color: var(--Charcoal-Grey);
+    font-weight: var(--font-700);
+    border-radius:0.5rem ;
+    font-family: var(--font-family);
+    
+    
+    }
+    
+}

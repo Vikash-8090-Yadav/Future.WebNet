@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .center a {
+    padding: 0 16px;
+  }
+  
+  .right {
+    align-self: flex-end;
+    margin-right: 50px;
+  }
+
+  main {
+    text-align: center;
+  }

@@ -1,0 +1,79 @@
+button {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(238, 150, 207);
+    background: rgb(238, 150, 207);
+    color: rgba(11, 11, 215, 0.8);
+    box-shadow: 2px 2px 4px rgba(11, 11, 215, 0.8);
+    border-radius: 20px;
+    padding: 8px 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(238, 150, 207, 0.8);
+    color: rgb(4, 4, 54);
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Additional styles for the website */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3dc97c;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: #034e0b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #3dc97c;
+    padding: 20px;
+    text-align: center;
+    color: #110c0c;
+    font-size: 14px;
+  }
+  

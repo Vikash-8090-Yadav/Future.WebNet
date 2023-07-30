@@ -1,0 +1,143 @@
+.h{
+    height: 70vh;
+    background-color: rgb(236, 236, 255);
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.h-left{
+    flex:0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h-img{
+    height: 310px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.h-bg{
+    height: 330px;
+    width: 370px;
+    border-radius: 10px;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-title{
+    font-size: 60px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateX(-100%);
+    animation: slideIn 1s ease-in forwards;
+    margin-right: 70px;
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+.h-desc{
+    line-height: 27px;
+    font-size: 18px;
+    margin-right: 70px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.join{
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: azure;
+}
+
+.join-text{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(25, 23, 37);
+}
+
+.join:hover{
+    background-color: rgb(10, 10, 25);
+    cursor: pointer;
+}
+
+.join-text:hover{
+    color: azure;
+}
+
+@media screen and (max-width:780px) {
+    .h{
+        height: 105vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .h-title{
+        font-size: 28px;
+        margin-right: 0px;
+        margin: 30px 0px;
+    }
+
+    .h-desc{
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 0px;
+        margin: 0px 50px;
+    }
+
+    .h-img{
+        height: 150px;
+        width: 180px;
+    }
+    
+    .h-bg{
+        height: 180px;
+        width: 200px;
+    }
+
+    .join{
+        height: 35px;
+        width: 310px;
+        border-radius: 35px;
+        background-color: azure;
+        margin: 30px 0px;
+    }
+    
+    .join-text{
+        font-size: 18px;
+        font-weight: 550;
+        color: rgb(25, 23, 37);
+    }
+    
+    .join:hover{
+        background-color: rgb(10, 10, 25);
+        cursor: pointer;
+    }
+    
+    .join-text:hover{
+        color: azure
+    }
+
+}
