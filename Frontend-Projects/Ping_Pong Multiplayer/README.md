@@ -26,10 +26,10 @@
 ## **Screenshots 📸**
 
 <br>
-
 ![Alt text](<Screenshot (188).png>)
 
 <br>
 
-## Demo Video :-
-<video src="Library%20_%20Loom%20-%203%20July%202023.mp4" controls title="Demo Video"></video>
+## **DEMO VIDEO**
+
+https://github.com/ayan-joshi/Future.WebNet/assets/96243602/6f6073bf-2d3a-4d2f-ab06-4b0936c8a09d
