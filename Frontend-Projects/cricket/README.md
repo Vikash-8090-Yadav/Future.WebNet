@@ -1,5 +1,15 @@
-# cricket
-A BASIC HTML CSS PROJECT DONE BEFORE THE COMMENCEMENT OF THE ICC WT20 CHAMPIONSHIPS 2022.
-![Im](https://user-images.githubusercontent.com/101446457/197330043-fcbe7662-b29d-47aa-9ba8-a4a8f2e82693.png)
-https://user-images.githubusercontent.com/101446457/197330062-10ad0070-0149-45f0-9ea3-b41b6e185e47.mp4
-[Click Here](https://targithu.github.io/cricket/index.html)
+## Description
+A website designed using HTML and CSS to deliver cricket news, scores, records and name of players.
+
+
+
+
+## Screenshots
+
+![website](screenshot.png)
+
+![website](screenshot1.png)
+
+Working video:
+
+https://github.com/Vikash-8090-Yadav/Future.WebNet/assets/125059410/48206af5-114f-44a6-9111-a2ca84d1e7bf
