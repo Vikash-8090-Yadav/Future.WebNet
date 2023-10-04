@@ -2,144 +2,171 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Online Voting System in India|MyOnlineVote.com</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script type="text/javascript" src="./index.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Online Voting System in India|MyOnlineVote.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+
 
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo">
-            <img src="web5.png" alt="MyOnlineVote.com">
-        </div>
-        <div class="topnav" id="myTopnav" style="width: 1000vh;">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact Us</a>
-            <a href="#contact">Log in</a>
-            <a href="#contact">Contribute</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-    </nav>
-    <div class="slider">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://miro.medium.com/max/900/0*MSuFeUuTHUdn4Sw2" class="d-block w-100" style="height: 600px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://appinventiv.com/wp-content/uploads/sites/1/2020/11/Role-of-blockchain-in-voting.gif" class="d-block w-100" style="height: 600px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVEAAACVCAMAAADWpjlmAAACT1BMVEX8/v84UJTk5Of8//81Njr8/fz6/P00S5Fve6vf4eHj5OgAi4f7//////43T5TmTUfr6+3R0+MgPos1R5AcOIm7v9X29/spQ43Jy93senWhp8bs7vPwzHGDjbanrcLmSELm5+VNerwAg3/vympHOpW4RjDj7/MnKS0AsaJ7hbHx8vDkurvoRT/nfn5Bcrjxh2zoLy/l0NDmOjfth4A3bbboVFB4mMmdm6AjNToiJCjBwcZfXmXlkI+Eg5HfurH0366Y1tX59uxSYpxokclmb6TGTi5Zg8DWpJqcmsU9MZHO399RbHAAZWLqysKtq64NGydxd34mmotdOTS0YVR4rqsrJS/obWXoICPnmZcQIyqeTDHHiIMAPz67xsXmra7k+v+TWFBBoJp5jZOvIwAdJTXCblT32tbYaEPoYFv52cnbYzjNcUzPIy/Qsa7WURrVQEWmudp9OzuvQUCTOT1gIiTCmpzUzdSZdHP5zlCUmpbfiG0AFH1JiIwYEyT16s0AKYNrz8q4rokAAC4/PlMTGDl8cH7imIVPTGEAAAhDPEg0Hyh1XV+O1dL4v7L/wrE8u7Pv04p3HRc9N1UiO2Hc0Jhsu6CN1Nut08Pn382+k6OqcYTLp2LSiE3nvZ2HKU3XtGWQk6o8UHNRM3GCNVlvRXubVG+XhWduco+gTGSxj1ybKFfdt1ODbHFRPUhXVn7AhIn0uFWnKyafWllYUUCzn02SZ1zPUiyvTDCEc01+QTJeWlXLvnJ+Z1eYaIKGhbjxeFtrrL+ZAAMqTIJYCy9IHTsMxEyOAAAeR0lEQVR4nO2di18b15WAxVzuBQZdGL2Gh4wRYAQesIxkELYA24AM2A7Y6yepa1zHKXGSpiVuraRNHHtbG8eNAW/TbZJNN06b9J0267RNt2mK293+YXvOzEi68xAIrDiNV+cHQkijmbnfnOd9jDyespSlLGUpS1nKUpaylKUsZSlLWcpSlrKUpSxlKUtZylKWz0aIx8PwoSwlE0IUxeOhn/dpPDrCPKosSSop62mphDAJRfm8z+PREa7oRGVJ9bCy6ZdATBVFpAr7vE/mERBCPJIgYVJ2pg8simQR5ilDfTBhkk2Ucsy3CmrYRrQM3KdVMEKVRRDGIGCz4kIMIUSzq6iupszYzaMizF2KVDzCD0e8RdIgEOftKirpr2geL31kAr/qpjUg67k3wvUN+KHHDvNidZQrLgeSJRkSqWntUdFRouYaZtEaae2PUa7MKJQxHm2vPXKoSKIFrx4wjU8+KgGKYJENSiIbIGVdY9YnymeOHDnKKT/UXlv7L0d5cUSZ0+QFpo9KhAKishSX5LgsTUeleDyOv/J6RHlqz+5jx7l2AoDWtp+MFncoZQ2ieg31SCRSaPXRRE88IZ8e2NGT6DvVc3pgNrou0ZnHv/Rx55kVwAlMv3yWF3MoRyrqhKqBH+GUfaGjlE50eK6nabopejoaP3Wup+lcdF2r59KTBzo7v7L//BOY9hw6VAxRui5QQEp5aoZx+kVGin5UntsxOzfdJPUB0WjPxZ71IxPhmd0HLkxzaXCSgEoVA4C6xXm7aFR9ck9lCpCWqHmfg4COQqC9uCPe0xTpi04D0d5T8lp+FEySealGJy/EOePHB4s10bXCkqmgkkI9o189VnmS0U05VIo1RAHxkId1kXSiUn2r3NOkGDradG5NHWVe4p0dSPT11l+cJ2T+9BwpiigppKKyQDrMvXufeqpyiG/W6pXCsrkdbkL0fDRan4jGE8MDYPLRnvrZnjV11Dtfn2itRzk969X66ou69ngYFyWVo1FMNIx/lIX+BfXpZ559ssazOaunBK5PAVH4w8ojDKJzc+Ho3A5Jic9F48PDPQVjPcQh71KfwRPka7tob9+8t5jjuKlnFAwj0RTPkY61xWLJ577eSMgm/Sgp7FKUh5aYGTUTqIocjqLOoNqEC1o9ZWTudJZnfes3ErtOJeaKOFc3mw9Lw4nTA/GoqbyyNh5ra4sl6dMLscZNKtQ/EVHJrJikvG26bk29PX1AMov0G/W9rb3D6+socSk/oz2J3r7ZqJzzo0p4ApSUMSL39y8UleA6j+PGUn7IRD0aHE0SilC96wKqG9cBde/86frWRFMW6dd66+sTs+udK3HYPBwluquvtS8eFV6CJGwCUBKq9rf1+/hm7N6FqBzR5IdMlGnSDFOtIqdU1e0MCBlo7R3QhnsNoInIroHWJm29IxAXm4+eSrQm4lEhWMEBeSwWppSwfrD+8GYSKAdRWdIaAyHloRKFRE0a4dbcDRJ3d6sjPX2tF6n3oqGjracwhHi962qTs/yMNvXWixqqD99TuX8cVJOrSDRZZO+L9fwcB9K2B316d8JD1FGoKEe4/ZVBV6Oj3oHWeurVEoaK9s7qvdJrtxwHTczQIwDdkajv6xGBSrAXHuoPcUa5D4i29ct8/UvlOFjOqZiXSa7wS4aBbIzog+EnrkRd9gmZaB/kSize16rL6SLyJixWNGszMVnrq08Mi0BlDY7Hk/2yhxHeiETbkthjsuGmGIopG0FBkQN+2fQ4GyK6RuVVzMd5pGiis32zXsqHTj5/CeSb3yoqEc3avJx1mnJE6qtvHbBoKGQWjLCJfga5PU/GkCgEqQ27UoOovF0zMGoVVxsj0iaIaoUKL+dOXMPN/GUXoi4bMnIqoXl5zZ7Kyt0oj2eKyHEoUUz9nO2JGg2Ngh/ui1sqKPQcaO2MUEInwI02t8Wq2YbzfJNoJNCoYVBK+1u0bHK2EaJcca+9JNmtwS6UpcO2F7l02a0tjCWaQEUHuyoN2ZMqJmvM5bsyFANRPC1IaXt3REU3oDeXQ4Y/Sgmko0B0YeHZnRvv28j60UgQkCohfyCS8zYbJFpAnA0mHuYYe+CHHnMQfcFVR0dPzxEwehNoZVeBjMD6IcF9Dp++KEWlc5h3Wat8/ToTNVn9YkfHi9/G0mmBf+cZbXN+VMaI9FKjogT8W/OjBhsnqijggxX80cWFKDhWFpacxRB/42UvTvDCqA02B9vxaLtrkjn/92kvY1dyRG+sT9RyuSHEQw4aBxUdjua7nHIDTJS/0rFlS0dLrD8GROc/nt9wsM9lT5HQVanZX6XkL9yGiSqpGWVEmTkqD46MpEZGBhUHUa7jNH2W5Y393VGuV0gUwgJTtMzQ4WvMBZY3shc2SO3JEq0cWncEGlRU7K2L1rf2SVBx9Vk0NNtY4t0HRLd0bPnXln4fIc8ubdjs8/moVp2uqGrRnAcpRgw1SA1p3818b+Ro5gcjmeszKStRyMTDcqGrxfev7MctmYdzXnNjMFXZ9f1atzDOmJcJbrSy8mR43dO0uiEZ9LO1FVVURJq9xJToRIHpi/sY9S4tbjgrFDJ82V/h9wkGsmGisnQ9NZQ6mrrJb2ak6zxn9fqsJJbdM9brULFbVYsfWlnBiTakZmhk8NaRV0dudX3/vCtRHFIz3aj+eERap7BxlJ/RYawOrCqad+zkjq6i8LvPC8nvU8VlZ+Lx8nvVWq5e1QT72LiOatcHR1I3kGhKvv5qRufHMcHOGrtR5G5XnGZPu68d8gCt6de69sxIKc5frr1doKMCyN/SXWhGD/Yzaw8IEUf5KUcTiUTfDmv5mW0rJehG9+kPkEvv/fp88RDMAwr7jfgy4vXcBNGhmzM5oiyro8wyc0tp9GvOnRPP/m7wpJQuLb/2KvDkt7uv7S8QcyiRTuoqqqvqesHerSso3tPTY3klvxKHUoRJTaIeOsk2l+HnD2ZP0IoUM9aPfDeTujk4xL8HRFOmH1WsSYoCOQX+tXp8L492r6xcO8Snl18b4Tx6Df6jBXSPGYEJlBPdKQT7tQaE3HpFjUxZkLDwgVGAeYfc6TCIevmDErVo0wZ6XE2iqSFZGRyStZGMPDQ0ops6tzZJS6cNlbWlpBRiU/e1le7bS9OHbq9c67527Y1C/jEbmBQuIdlbaxSKxGnzbiJ+4hWd5T6TqHOH+Xqbc/hBIWJQIMI4k5Tt8DX/3USGr4QlOYzdx+Auw0Zmy62htvFqo2s/DGOea7e7V253n7jWfXule3/3tYKT7Rg/augmo7o/de1FzUrBeWOCiBcXk6eOUe8rBYgyPdEOh22ltuVMLfuusehocUO2upDsapbcH9n8hwszjWRpdMyvyQ7FwPgBOdHtFVDTbvhBHQVbLmBwlJ80yk/GRwDtnsxaXe3Eo7iNf1raaVExsPctHjJaiGh2X9Z9iqCIqbmovNilJshGHIilLLEcjRhqIsuaPuoR3J4laq9E4fqB+zSJ7l8jJWKeI5iHAnLdoa5T2RM3T2o5Wcvm3juAEq7algJE3XdS6GSxu2eT86a5Ig5LC70mWC7rJ95S7dNkpTm41WQvO50K41EI8Wj1YPKFnSPPAMeuEdBMyrr0YL+mLcF+wu4c3K4s1Y2e6WBLQ3SzEymEASI2mH+u4fkamZWUHqvRqoM+d93w6Mte93ff7oYfqJ9o4RhraGaG4lzcG12VXUfXGWCDYMIKduTYFjKiuW8hcPB9HYWIylEZfqL4GMW/WHoVgkaU559eZ3yh8GkLI0Q3xCEjjxkdIFZtfalxzJ93Cc7Jr+hJdbm21qH0UH9Ld0p8BuAOFdGF6W76eC7WKwehHkgyYvx17geJNtXEd0VnT0k9TTtme3Y04eSXQlkJefPfFsmGqy6HcEd3kHH2spa5WuHPBz9n5OO3TavvXuu6YmJv5vVcuVJZeaWoecmuc57gMhMH0VfQWkBX77gTjQ7Ee5p6Ls4OSMOn4nOneuKFiXqo7webG6K2ioOoMccQuwx9QUFHnesW+DVIm+Bn5fYaeTXxANEjZk820t1TXJrnrqb2jcDaKda5tKOjENEdc8OzPcPxxLmeHedmh8/JhYkyGn09+VkQzafZiqxlA5OsqJZNwHfRUUjxV/REXy3cR8eVk1iBmv+AByiuGx/FGaFsV45C8oQgwUVvKUh0brgpPmcQjc714liVXIAo4b7Phqilg8tYw6CottBD6b47HR1brq0YRNeYVM+VI5VdM2Zuh3Ef/inuxED1FGv5aZt+CG5/S8crSBSyqEJE5fipAckkem6uKY5jLAWJNr4+/uBTpcn8mXnbuZCscuAiEMSJSTC16CHVe9C2dPzw31d+1L3yxhpngaG+SzHPk/ErRjc+KSKNBkOwmb5tFhClFI1eR7uvEFFJSvSeA6J9OtHhc2voKOULr48/+Nxzwl972k40P3Imv/km2JR0+a3L//GWEJkINfp5377bgfLiqKMEJRQ7oznlfObxrqFsCopl0+6b8Loa9jWGQqFGX1jlOIWeZntiCKXcUrcIEYrlXoVPYJXODv3qh+Yroz/+T+FT2XQCiUYTYOl9p2ejc03nZk/DXztRPLYxiZ2Pv54swXR+fsM5qy0bmlQ2esdD1XdQ3hK7OLxm1/ndu7qqNjp65km40adL5tI3v/WualYilGaOffPemeZ0hd/vb/CjVKSbfZzn59NS7nOVxsbG/HNGKfxJHX7ssa3mSyfaa4WNZZInavgufb6U2RdiJ0qxnqOoSW03S+FHyU+S2bjBs0/0YSjVA9eabBkl2jsfzs5e9lKBKM0i3fI2/P7lpRb7ReHNV4O6/PS9994PhrM6Q/nkO+/9tKGqriInVQ3BQLPM80Srg+vJVYXxdDDoDwQCfvOlhkBAeL+Z54lmO5XMhWz4aCPKQ8HgKnyCL8ReX+APnI8S9SfjRslDlBspXQ+htgecRuZHXtlHyM+mey732NQQU0EDaceLFXVV1Ba4+JgJra6urqGFZwf51Bb4X8BpbtPg3x42189Qvr3K/r5d/ODZq9fYqkEk6hQ70fDPnv3Q76M8Oh5L+h589hgQ7Vd1m+Mj16+bIUTIo+kWQp77sGdyzt4Lx0M/N8LT3V8EKoI+27C07M83MOjT9w+mFQo0FIBQ5W/mOaIO5J8tUd/xrz71s2Yux2JtyRKsNCP6nFb0ImzoBzeNVulAs+O3+14hmXd++eEv7QMjlAV/9Ta60Q4gELCaPeXNeXRVY0b3PmfbgwUh1FX402H+ORG99NQzB0ON/RPJWLIUy6L4eCwGSkr4u9e/N5RyjHdDbCL88q9/fZnjqqR8TCde3vKbLXff/s2LHXcRFBMz1rzRY/u2clRQysYKKahJPqBbfmmJytk0UKxqRaKQ9fLVj94/GBhPxsbbfKVYHsJD/TF9VuvIB0tLGSdRciczf+W3Jz94WuMeYaUcoSTzG1DQwO/efgoa5/cJQzyEy4I2BtFfwCfH1vOPgJSw0hINhzUUeJwJC91tIlBILlYPbtu2LdnWNpHcwMjSGqL14zRBTp5eXlqed0ks9354YXdlZVfnvePzRCDKqARE7wbrgs+O6WYvXAuL0W/XjZmlA+twAtOvUklJiXqy40yUjzD3KZ04mxeBBibaxsddJ9JtWKBSAKRJldOlpSWKRAXrpSRyb2nyYyBa+dsDnRfmhSyfESDa8ba/om4MWxEQ0lXC0/n2+hs5jqE0++3tdgn6gWpeUj8qXOMR9/EtRtWJNgB6MJYc7w+VIBnV98lxCUt/Up6ejWDBIkQ7eO/4vcmlZ3DEbfefOjs7hSMSqkJcAqIVOoCg4IJEo6+roCi+YIXIqa6qwd9QFfD7bVyCIc63N1RlRVTrqkAg+3JQoyLRQINNgsUThWR0YqItEBhvm9CnSJeGKFPbYm1t/e+C1U9OLMiCc2ZEu9A5ufhfOPa2+89AdJIL7zHI7u9mVa9qKv8W35o3+gbMipgYqVA7g+mQHFbDcmh70MK0rkHlzS15yX+qqjr/6nZVJBpoabZL4waITughKZlsm2gs0fpnik5On3UNRCdioKx5s6fe6QudS8Md30clff5AZ+cFjeQ9Ld8L+WiWaN2Y+To4Bi4EoWAYtBmqElFFMVHSxx7hIdxiSangAgjiCeQ+5Q+Jr3sEouBWHOKgx0c0d6JhXGQCzY8lJ3yliUsoYNyN/W2xt5bfRbCxCTU3uEb23uvsvPTjn7/WVbn7GBDtPCP2l9SAI803zDwhCFnhvM+sqsYhO6uKglHmdQFoWzxsg2h4qoWoeMpWouu3kH+gua4xgCCSnAAThUjfX0KikCzi8pXYc7jiAi7XRDbIMD4JRDvvzS29cPLPxzrxaUR0s1CB/i7b5lw4oKLRAwji4T5RD/1bba660fKuSK50ROkf464LCsA6kxOY2pdWR8H8wgZMkAUw/GxvFCVI9NKBn08uLx040HnvI6uSssi+xVzwqKsyugeges9HesyHIPS3CLk9VPniDcmw2t8qaGld+sGJUseAJuEvRLiLjuqlZ2zCsPpGty02K0TNEaXhZCxmZuuUn0GiH//+D0OX0eZRhBqA0qeO51OgoGxMH6DhvM7p1SnhohOtcgxKMdHvVgTCeUDFErU5Ua8zwvA/Sm60sLwBLxprW5iIlSp5yu5ap4lQOYYpMzAaVn/p4ysdJ7v+ZCC9IExg8O5dEpxgoJkbXR3Ca0EZ9y0gRudgbxrYvaCkft9GiYbCNlEdE0MIWL2bTfOJtonY+MRCDNL75EJpiRo4Y5e3LrT19+fUxIhMHz/537/q2l35pXsffXhmmojJFVHz2lU15kH/azH6MTxJK7CwY4UzVKh1eS1G5NlDFEXUkY8Gm53TVkYX573MmOWed+KMkon+tvG2caiXMIPa+PqyNQRXBqG07O3vnwhnD8o8b15AorufvPtkZeWfD+zl3Gs1Wt4iJEp6EUfCQjKqG5KotAZjqzBLn6hYzxZH1C4uJRPRFqe92AWWmcmwXNoJhUc/hHlACtEDM/xibz1XjJCm+oEBXAr7YdLHaXbPcBGPd17qPLD7yT/8fveXP7mw13ENqRDGjZaI/PwqKiSfsvBynrW18y+ddwubJuo4T3VxiUGhkXp1z54hLacwZAGsHn6SsQmoQttYKe+47zXvzNLaZIykZdtKIpc6Ow/U1p7/S23tyxcmif2rE6gQVVD/qNhW7CTBBcaCBmLXnsOPQnolZLBjPNew0hGly6ik3unJW/pSAL0DBYhmPoKCaQIrUPhtU0t4Fy4y32feR6TJmgiTUQxHtbXtQLT2whnHTB2LevllQKrmldbs2ReJ2sBk+fjEjgBOSk+ULC0vRrz0zPIkzsdg+ogrBcKLC6Ch4EWT+BAtoYqS6UQBonFwpMdrDXEhqhdIQpIvRvq6MWNXFh0thijdWGQqgijzzi8uLS7RyeUXKrtuwVn6Qs2rYSjv+IJeheLDOKThJdTRXb3uRD1s/oUvfWoS/VRzBEOInpbQzoSmZiOEGL1c9YeI2QBYfa5dpdNRRpaWdt7fubT86etDKc6OplenQirOschWof39db5SWr33VGsBooSfr82K69JPa/pJBQjZQWVb/7PTtKyRqTrfBVQ6olBvfmfnzp33F5fPpNsav61ku1OI/NLBgwebt8HDNl66KpQRDVW01Y0o9Rg0kWu72/wmwqrEXDKvbRC0jUsuOgK0afseqCV7apjaaPZkTKXIy1WXfBRy/J2GfPX+X5Of5JJS7ju4bdtLvgD24pewBmV6YGrd1dTqYvW0XVdPvLNt+yG3TwtGDWa/XawOTR3Ne8k6iF6OEpESVehaRl+xIT/a0NxoE9n1LknafZPp/Z6jucyTh4DoQbUOiI6VTkWhSXMQmBLTu1yIEmYQxT/trrdhFcOKP9+RV1ehmjGbqNYq1JEveB+sCnX2j7o1knm1RVRR+F08mtuCTwHRAE8f3HYwXVKiGJgS3tleJ1G8jzXICXSn7a4rFZnQEVJVndO2wFQuZos9IXUNYbsGMWtPitDZXrLePP0w3vn7BtGdAtFVYLlqPha1m+LEi9XSLkyhnEQP6fddPstPtNe2n3A7qKU/VKxJc2PRYuCxT5awvw2BKf9OKYlCyTRv2v39w3miqJ0h3lxiokQDN5qY94I3LUQ0ys+2o6a6nSqFSt4xfFklGBGX/eKYiNiFj3N3LD3OwcbPiCihXoPo4uJSds41+DSISS/JpSeKKAcIG3Ujela3eu5BsufdibqlMiIBJo4266MiwrFtoyIVYuZTYqJLQPQ7i0tLT+eJqhCStjGMTyUlig40MUsYcbP6/RiSQDn1COVq9bZxDV3qGoR5+8w6LGKO3OmrX7lqnQwFdb+gwJuNTG6xiTGyuLi8BLI8LxB9CUMS98GfqVISxfuAaEB0oNVJ9ISeNhEPR1V1rykID9it3jrHBLVY3KIqWK2PLocb7aPLFZYx86KIuowuO4aXcQ4GXVpeXpxcPPOV136Ri0w6SigIwqUlSthAfesprx7yXYiiG1WZ/qRdcz+qJbYYli0uDAItlm1aXOX3B4wH68caLb2+m+txbmjw26Mf5Wz/3sVPnz928rfHvnJzJKejaO4v+YDowdIShcCUwLtVk9mEk+h5PXdiDB0qBCjXPVA7MOzYs43OOWc6Oifj4NzdDeuoi9jzCU7O1rafeay29tvfuX//vn/hE5HoQdVDwZ2WlOh0Hxg9PllyJ6pn9hj02wt8L4B17K3CpRud8e1rz3VEwXEVy6dKQ5SyaG37Y+2Hz58/sbJy4uzZv0U/0b/kgVE9wQ9gF+Q2NP7NI7SJrppenEI27yBKmJE7wVOtMFGPPWAHHXNicLbjOjPE6gL2BRKbJVpl1VEGQGvbn9gPcnv/7dsnQr/zqfrUTcab39+2it2lYz99v8hCoRjhF1v7plE7iJbotRPVMDDp8xU95wuUoWjWqkUDLWm60SjwZOl1ZuTWhe2r20tDFCIAGHz7E7dR9rcExsaqxratYu84Vwf3fID6SvmVYr+Np6BkseHCo2/01lN9piWtb92FE5vyTPUi9IR+bw84MfeiSd/Osh4h6LjeuAPaElxDS/1p1d4JR0pClKjtepHyxH4EGqhO/u3QkG9hdSzE+eDJI3uGOMOe51t7cGGg8RV85iLujYvxVWo0c+vxx28QfS4wGXn8qDE7XCQKuZO+lvuN9jWI+sR5IRVWXTOnU+DKBkealWUQzHdqGu3BRytRsZUbIAoh1SCKQCuSP3rj9rkhTYs0p7dqUk0mU6NElEhEG7lyFJ4Ygig2gVOB/eiSmpmZSRn/aKk9ePs8eKaYu9TjkZZ76lo0Gcv0hRaKc4zNo+nXjvFwi9+NaZW/WqaqpuXndTO88zbT8smVP0TzX6jnYetGJsHMTuhEXz78xBNPBNKHjx4eSg1pSkRrrsjegxGZAkSBp7YZD4BjgWZD4Vw1bIWqEnBlTJznzM9i7anPFcHQdJ5bl6fgfa71xmtaczCXDl6tidQUEK3mXb9fD1FZsHVV/mBLRnPdOiLsc6v1nbTfkYUKcyBasBnUsGF+Xq+jbwxK0tbVEOWaxsHSWUSeWs3nzCSrGQ9g81a6lhnqwo5J5vljZ0305Lm/34t78SsXjentqOhSvpFb81IQKLLQUi1jDX4DCC5j3B6KFNxe2GfGupfQ1rUkpW8kaZisaBiXag9LM5ynm8FXk4jyCddqNG0hrT6kL7dhWt4Eoh/9fVLTPQ3aQ/z4Jc30NmgZzHR5pq7rohkfNj4P7gNdSB678QwIZkJboVjEpkcK88Qtc2J9Q4poTjHOQK/rdQ3VFYQfQqLnRyKDkG3oWTyV/0euqVFo42oJ5zeuT9Rkqh5/LhrRnSw+KKoWyXoaTXX4GlPNwdCE26DYJ87lHnKvGNu53Kbbsp2+ie1DLqI3QFidwfj+duzZHYzMcHVMn8bJ2xracKqLb9V1qPuzEJKDg0MWzrBdKmfzMISBGwWigzU1QDQNRIka2VoXwuXKD5Go5YxsSfcXg2NeSPyvL6PR88wg6OgUxxBIeaQGc7nV0qxf2tj5eIr9guR/UuGp/33vnb8OnR1Jb0+v8tWpGsybmEpqJMIXxjZ8J8iyeLgydOUf//jHB2Nnz54dbJbTC5i8a5ikaL6pqZJOwf3/IsatOHwtZ1Ops2N8agoKBY+Gawl9U3Vf6O9v/PyE6WF9u0GUpqcgJYUEi4am6ta/SXdZHJJL4dK61QPL1bHV5oWFhdX0WJgbud4XL9p+biJWKlq6Oj2lYZdIzWrd2FhdOjSqZUv4MtAihakGUL3Gi2hQZWGZghgjkjYqdjOVkRYpZs9ErgAT6jhHmVWWIqVMqyxlKUtZylKWspSlLGUpS1nKUpaylKUsZSlLWcpSlrKUpSz/NPJ/HkPqtsdULUAAAAAASUVORK5CYII=" class="d-block w-100" style="height: 600px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="web5.png" alt="MyOnlineVote.com">
     </div>
-    <section id="home" style="border: 5px solid red; height: 500px;">
-        <h1 class="h-primary" style="font-size: 60px;">Welcome to Online Voting </h1>
-        <p></p>
-        <p></p>
+    <div class="topnav" id="myTopnav" style="width: 1000vh;">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#contact">Log in</a>
+      <a href="#contact">Contribute</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+  <div class="slider">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://miro.medium.com/max/900/0*MSuFeUuTHUdn4Sw2" class="d-block w-100" style="height: 600px;"
+            alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://appinventiv.com/wp-content/uploads/sites/1/2020/11/Role-of-blockchain-in-voting.gif"
+            class="d-block w-100" style="height: 600px;" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVEAAACVCAMAAADWpjlmAAACT1BMVEX8/v84UJTk5Of8//81Njr8/fz6/P00S5Fve6vf4eHj5OgAi4f7//////43T5TmTUfr6+3R0+MgPos1R5AcOIm7v9X29/spQ43Jy93senWhp8bs7vPwzHGDjbanrcLmSELm5+VNerwAg3/vympHOpW4RjDj7/MnKS0AsaJ7hbHx8vDkurvoRT/nfn5Bcrjxh2zoLy/l0NDmOjfth4A3bbboVFB4mMmdm6AjNToiJCjBwcZfXmXlkI+Eg5HfurH0366Y1tX59uxSYpxokclmb6TGTi5Zg8DWpJqcmsU9MZHO399RbHAAZWLqysKtq64NGydxd34mmotdOTS0YVR4rqsrJS/obWXoICPnmZcQIyqeTDHHiIMAPz67xsXmra7k+v+TWFBBoJp5jZOvIwAdJTXCblT32tbYaEPoYFv52cnbYzjNcUzPIy/Qsa7WURrVQEWmudp9OzuvQUCTOT1gIiTCmpzUzdSZdHP5zlCUmpbfiG0AFH1JiIwYEyT16s0AKYNrz8q4rokAAC4/PlMTGDl8cH7imIVPTGEAAAhDPEg0Hyh1XV+O1dL4v7L/wrE8u7Pv04p3HRc9N1UiO2Hc0Jhsu6CN1Nut08Pn382+k6OqcYTLp2LSiE3nvZ2HKU3XtGWQk6o8UHNRM3GCNVlvRXubVG+XhWduco+gTGSxj1ybKFfdt1ODbHFRPUhXVn7AhIn0uFWnKyafWllYUUCzn02SZ1zPUiyvTDCEc01+QTJeWlXLvnJ+Z1eYaIKGhbjxeFtrrL+ZAAMqTIJYCy9IHTsMxEyOAAAeR0lEQVR4nO2di18b15WAxVzuBQZdGL2Gh4wRYAQesIxkELYA24AM2A7Y6yepa1zHKXGSpiVuraRNHHtbG8eNAW/TbZJNN06b9J0267RNt2mK293+YXvOzEi68xAIrDiNV+cHQkijmbnfnOd9jDyespSlLGUpS1nKUpaylKUsZSlLWcpSlrKUpSxlKUtZylKWz0aIx8PwoSwlE0IUxeOhn/dpPDrCPKosSSop62mphDAJRfm8z+PREa7oRGVJ9bCy6ZdATBVFpAr7vE/mERBCPJIgYVJ2pg8simQR5ilDfTBhkk2Ucsy3CmrYRrQM3KdVMEKVRRDGIGCz4kIMIUSzq6iupszYzaMizF2KVDzCD0e8RdIgEOftKirpr2geL31kAr/qpjUg67k3wvUN+KHHDvNidZQrLgeSJRkSqWntUdFRouYaZtEaae2PUa7MKJQxHm2vPXKoSKIFrx4wjU8+KgGKYJENSiIbIGVdY9YnymeOHDnKKT/UXlv7L0d5cUSZ0+QFpo9KhAKishSX5LgsTUeleDyOv/J6RHlqz+5jx7l2AoDWtp+MFncoZQ2ieg31SCRSaPXRRE88IZ8e2NGT6DvVc3pgNrou0ZnHv/Rx55kVwAlMv3yWF3MoRyrqhKqBH+GUfaGjlE50eK6nabopejoaP3Wup+lcdF2r59KTBzo7v7L//BOY9hw6VAxRui5QQEp5aoZx+kVGin5UntsxOzfdJPUB0WjPxZ71IxPhmd0HLkxzaXCSgEoVA4C6xXm7aFR9ck9lCpCWqHmfg4COQqC9uCPe0xTpi04D0d5T8lp+FEySealGJy/EOePHB4s10bXCkqmgkkI9o189VnmS0U05VIo1RAHxkId1kXSiUn2r3NOkGDradG5NHWVe4p0dSPT11l+cJ2T+9BwpiigppKKyQDrMvXufeqpyiG/W6pXCsrkdbkL0fDRan4jGE8MDYPLRnvrZnjV11Dtfn2itRzk969X66ou69ngYFyWVo1FMNIx/lIX+BfXpZ559ssazOaunBK5PAVH4w8ojDKJzc+Ho3A5Jic9F48PDPQVjPcQh71KfwRPka7tob9+8t5jjuKlnFAwj0RTPkY61xWLJ577eSMgm/Sgp7FKUh5aYGTUTqIocjqLOoNqEC1o9ZWTudJZnfes3ErtOJeaKOFc3mw9Lw4nTA/GoqbyyNh5ra4sl6dMLscZNKtQ/EVHJrJikvG26bk29PX1AMov0G/W9rb3D6+socSk/oz2J3r7ZqJzzo0p4ApSUMSL39y8UleA6j+PGUn7IRD0aHE0SilC96wKqG9cBde/86frWRFMW6dd66+sTs+udK3HYPBwluquvtS8eFV6CJGwCUBKq9rf1+/hm7N6FqBzR5IdMlGnSDFOtIqdU1e0MCBlo7R3QhnsNoInIroHWJm29IxAXm4+eSrQm4lEhWMEBeSwWppSwfrD+8GYSKAdRWdIaAyHloRKFRE0a4dbcDRJ3d6sjPX2tF6n3oqGjracwhHi962qTs/yMNvXWixqqD99TuX8cVJOrSDRZZO+L9fwcB9K2B316d8JD1FGoKEe4/ZVBV6Oj3oHWeurVEoaK9s7qvdJrtxwHTczQIwDdkajv6xGBSrAXHuoPcUa5D4i29ct8/UvlOFjOqZiXSa7wS4aBbIzog+EnrkRd9gmZaB/kSize16rL6SLyJixWNGszMVnrq08Mi0BlDY7Hk/2yhxHeiETbkthjsuGmGIopG0FBkQN+2fQ4GyK6RuVVzMd5pGiis32zXsqHTj5/CeSb3yoqEc3avJx1mnJE6qtvHbBoKGQWjLCJfga5PU/GkCgEqQ27UoOovF0zMGoVVxsj0iaIaoUKL+dOXMPN/GUXoi4bMnIqoXl5zZ7Kyt0oj2eKyHEoUUz9nO2JGg2Ngh/ui1sqKPQcaO2MUEInwI02t8Wq2YbzfJNoJNCoYVBK+1u0bHK2EaJcca+9JNmtwS6UpcO2F7l02a0tjCWaQEUHuyoN2ZMqJmvM5bsyFANRPC1IaXt3REU3oDeXQ4Y/Sgmko0B0YeHZnRvv28j60UgQkCohfyCS8zYbJFpAnA0mHuYYe+CHHnMQfcFVR0dPzxEwehNoZVeBjMD6IcF9Dp++KEWlc5h3Wat8/ToTNVn9YkfHi9/G0mmBf+cZbXN+VMaI9FKjogT8W/OjBhsnqijggxX80cWFKDhWFpacxRB/42UvTvDCqA02B9vxaLtrkjn/92kvY1dyRG+sT9RyuSHEQw4aBxUdjua7nHIDTJS/0rFlS0dLrD8GROc/nt9wsM9lT5HQVanZX6XkL9yGiSqpGWVEmTkqD46MpEZGBhUHUa7jNH2W5Y393VGuV0gUwgJTtMzQ4WvMBZY3shc2SO3JEq0cWncEGlRU7K2L1rf2SVBx9Vk0NNtY4t0HRLd0bPnXln4fIc8ubdjs8/moVp2uqGrRnAcpRgw1SA1p3818b+Ro5gcjmeszKStRyMTDcqGrxfev7MctmYdzXnNjMFXZ9f1atzDOmJcJbrSy8mR43dO0uiEZ9LO1FVVURJq9xJToRIHpi/sY9S4tbjgrFDJ82V/h9wkGsmGisnQ9NZQ6mrrJb2ak6zxn9fqsJJbdM9brULFbVYsfWlnBiTakZmhk8NaRV0dudX3/vCtRHFIz3aj+eERap7BxlJ/RYawOrCqad+zkjq6i8LvPC8nvU8VlZ+Lx8nvVWq5e1QT72LiOatcHR1I3kGhKvv5qRufHMcHOGrtR5G5XnGZPu68d8gCt6de69sxIKc5frr1doKMCyN/SXWhGD/Yzaw8IEUf5KUcTiUTfDmv5mW0rJehG9+kPkEvv/fp88RDMAwr7jfgy4vXcBNGhmzM5oiyro8wyc0tp9GvOnRPP/m7wpJQuLb/2KvDkt7uv7S8QcyiRTuoqqqvqesHerSso3tPTY3klvxKHUoRJTaIeOsk2l+HnD2ZP0IoUM9aPfDeTujk4xL8HRFOmH1WsSYoCOQX+tXp8L492r6xcO8Snl18b4Tx6Df6jBXSPGYEJlBPdKQT7tQaE3HpFjUxZkLDwgVGAeYfc6TCIevmDErVo0wZ6XE2iqSFZGRyStZGMPDQ0ops6tzZJS6cNlbWlpBRiU/e1le7bS9OHbq9c67527Y1C/jEbmBQuIdlbaxSKxGnzbiJ+4hWd5T6TqHOH+Xqbc/hBIWJQIMI4k5Tt8DX/3USGr4QlOYzdx+Auw0Zmy62htvFqo2s/DGOea7e7V253n7jWfXule3/3tYKT7Rg/augmo7o/de1FzUrBeWOCiBcXk6eOUe8rBYgyPdEOh22ltuVMLfuusehocUO2upDsapbcH9n8hwszjWRpdMyvyQ7FwPgBOdHtFVDTbvhBHQVbLmBwlJ80yk/GRwDtnsxaXe3Eo7iNf1raaVExsPctHjJaiGh2X9Z9iqCIqbmovNilJshGHIilLLEcjRhqIsuaPuoR3J4laq9E4fqB+zSJ7l8jJWKeI5iHAnLdoa5T2RM3T2o5Wcvm3juAEq7algJE3XdS6GSxu2eT86a5Ig5LC70mWC7rJ95S7dNkpTm41WQvO50K41EI8Wj1YPKFnSPPAMeuEdBMyrr0YL+mLcF+wu4c3K4s1Y2e6WBLQ3SzEymEASI2mH+u4fkamZWUHqvRqoM+d93w6Mte93ff7oYfqJ9o4RhraGaG4lzcG12VXUfXGWCDYMIKduTYFjKiuW8hcPB9HYWIylEZfqL4GMW/WHoVgkaU559eZ3yh8GkLI0Q3xCEjjxkdIFZtfalxzJ93Cc7Jr+hJdbm21qH0UH9Ld0p8BuAOFdGF6W76eC7WKwehHkgyYvx17geJNtXEd0VnT0k9TTtme3Y04eSXQlkJefPfFsmGqy6HcEd3kHH2spa5WuHPBz9n5OO3TavvXuu6YmJv5vVcuVJZeaWoecmuc57gMhMH0VfQWkBX77gTjQ7Ee5p6Ls4OSMOn4nOneuKFiXqo7webG6K2ioOoMccQuwx9QUFHnesW+DVIm+Bn5fYaeTXxANEjZk820t1TXJrnrqb2jcDaKda5tKOjENEdc8OzPcPxxLmeHedmh8/JhYkyGn09+VkQzafZiqxlA5OsqJZNwHfRUUjxV/REXy3cR8eVk1iBmv+AByiuGx/FGaFsV45C8oQgwUVvKUh0brgpPmcQjc714liVXIAo4b7Phqilg8tYw6CottBD6b47HR1brq0YRNeYVM+VI5VdM2Zuh3Ef/inuxED1FGv5aZt+CG5/S8crSBSyqEJE5fipAckkem6uKY5jLAWJNr4+/uBTpcn8mXnbuZCscuAiEMSJSTC16CHVe9C2dPzw31d+1L3yxhpngaG+SzHPk/ErRjc+KSKNBkOwmb5tFhClFI1eR7uvEFFJSvSeA6J9OtHhc2voKOULr48/+Nxzwl972k40P3Imv/km2JR0+a3L//GWEJkINfp5377bgfLiqKMEJRQ7oznlfObxrqFsCopl0+6b8Loa9jWGQqFGX1jlOIWeZntiCKXcUrcIEYrlXoVPYJXODv3qh+Yroz/+T+FT2XQCiUYTYOl9p2ejc03nZk/DXztRPLYxiZ2Pv54swXR+fsM5qy0bmlQ2esdD1XdQ3hK7OLxm1/ndu7qqNjp65km40adL5tI3v/WualYilGaOffPemeZ0hd/vb/CjVKSbfZzn59NS7nOVxsbG/HNGKfxJHX7ssa3mSyfaa4WNZZInavgufb6U2RdiJ0qxnqOoSW03S+FHyU+S2bjBs0/0YSjVA9eabBkl2jsfzs5e9lKBKM0i3fI2/P7lpRb7ReHNV4O6/PS9994PhrM6Q/nkO+/9tKGqriInVQ3BQLPM80Srg+vJVYXxdDDoDwQCfvOlhkBAeL+Z54lmO5XMhWz4aCPKQ8HgKnyCL8ReX+APnI8S9SfjRslDlBspXQ+htgecRuZHXtlHyM+mey732NQQU0EDaceLFXVV1Ba4+JgJra6urqGFZwf51Bb4X8BpbtPg3x42189Qvr3K/r5d/ODZq9fYqkEk6hQ70fDPnv3Q76M8Oh5L+h589hgQ7Vd1m+Mj16+bIUTIo+kWQp77sGdyzt4Lx0M/N8LT3V8EKoI+27C07M83MOjT9w+mFQo0FIBQ5W/mOaIO5J8tUd/xrz71s2Yux2JtyRKsNCP6nFb0ImzoBzeNVulAs+O3+14hmXd++eEv7QMjlAV/9Ta60Q4gELCaPeXNeXRVY0b3PmfbgwUh1FX402H+ORG99NQzB0ON/RPJWLIUy6L4eCwGSkr4u9e/N5RyjHdDbCL88q9/fZnjqqR8TCde3vKbLXff/s2LHXcRFBMz1rzRY/u2clRQysYKKahJPqBbfmmJytk0UKxqRaKQ9fLVj94/GBhPxsbbfKVYHsJD/TF9VuvIB0tLGSdRciczf+W3Jz94WuMeYaUcoSTzG1DQwO/efgoa5/cJQzyEy4I2BtFfwCfH1vOPgJSw0hINhzUUeJwJC91tIlBILlYPbtu2LdnWNpHcwMjSGqL14zRBTp5eXlqed0ks9354YXdlZVfnvePzRCDKqARE7wbrgs+O6WYvXAuL0W/XjZmlA+twAtOvUklJiXqy40yUjzD3KZ04mxeBBibaxsddJ9JtWKBSAKRJldOlpSWKRAXrpSRyb2nyYyBa+dsDnRfmhSyfESDa8ba/om4MWxEQ0lXC0/n2+hs5jqE0++3tdgn6gWpeUj8qXOMR9/EtRtWJNgB6MJYc7w+VIBnV98lxCUt/Up6ejWDBIkQ7eO/4vcmlZ3DEbfefOjs7hSMSqkJcAqIVOoCg4IJEo6+roCi+YIXIqa6qwd9QFfD7bVyCIc63N1RlRVTrqkAg+3JQoyLRQINNgsUThWR0YqItEBhvm9CnSJeGKFPbYm1t/e+C1U9OLMiCc2ZEu9A5ufhfOPa2+89AdJIL7zHI7u9mVa9qKv8W35o3+gbMipgYqVA7g+mQHFbDcmh70MK0rkHlzS15yX+qqjr/6nZVJBpoabZL4waITughKZlsm2gs0fpnik5On3UNRCdioKx5s6fe6QudS8Md30clff5AZ+cFjeQ9Ld8L+WiWaN2Y+To4Bi4EoWAYtBmqElFFMVHSxx7hIdxiSangAgjiCeQ+5Q+Jr3sEouBWHOKgx0c0d6JhXGQCzY8lJ3yliUsoYNyN/W2xt5bfRbCxCTU3uEb23uvsvPTjn7/WVbn7GBDtPCP2l9SAI803zDwhCFnhvM+sqsYhO6uKglHmdQFoWzxsg2h4qoWoeMpWouu3kH+gua4xgCCSnAAThUjfX0KikCzi8pXYc7jiAi7XRDbIMD4JRDvvzS29cPLPxzrxaUR0s1CB/i7b5lw4oKLRAwji4T5RD/1bba660fKuSK50ROkf464LCsA6kxOY2pdWR8H8wgZMkAUw/GxvFCVI9NKBn08uLx040HnvI6uSssi+xVzwqKsyugeges9HesyHIPS3CLk9VPniDcmw2t8qaGld+sGJUseAJuEvRLiLjuqlZ2zCsPpGty02K0TNEaXhZCxmZuuUn0GiH//+D0OX0eZRhBqA0qeO51OgoGxMH6DhvM7p1SnhohOtcgxKMdHvVgTCeUDFErU5Ua8zwvA/Sm60sLwBLxprW5iIlSp5yu5ap4lQOYYpMzAaVn/p4ysdJ7v+ZCC9IExg8O5dEpxgoJkbXR3Ca0EZ9y0gRudgbxrYvaCkft9GiYbCNlEdE0MIWL2bTfOJtonY+MRCDNL75EJpiRo4Y5e3LrT19+fUxIhMHz/537/q2l35pXsffXhmmojJFVHz2lU15kH/azH6MTxJK7CwY4UzVKh1eS1G5NlDFEXUkY8Gm53TVkYX573MmOWed+KMkon+tvG2caiXMIPa+PqyNQRXBqG07O3vnwhnD8o8b15AorufvPtkZeWfD+zl3Gs1Wt4iJEp6EUfCQjKqG5KotAZjqzBLn6hYzxZH1C4uJRPRFqe92AWWmcmwXNoJhUc/hHlACtEDM/xibz1XjJCm+oEBXAr7YdLHaXbPcBGPd17qPLD7yT/8fveXP7mw13ENqRDGjZaI/PwqKiSfsvBynrW18y+ddwubJuo4T3VxiUGhkXp1z54hLacwZAGsHn6SsQmoQttYKe+47zXvzNLaZIykZdtKIpc6Ow/U1p7/S23tyxcmif2rE6gQVVD/qNhW7CTBBcaCBmLXnsOPQnolZLBjPNew0hGly6ik3unJW/pSAL0DBYhmPoKCaQIrUPhtU0t4Fy4y32feR6TJmgiTUQxHtbXtQLT2whnHTB2LevllQKrmldbs2ReJ2sBk+fjEjgBOSk+ULC0vRrz0zPIkzsdg+ogrBcKLC6Ch4EWT+BAtoYqS6UQBonFwpMdrDXEhqhdIQpIvRvq6MWNXFh0thijdWGQqgijzzi8uLS7RyeUXKrtuwVn6Qs2rYSjv+IJeheLDOKThJdTRXb3uRD1s/oUvfWoS/VRzBEOInpbQzoSmZiOEGL1c9YeI2QBYfa5dpdNRRpaWdt7fubT86etDKc6OplenQirOschWof39db5SWr33VGsBooSfr82K69JPa/pJBQjZQWVb/7PTtKyRqTrfBVQ6olBvfmfnzp33F5fPpNsav61ku1OI/NLBgwebt8HDNl66KpQRDVW01Y0o9Rg0kWu72/wmwqrEXDKvbRC0jUsuOgK0afseqCV7apjaaPZkTKXIy1WXfBRy/J2GfPX+X5Of5JJS7ju4bdtLvgD24pewBmV6YGrd1dTqYvW0XVdPvLNt+yG3TwtGDWa/XawOTR3Ne8k6iF6OEpESVehaRl+xIT/a0NxoE9n1LknafZPp/Z6jucyTh4DoQbUOiI6VTkWhSXMQmBLTu1yIEmYQxT/trrdhFcOKP9+RV1ehmjGbqNYq1JEveB+sCnX2j7o1knm1RVRR+F08mtuCTwHRAE8f3HYwXVKiGJgS3tleJ1G8jzXICXSn7a4rFZnQEVJVndO2wFQuZos9IXUNYbsGMWtPitDZXrLePP0w3vn7BtGdAtFVYLlqPha1m+LEi9XSLkyhnEQP6fddPstPtNe2n3A7qKU/VKxJc2PRYuCxT5awvw2BKf9OKYlCyTRv2v39w3miqJ0h3lxiokQDN5qY94I3LUQ0ys+2o6a6nSqFSt4xfFklGBGX/eKYiNiFj3N3LD3OwcbPiCihXoPo4uJSds41+DSISS/JpSeKKAcIG3Ujela3eu5BsufdibqlMiIBJo4266MiwrFtoyIVYuZTYqJLQPQ7i0tLT+eJqhCStjGMTyUlig40MUsYcbP6/RiSQDn1COVq9bZxDV3qGoR5+8w6LGKO3OmrX7lqnQwFdb+gwJuNTG6xiTGyuLi8BLI8LxB9CUMS98GfqVISxfuAaEB0oNVJ9ISeNhEPR1V1rykID9it3jrHBLVY3KIqWK2PLocb7aPLFZYx86KIuowuO4aXcQ4GXVpeXpxcPPOV136Ri0w6SigIwqUlSthAfesprx7yXYiiG1WZ/qRdcz+qJbYYli0uDAItlm1aXOX3B4wH68caLb2+m+txbmjw26Mf5Wz/3sVPnz928rfHvnJzJKejaO4v+YDowdIShcCUwLtVk9mEk+h5PXdiDB0qBCjXPVA7MOzYs43OOWc6Oifj4NzdDeuoi9jzCU7O1rafeay29tvfuX//vn/hE5HoQdVDwZ2WlOh0Hxg9PllyJ6pn9hj02wt8L4B17K3CpRud8e1rz3VEwXEVy6dKQ5SyaG37Y+2Hz58/sbJy4uzZv0U/0b/kgVE9wQ9gF+Q2NP7NI7SJrppenEI27yBKmJE7wVOtMFGPPWAHHXNicLbjOjPE6gL2BRKbJVpl1VEGQGvbn9gPcnv/7dsnQr/zqfrUTcab39+2it2lYz99v8hCoRjhF1v7plE7iJbotRPVMDDp8xU95wuUoWjWqkUDLWm60SjwZOl1ZuTWhe2r20tDFCIAGHz7E7dR9rcExsaqxratYu84Vwf3fID6SvmVYr+Np6BkseHCo2/01lN9piWtb92FE5vyTPUi9IR+bw84MfeiSd/Osh4h6LjeuAPaElxDS/1p1d4JR0pClKjtepHyxH4EGqhO/u3QkG9hdSzE+eDJI3uGOMOe51t7cGGg8RV85iLujYvxVWo0c+vxx28QfS4wGXn8qDE7XCQKuZO+lvuN9jWI+sR5IRVWXTOnU+DKBkealWUQzHdqGu3BRytRsZUbIAoh1SCKQCuSP3rj9rkhTYs0p7dqUk0mU6NElEhEG7lyFJ4Ygig2gVOB/eiSmpmZSRn/aKk9ePs8eKaYu9TjkZZ76lo0Gcv0hRaKc4zNo+nXjvFwi9+NaZW/WqaqpuXndTO88zbT8smVP0TzX6jnYetGJsHMTuhEXz78xBNPBNKHjx4eSg1pSkRrrsjegxGZAkSBp7YZD4BjgWZD4Vw1bIWqEnBlTJznzM9i7anPFcHQdJ5bl6fgfa71xmtaczCXDl6tidQUEK3mXb9fD1FZsHVV/mBLRnPdOiLsc6v1nbTfkYUKcyBasBnUsGF+Xq+jbwxK0tbVEOWaxsHSWUSeWs3nzCSrGQ9g81a6lhnqwo5J5vljZ0305Lm/34t78SsXjentqOhSvpFb81IQKLLQUi1jDX4DCC5j3B6KFNxe2GfGupfQ1rUkpW8kaZisaBiXag9LM5ynm8FXk4jyCddqNG0hrT6kL7dhWt4Eoh/9fVLTPQ3aQ/z4Jc30NmgZzHR5pq7rohkfNj4P7gNdSB678QwIZkJboVjEpkcK88Qtc2J9Q4poTjHOQK/rdQ3VFYQfQqLnRyKDkG3oWTyV/0euqVFo42oJ5zeuT9Rkqh5/LhrRnSw+KKoWyXoaTXX4GlPNwdCE26DYJ87lHnKvGNu53Kbbsp2+ie1DLqI3QFidwfj+duzZHYzMcHVMn8bJ2xracKqLb9V1qPuzEJKDg0MWzrBdKmfzMISBGwWigzU1QDQNRIka2VoXwuXKD5Go5YxsSfcXg2NeSPyvL6PR88wg6OgUxxBIeaQGc7nV0qxf2tj5eIr9guR/UuGp/33vnb8OnR1Jb0+v8tWpGsybmEpqJMIXxjZ8J8iyeLgydOUf//jHB2Nnz54dbJbTC5i8a5ikaL6pqZJOwf3/IsatOHwtZ1Ops2N8agoKBY+Gawl9U3Vf6O9v/PyE6WF9u0GUpqcgJYUEi4am6ta/SXdZHJJL4dK61QPL1bHV5oWFhdX0WJgbud4XL9p+biJWKlq6Oj2lYZdIzWrd2FhdOjSqZUv4MtAihakGUL3Gi2hQZWGZghgjkjYqdjOVkRYpZs9ErgAT6jhHmVWWIqVMqyxlKUtZylKWspSlLGUpS1nKUpaylKUsZSlLWcpSlrKUpSz/NPJ/HkPqtsdULUAAAAAASUVORK5CYII="
+            class="d-block w-100" style="height: 600px;" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <section id="home" style="border: 5px solid red; height: 500px;">
+    <h1 class="h-primary" style="font-size: 60px;">Welcome to Online Voting </h1>
+    <p></p>
+    <p></p>
 
-		<div class="btn-group" style="opacity: 0.7;">
-			<button id="btn1">VOTE</button>
-			<button id="btn2">VOTE</button>
-			 </div>
-<div><button id ="res">RESULT</button></div>
+    <div class="btn-group" style="opacity: 0.7;">
+      <button id="btn1">VOTE</button>
+      <button id="btn2">VOTE</button>
+    </div>
+    <div><button id="res" class="button-res">RESULT</button></div>
 
-        <!-- <button class="btn">Vote</button>
+    <!-- <button class="btn">Vote</button>
 		<button class="btn">Vote Now</button> -->
-		<div class="Total-vote">
-			<button id="vote1">Total vote for candidate1</button>
-			<button id="vote2">Total vote for candidate2</button>
-			 </div>
-    </section>
-    <section id="service-container">
-        <h1 class="h-primary center">Our Technology</h1>
-        <div id="services">
-            <div class="box">
-                <img src="https://media.tenor.com/lQscD8Sey_EAAAAC/blockchain-distributed.gif" alt=""><br>
-                <h2 class="h-secondary center" style="height: 50px;">Blockchain Technology</h2> <br>
-                <p class="center">A blockchain is a digital ever-growing list of data records. Such a list is comprised of many blocks of data, which are organized in chronological order and are linked and secured by cryptographic proofs.</p>
-            </div>
-            <div class="box">
-                <img src="https://miro.medium.com/max/1400/1*EzxPUS5NVj-ycAMeyVz7hQ.gif" alt=""><br>
-                <h2 class="h-secondary center" style="height: 50px;">Website 3.0 (web 3.0)</h2> <br>
-                <p class="center">Web 3.0 (also known as Web 3.0 and sometimes stylized as web3) is an idea for a new iteration of the World Wide Web based on blockchain technology, which incorporates concepts such as decentralization and token-based economics.</p>
-            </div>
-            <div class="box">
-                <img src="https://cdn.dribbble.com/users/2574702/screenshots/6702374/metamask.gif" style="width: 300px;" alt=""><br>
-                <h2 class="h-secondary center" style="height: 50px;">MetaMask</h2> <br>
-                <p class="center">MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.</p>
-            </div>
-        </div>
-    </section>
+    <div class="Total-vote">
+      <button id="vote1">Total vote for candidate 1</button>
+      <button id="vote2">Total vote for candidate 2</button>
+    </div>
+  </section>
+  <section id="service-container">
+    <h1 class="h-primary center center-main">Our Technology</h1>
+    <div id="services">
+      <div class="box">
+        <img src="https://media.tenor.com/lQscD8Sey_EAAAAC/blockchain-distributed.gif" alt=""><br>
+        <h2 class="h-secondary center" style="height: 50px;">Blockchain Technology</h2> <br>
+        <p class="center">A blockchain is a digital ever-growing list of data records. Such a list is comprised of many
+          blocks of data, which are organized in chronological order and are linked and secured by cryptographic proofs.
+        </p>
+      </div>
+      <div class="box">
+        <img src="https://miro.medium.com/max/1400/1*EzxPUS5NVj-ycAMeyVz7hQ.gif" alt=""><br>
+        <h2 class="h-secondary center" style="height: 50px;">Website 3.0 (web 3.0)</h2> <br>
+        <p class="center">Web 3.0 (also known as Web 3.0 and sometimes stylized as web3) is an idea for a new iteration
+          of the World Wide Web based on blockchain technology, which incorporates concepts such as decentralization and
+          token-based economics.</p>
+      </div>
+      <div class="box">
+        <img src="https://cdn.dribbble.com/users/2574702/screenshots/6702374/metamask.gif" style="width: 300px;"
+          alt=""><br>
+        <h2 class="h-secondary center" style="height: 50px;">MetaMask</h2> <br>
+        <p class="center">MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It
+          allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used
+          to interact with decentralized applications.</p>
+      </div>
+    </div>
+  </section>
 
-    <div id="card">
-        <div class="card" style="width: 18rem;">
-            <img src="https://media.tenor.com/lQscD8Sey_EAAAAC/blockchain-distributed.gif" class="card-img-top" style="height: 150px !important;" alt="...">
-            <div class="card-body"> 
-              <p class="card-text">A blockchain is a digital ever-growing list of data records. Such a list is comprised of many blocks of data, which are organized in chronological order and are linked and secured by cryptographic proofs</p>
-            </div>
-          </div>
-          <br>
-          <div class="card" style="width: 18rem;">
-            <img src="https://miro.medium.com/max/1400/1*EzxPUS5NVj-ycAMeyVz7hQ.gif" class="card-img-top" style="height: 150px !important;" alt="...">
-            <div class="card-body">
-              <p class="card-text">Web 3.0 (also known as Web 3.0 and sometimes stylized as web3) is an idea for a new iteration of the World Wide Web based on blockchain technology, which incorporates concepts such as decentralization and token-based economics.</p>
-            </div> 
-          </div>
-          <br>
-          <div class="card" style="width: 18rem;">
-            <img src="https://cdn.dribbble.com/users/2574702/screenshots/6702374/metamask.gif" class="card-img-top" style="height: 150px !important;" alt="...">
-            <div class="card-body">
-              <p class="card-text">MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.</p>
-            </div>
-          </div>
-    </div> <br>
-	<footer>
-        <div class="center">
-            Copyright &copy;www.MyOnlineFood.com.All right reserve
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <div id="card">
+    <div class="card" style="width: 18rem;">
+      <img src="https://media.tenor.com/lQscD8Sey_EAAAAC/blockchain-distributed.gif" class="card-img-top"
+        style="height: 150px !important;" alt="...">
+      <div class="card-body">
+        <p class="card-text">A blockchain is a digital ever-growing list of data records. Such a list is comprised of
+          many blocks of data, which are organized in chronological order and are linked and secured by cryptographic
+          proofs</p>
+      </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+      <img src="https://miro.medium.com/max/1400/1*EzxPUS5NVj-ycAMeyVz7hQ.gif" class="card-img-top"
+        style="height: 150px !important;" alt="...">
+      <div class="card-body">
+        <p class="card-text">Web 3.0 (also known as Web 3.0 and sometimes stylized as web3) is an idea for a new
+          iteration of the World Wide Web based on blockchain technology, which incorporates concepts such as
+          decentralization and token-based economics.</p>
+      </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+      <img src="https://cdn.dribbble.com/users/2574702/screenshots/6702374/metamask.gif" class="card-img-top"
+        style="height: 150px !important;" alt="...">
+      <div class="card-body">
+        <p class="card-text">MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain.
+          It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be
+          used to interact with decentralized applications.</p>
+      </div>
+    </div>
+  </div> <br>
+  <footer>
+    <div class="center">
+      Copyright &copy;www.MyOnlineFood.com.All right reserve
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
