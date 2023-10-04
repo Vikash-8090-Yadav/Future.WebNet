@@ -1,3 +1,7 @@
+.main{
+	margin: 23px;
+}
+
 
 #btn{
 
@@ -5,7 +9,7 @@
 	margin-top: 52px;
 	color: white;
 	background-color: blue;
-	margin-left: 70px ;
+	margin-left: 200px ;
 }
 .id1{
 	font-size: 30px;
@@ -14,6 +18,7 @@ color: black;
 }
 .frm{
 	/*border: 2px solid red;*/
+	margin-top: 24px;
 	padding-left: 590px;
 	font-size: 30px;
 	color: blue;
@@ -59,3 +64,6 @@ font-size: 28px;
 	margin-left: 700px ;
 }
 
+.heading{
+	text-align: center;
+}

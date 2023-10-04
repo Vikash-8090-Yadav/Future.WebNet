@@ -11,58 +11,54 @@
 	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
+	<div class="main">
 
-<form class ="frm">
-  <div class="form-group">
-    <label>Id</label>
-    <input type="text" class = "id1" id="frt-id"  placeholder="Enter the id ">
-    <br>
-  <div class="form-group">
-    <label>Fruit Name</label>
-    <input type="text"  class = "id1" id="frt-name" placeholder="Name of the fruit">
-  </div>
-  <div class="form-group">
-    <label>Cost</label>
-    <input type="text"  class = "id1" id="frt-cost" placeholder="Cost of the fruit">
-  </div>
-  <!-- <center> -->
-  <input type="button"  id = "btn" value = "SUBMIT" >
-<!-- </center> -->
+		<div>
+			<h1 class="heading">Fruit Market</h1>
+		</div>
+		
+		<form class="frm">
+			<div class="form-group">
+				<label for="frt-id">Id</label>
+				<input type="text" class="id1" id="frt-id" placeholder="Enter the id">
+			</div>
+			<div class="form-group">
+				<label for="frt-name">Fruit Name</label>
+				<input type="text" class="id1" id="frt-name" placeholder="Name of the fruit">
+			</div>
+		<div class="form-group">
+			<label for="frt-cost">Cost</label>
+			<input type="text" class="id1" id="frt-cost" placeholder="Cost of the fruit">
+		</div>
+		<input type="button" id="btn" value="SUBMIT">
+	</form>
+	
+	<hr class="line">
+	
+	<div>
+		<h2 style="background-color: orange;">The list of the fruits is below</h2>
+		<p>Maintained and managed by the <span style="color: red;">Owner</span></p>
+		<table id="tb" border="2px">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Cost</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+	
+	<div>
+		<h2 id="buyer-section" style="background-color: orange;">BUYER SECTION</h2>
+		<p>Type the Id of the fruit which you want to buy and pay the exact amount, neither less nor more, as this may cancel your contract</p>
+		<span id="spn">ID</span><input class="id1" id="in" type="text" name="">
+		<input type="button" id="btn1" value="BUY"><br><br>
+		<input type="button" id="btn2" value="VIEW">
+	</div>
 </div>
-</form>
-
-<hr class ="line" >
-<!-- The fruit list table -->
-<div>
-	<center>
-<b><h2 style="background-color: orange;">The list of the fruit's is below </h2><p>Mantained and manage by the <span style="color:red">Owner</span></p>
-<table id ="tb" border="2px">
-	<thead>
-		<th>
-		Id
-	</th>
-	<th>
-		Name
-	</th>
-	<th>
-		Cost
-	</th>
-	</thead>
-	<tbody>
-	</tbody>
-</table>
-</div>
-<div>
-	<br>
-	<center>
-	<h2 id ="byer" style="background-color: orange";>BUYER SECTION </h2>
-</center>
-	<b><i><p>Type the Id of the fruit which u want to buy and pay exact amount neither less nor more this may cancel ur contract</p></i>
-		<center>
-		<span id= "spn">ID</span><input class="id1" id = "in" type="text" name="">
-	</center>
-		<input type="button"  id = "btn1" value = "BUY" ><br><br>
-		<input type="button"  id = "btn2" value = "VIEW" >
-</div>
+	
 </body>
 </html>
