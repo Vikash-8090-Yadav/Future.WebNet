@@ -115,6 +115,19 @@ input[type=checkbox]:checked ~ .menu{
 .menu li {
  padding: 5px 14px;
 }
+
+.heading-main{
+  text-align: center;
+  margin-top: 95px;
+}
+
+.heading-hero{
+  text-align: center;
+  margin: 4px;
+}
+.button-main{
+  margin-left: 110px;
+}
 /* DROPDOWN MENU */
 .services {
  position: relative;
@@ -367,7 +380,8 @@ input[type=checkbox]:checked ~ .menu{
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
-        background-size: cover;
+    background-size: cover;
+    margin-top: 240px;
 }
 #testimonial4 .carousel-inner:hover{
   cursor: -moz-grab;
