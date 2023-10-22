@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .container {
@@ -20,7 +20,7 @@ body{
   justify-content: center;
   border: none;
   outline: none;
-  box-shadow: 0 10px 20px 0 #cbcdd0;
+  box-shadow: 0 15px 20px 0 #cbcdd0;
   background: #ffffff;
   color: #000;
   border-radius: 98px;
