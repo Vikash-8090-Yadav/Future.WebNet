@@ -1,107 +1,135 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Marketpkace </title>
 
-			<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	 <script src="./index.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./index.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./index.css">
 	<script src="./index.js"></script>
 </head>
+
 <body>
 
 
 	<nav class="navbar">
-     <!-- LOGO -->
-     <div class="logo">DATA FEED</div>
-     <!-- NAVIGATION MENU -->
-     <ul class="nav-links">
-       <!-- USING CHECKBOX HACK -->
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-       <!-- NAVIGATION MENUS -->
-       <div class="menu">
-         <li><a href="/">Home</a></li>
-         <li><a href="/">About</a></li>
-         <li class="services">
-           <a href="/">Services</a>
-           <!-- DROPDOWN MENU -->
-           <ul class="dropdown">
-             <li><a href="/">Dropdown 1 </a></li>
-             <li><a href="/">Dropdown 2</a></li>
-             <li><a href="/">Dropdown 2</a></li>
-             <li><a href="/">Dropdown 3</a></li>
-             <li><a href="/">Dropdown 4</a></li>
-           </ul>
-         </li>
-         <li><a href="/">Pricing</a></li>
-         <li><a href="/">Contact</a></li>
-       </div>
-     </ul>
-   </nav>
+		<!-- LOGO -->
+		<div class="logo">DATA FEED</div>
+		<!-- NAVIGATION MENU -->
+		<ul class="nav-links">
+			<!-- USING CHECKBOX HACK -->
+			<input type="checkbox" id="checkbox_toggle" />
+			<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+			<!-- NAVIGATION MENUS -->
+			<div class="menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="/">About</a></li>
+				<li class="services">
+					<a href="/">Services</a>
+					<!-- DROPDOWN MENU -->
+					<ul class="dropdown">
+						<li><a href="/">Dropdown 1 </a></li>
+						<li><a href="/">Dropdown 2</a></li>
+						<li><a href="/">Dropdown 2</a></li>
+						<li><a href="/">Dropdown 3</a></li>
+						<li><a href="/">Dropdown 4</a></li>
+					</ul>
+				</li>
+				<li><a href="/">Pricing</a></li>
+				<li><a href="/">Contact</a></li>
+			</div>
+		</ul>
+	</nav>
 	<div>
-		<h1>
-			<center>
-			Getting  the live value of the ETH/USD
+		<h1 class="heading-main">
+			Getting the live value of the ETH/USD
 		</h1>
 	</div>
-	<center>
-		<h1>The real time value of the <span style="color:red">ETH/USD assest</span> from the market via chain link is </h1>
-<input type="button"  id = "btn" value = "ETH/USD" >
+
+	<h1 class="heading-hero">The real time value of the
+		<span style="color:red">ETH/USD assest</span> from the market via chain link is:
+	</h1>
+	<div class="button-main">
+
+		<input type="button" id="btn" value="ETH/USD">
+	</div>
 
 
-    <section class="testimonial text-center">
-        <div class="container">
+	<section class="testimonial text-center">
+		<div class="container">
 
-            <div class="heading white-heading">
-                Testimonial
-            </div>
-            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+			<div class="heading white-heading">
+				Testimonial
+			</div>
+			<div id="testimonial4"
+				class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+				data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
 
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Chainlink greatly expands the capabilities of smart contracts by enabling access to real-world data and off-chain computation while maintaining the security and reliability guarantees inherent to blockchain technology. In simple word's Chainlink provides you the real data feeds of the assets like ETH/USD , EUR/USD and many more , for the full and clear infromation u can also see their live docs avialable on the . </p>
-                            <h4>Client 1</h4>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Chainlink greatly expands the capabilities of smart contracts by enabling access to real-world data and off-chain computation while maintaining the security and reliability guarantees inherent to blockchain technology. In simple word's Chainlink provides you the real data feeds of the assets like ETH/USD , EUR/USD and many more , for the full and clear infromation u can also see their live docs avialable on the. </p>
-                            <h4>Client 2</h4>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 3</h4>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-        </div>
-    </section>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="testimonial4_slide">
+							<img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+							<p>Chainlink greatly expands the capabilities of smart contracts by enabling access to
+								real-world data and off-chain computation while maintaining the security and
+								reliability guarantees inherent to blockchain technology. In simple word's Chainlink
+								provides you the real data feeds of the assets like ETH/USD , EUR/USD and many more
+								, for the full and clear infromation u can also see their live docs avialable on the
+								. </p>
+							<h4>Client 1</h4>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="testimonial4_slide">
+							<img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+							<p>Chainlink greatly expands the capabilities of smart contracts by enabling access to
+								real-world data and off-chain computation while maintaining the security and
+								reliability guarantees inherent to blockchain technology. In simple word's Chainlink
+								provides you the real data feeds of the assets like ETH/USD , EUR/USD and many more
+								, for the full and clear infromation u can also see their live docs avialable on
+								the. </p>
+							<h4>Client 2</h4>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="testimonial4_slide">
+							<img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+								Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+								unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</p>
+							<h4>Client 3</h4>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#testimonial4" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+	</section>
 
 
-<!-- Site footer -->
+	<!-- Site footer -->
 	<footer class="site-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
 					<h6>About</h6>
-					<p class="text-justify">Each data feed is updated by a decentralized oracle network. Each oracle operator is rewarded for publishing data. The number of oracles contributing to each feed varies. In order for an update to take place, the data feed aggregator contract must receive responses from a minimum number of oracles or the latest answer will not be updated. You can see the minimum number of oracles for the corresponding feed at chainlink. For more you can read.</p>
+					<p class="text-justify">Each data feed is updated by a decentralized oracle network. Each oracle
+						operator is rewarded for publishing data. The number of oracles contributing to each feed
+						varies. In order for an update to take place, the data feed aggregator contract must receive
+						responses from a minimum number of oracles or the latest answer will not be updated. You can
+						see the minimum number of oracles for the corresponding feed at chainlink. For more you can
+						read.</p>
 				</div>
 
 				<div class="col-xs-6 col-md-3">
@@ -133,7 +161,7 @@
 			<div class="row">
 				<div class="col-md-8 col-sm-6 col-xs-12">
 					<p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
-			 <a href="#">Scanfcode</a>.
+						<a href="#">Scanfcode</a>.
 					</p>
 				</div>
 
@@ -147,9 +175,10 @@
 				</div>
 			</div>
 		</div>
-</footer>
-<script type="text/javascript">
+	</footer>
+	<script type="text/javascript">
 
-</script>
+	</script>
 </body>
+
 </html>
