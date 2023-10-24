@@ -26,7 +26,7 @@ body{
   border-radius: 98px;
   padding: 16px 32px;
   font-family: "Helvetica", sans-serif;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -145,7 +145,7 @@ body{
   padding-right: 26px;
   padding-left: 26px;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   background-image: linear-gradient(180deg, rgb(157, 18, 238), rgb(234, 217, 245));
   border-color: rgb(157, 18, 238);
 }
